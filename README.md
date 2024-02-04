@@ -1,4 +1,4 @@
-![Alt text](./screenshots/image.png)
+![file structure & gitignore](./screenshots/gitignore.png)
 
 brew install tree
 
@@ -12,3 +12,8 @@ tree -l 文件名 >README.md
 
 git remote add gitee https://gitee.com/codercup/unibest-docs.git
 git push -u gitee "main"
+
+## 提示
+
+本地 `pnpm` 是 `7.30.0`, `deploy.yml` 里面的 `pnpm` 的 `version` 不能填 `8`, 要改为 `7`， 否则报错：
+![pnpm-deploy](./screenshots/pnpm-deploy.png)
