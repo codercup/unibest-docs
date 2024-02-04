@@ -1,17 +1,17 @@
 // @see https://prettier.io/docs/en/options
 module.exports = {
-  singleQuote: false,
+  singleQuote: true,
   printWidth: 100,
   tabWidth: 2,
   useTabs: false,
   semi: false,
-  trailingComma: 'all',
-  endOfLine: 'auto',
+  trailingComma: "all",
+  endOfLine: "auto",
   overrides: [
     {
-      files: '*.json',
+      files: "*.json",
       options: {
-        trailingComma: 'none',
+        trailingComma: "none",
       },
     },
   ],

@@ -1,1 +1,9 @@
 ![Alt text](./screenshots/image.png)
+
+brew install tree
+
+进入目录
+
+tree -l 文件名 >README.md
+
+意思是在 README.md 文件显示文件树
