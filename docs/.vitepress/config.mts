@@ -15,6 +15,7 @@ export default defineConfig({
       dark: 'vitesse-dark',
     },
   },
+  lastUpdated: true,
   themeConfig: {
     logo: '/logo.svg',
     // https://vitepress.dev/reference/default-theme-config
@@ -22,7 +23,6 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/guide/quick-start' },
     ],
-
     sidebar: [
       {
         text: 'Getting Started',
@@ -50,5 +50,8 @@ export default defineConfig({
         link: 'https://juejin.cn/user/3263006241460792',
       },
     ],
+    search: {
+      provider: 'local',
+    },
   },
 })
