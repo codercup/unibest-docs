@@ -6,6 +6,9 @@ hero:
   name: "Unibest Docs"
   text: "Docs for Unibest"
   tagline: My great project tagline
+  image:
+    src: /logo.svg
+    alt: unibest
   actions:
     - theme: brand
       text: Markdown Examples
@@ -22,4 +25,3 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-
