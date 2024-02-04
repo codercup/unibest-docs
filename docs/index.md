@@ -3,19 +3,19 @@
 layout: home
 
 hero:
-  name: "Unibest Docs"
-  text: "Docs for Unibest"
+  name: 'Unibest Docs'
+  text: 'Docs for Unibest'
   tagline: My great project tagline
   image:
     src: /logo.svg
     alt: unibest
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 快速上手
+      link: /guide/quick-start
+    # - theme: alt
+    #   text: API Examples
+    #   link: /guide/quick-start
 
 features:
   - title: Feature A
