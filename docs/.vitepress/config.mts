@@ -5,6 +5,10 @@ export default defineConfig({
   base: '/unibest-docs/',
   title: 'Unibest Docs',
   description: 'Docs for Unibest',
+  head: [
+    ['meta', { name: 'keywords', content: 'uniapp, unibest, vue3, ts' }],
+    ['link', { rel: 'icon', href: '/unibest-docs/favicon.ico' }],
+  ],
   markdown: {
     theme: {
       light: 'vitesse-light',
@@ -12,6 +16,7 @@ export default defineConfig({
     },
   },
   themeConfig: {
+    logo: '/logo.svg',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
@@ -27,6 +32,10 @@ export default defineConfig({
         ],
       },
     ],
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright (c) 2024 菲鸽',
+    },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/codercup/unibest' },
       {
