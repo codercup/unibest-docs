@@ -8,6 +8,15 @@ tree -l 文件名 >README.md
 
 意思是在 README.md 文件显示文件树
 
+tree -l docs/.vitepress/theme >README.md
+
+```tree
+docs/.vitepress/theme
+├── index.ts
+└── style
+    └── var.css
+```
+
 ## gitee
 
 git remote add gitee https://gitee.com/codercup/unibest-docs.git
