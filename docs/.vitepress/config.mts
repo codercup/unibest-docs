@@ -115,6 +115,7 @@ export default defineConfig({
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/codercup/unibest' },
+      // { icon: 'gitee', link: 'https://gitee.com/codercup/unibest' }, // TODO: 找一个 gitee 的svg
       {
         icon: {
           // #1f80ff 是掘金的 logo 的颜色
@@ -129,6 +130,26 @@ export default defineConfig({
     ],
     search: {
       provider: 'local',
+      options: {
+        locales: {
+          zh: {
+            translations: {
+              button: {
+                buttonText: '搜索文档',
+                buttonAriaLabel: '搜索文档',
+              },
+              modal: {
+                noResultsText: '无法找到相关结果',
+                resetButtonTitle: '清除查询条件',
+                footer: {
+                  selectText: '选择',
+                  navigateText: '切换',
+                },
+              },
+            },
+          },
+        },
+      },
     },
   },
 })
