@@ -2,12 +2,69 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  lang: 'zh-CN',
   base: '/unibest-docs/',
-  title: 'Unibest Docs',
-  description: 'Docs for Unibest',
+  title: 'Unibest',
+  description: '最好用的 uniapp 开发模板',
+  lastUpdated: true,
+  cleanUrls: true,
   head: [
-    ['meta', { name: 'keywords', content: 'uniapp, unibest, vue3, ts' }],
-    ['link', { rel: 'icon', href: '/unibest-docs/favicon.ico' }],
+    [
+      'meta',
+      { name: 'keywords', content: 'uniapp, unibest, vue, vue3, vite,template, typescript, ts' },
+    ],
+    ['link', { rel: 'icon', href: '/unibest-docs/favicon.ico' }], // 这里要加上 base 前缀，否则资源访问不到
+    [
+      'meta',
+      {
+        name: 'twitter:title',
+        content: '最好用的 uniapp 开发模板',
+      },
+    ],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:site', content: 'codercup' }],
+    [
+      'meta',
+      {
+        name: 'twitter:image:src',
+        content:
+          'https://opengraph.githubassets.com/1cac1150838995e1f7d1643c00eee51a5d884f2054f995c9d3225b07b0eddb39/codercup/unibest',
+      },
+    ],
+    [
+      'meta',
+      {
+        property: 'og:image',
+        content:
+          'https://opengraph.githubassets.com/1cac1150838995e1f7d1643c00eee51a5d884f2054f995c9d3225b07b0eddb39/codercup/unibest',
+      },
+    ],
+    [
+      'meta',
+      {
+        property: 'og:image:alt',
+        content: '最好用的 uniapp 开发模板',
+      },
+    ],
+    ['meta', { property: 'og:image:width', content: '1200' }],
+    ['meta', { property: 'og:image:height', content: '600' }],
+    ['meta', { property: 'og:site_name', content: 'GitHub' }],
+    ['meta', { property: 'og:type', content: 'object' }],
+    [
+      'meta',
+      {
+        property: 'og:title',
+        content: '最好用的 uniapp 开发模板',
+      },
+    ],
+    ['meta', { property: 'og:url', content: 'https://github.com/codercup/unibest' }],
+    [
+      'meta',
+      {
+        property: 'og:description',
+        content: '最好用的 uniapp 开发模板',
+      },
+    ],
   ],
   markdown: {
     theme: {
@@ -15,20 +72,40 @@ export default defineConfig({
       dark: 'vitesse-dark',
     },
   },
-  lastUpdated: true,
   themeConfig: {
-    logo: '/logo.svg',
     // https://vitepress.dev/reference/default-theme-config
+    logo: '/logo.svg',
+    siteTitle: 'Unibest',
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/guide/quick-start' },
+      { text: '快速开始', link: '/getting-started/installation', activeMatch: '/getting-started' },
+      { text: '指南', link: '/guide/concepts/auto-imports', activeMatch: '/guide' },
     ],
     sidebar: [
       {
-        text: 'Getting Started',
+        text: '快速开始',
+        base: '/getting-started/',
         items: [
-          { text: 'Introduction', link: '/guide/introduction' },
-          { text: 'Quick Start', link: '/guide/quick-start' },
+          { text: '介绍', link: 'introduction' },
+          { text: '起步', link: 'installation' },
+          { text: '视图', link: 'views' },
+          { text: '样式', link: 'styling' },
+          { text: '数据获取', link: 'data-fetching' },
+          { text: '状态管理', link: 'state-management' },
+          { text: '打包', link: 'build' },
+          { text: '部署', link: 'deployment' },
+        ],
+      },
+      {
+        text: '指南',
+        base: '/guide/',
+        items: [
+          { text: '介绍', link: 'introduction' },
+          // { text: '起步', link: 'installation' },
+          // { text: '视图', link: 'views' },
+          // { text: '样式', link: 'styling' },
+          // { text: '数据获取', link: 'data-fetching' },
+          // { text: '状态管理', link: 'state-management' },
+          // { text: '部署', link: 'deployment' },
         ],
       },
     ],
