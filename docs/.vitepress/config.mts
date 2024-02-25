@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   lang: 'zh-CN',
   base: '/unibest-docs/',
-  title: 'Unibest',
+  title: 'unibest',
   description: '最好用的 uniapp 开发模板',
   lastUpdated: true,
   cleanUrls: true,
@@ -75,7 +75,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.svg',
-    siteTitle: 'Unibest',
+    siteTitle: 'unibest',
     nav: [
       { text: '快速开始', link: '/getting-started/installation', activeMatch: '/getting-started' },
       { text: '指南', link: '/guide/concepts/auto-imports', activeMatch: '/guide' },
