@@ -78,7 +78,7 @@ export default defineConfig({
     siteTitle: 'unibest',
     nav: [
       { text: '快速开始', link: '/guide/installation', activeMatch: '/guide' },
-      { text: '指南', link: '/guide/concepts/auto-imports', activeMatch: '/guide' },
+      { text: '关于我', link: '/about' },
       {
         text: '相关链接',
         items: [
@@ -135,17 +135,12 @@ export default defineConfig({
         ],
       },
       {
-        text: '指南',
-        base: '/reference/',
-        items: [
-          { text: '介绍', link: 'introduction' },
-          // { text: '起步', link: 'installation' },
-          // { text: '视图', link: 'views' },
-          // { text: '样式', link: 'styling' },
-          // { text: '数据获取', link: 'data-fetching' },
-          // { text: '状态管理', link: 'state-management' },
-          // { text: '部署', link: 'deployment' },
-        ],
+        text: '关于我',
+        link: 'about',
+      },
+      {
+        text: '博客列表',
+        link: 'blog',
       },
     ],
     footer: {
