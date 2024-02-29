@@ -8,12 +8,6 @@
 
 ![snippets3](./gifs/snippets3.gif)
 
-:::tip
-
-里面的 `route` 代码块在下一节有讲。
-
-:::
-
 ## 代码块原理
 
 除了 `v3` 代码块，我们还可以添加 `te` (template) 代码块，`sc` (script) 代码块，`st` (style) 代码块。
