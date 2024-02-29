@@ -26,16 +26,13 @@
 
 ::: code-group
 
-```bash [create-unibest]
-pnpm create unibest <project-name>
-```
-
 ```bash [degit]
-pnpx degit codercup/unibest <project-name>
+pnpx degit codercup/unibest my-unibest
 ```
 
-```bash [giget]
-pnpx giget gh:codercup/unibest <project-name>
+```bash [create-unibest(comming soon)]
+# 还在开发中...
+pnpm create unibest my-unibest
 ```
 
 :::
@@ -51,22 +48,7 @@ code <project-name>
 ::: code-group
 
 ```bash [pnpm]
-pnpm install
-```
-
-```bash [yarn]
-npx rimraf pnpm-lock.yaml
-yarn install
-```
-
-```bash [npm]
-npx rimraf pnpm-lock.yaml
-npm install
-```
-
-```bash [bun]
-npx rimraf pnpm-lock.yaml
-bun install
+pnpm i
 ```
 
 :::
@@ -81,18 +63,6 @@ bun install
 pnpm dev
 ```
 
-```bash [yarn]
-yarn dev
-```
-
-```bash [npm]
-npm dev
-```
-
-```bash [bun]
-bun dev
-```
-
 :::
 
 ### 跨端开发
@@ -105,16 +75,6 @@ bun dev
 pnpm dev:<platform>
 ```
 
-```bash [yarn]
-yarn dev:<platform>
-```
-
-```bash [npm]
-npm dev:<platform>
-```
-
-```bash [bun]
-bun dev:<platform>
-```
-
 :::
+
+> `pnpm dev` === `pnpm dev:h5`，即运行 `pnpm dev` 即可运行 `h5`。
