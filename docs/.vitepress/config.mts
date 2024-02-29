@@ -130,8 +130,8 @@ export default defineConfig({
           { text: '代码块', link: 'code-snippets' },
           { text: '数据获取', link: 'data-fetching' },
           { text: '状态管理', link: 'state-management' },
-          { text: '打包', link: 'build' },
-          { text: '部署', link: 'deployment' },
+          // { text: '打包', link: 'build' },
+          // { text: '部署', link: 'deployment' },
         ],
       },
       {
