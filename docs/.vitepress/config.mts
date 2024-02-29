@@ -125,6 +125,7 @@ export default defineConfig({
           { text: '介绍', link: 'introduction' },
           { text: '起步', link: 'installation' },
           { text: '视图', link: 'views' },
+          { text: '代码片段', link: 'code-snippets' },
           { text: '样式', link: 'styling' },
           { text: '数据获取', link: 'data-fetching' },
           { text: '状态管理', link: 'state-management' },
