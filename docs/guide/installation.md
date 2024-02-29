@@ -1,49 +1,29 @@
 # 起步
 
-你可以直接使用在线编辑器快速试用，或者使用终端在本地开始使用。
+## 前置依赖
 
-## 在线试用
-
-您可以使用在线编辑器在浏览器中开始试用：
-
-- [StackBlitz](https://stackblitz.com/github/codercup/unibest)
-- [GitHub Template](https://github.com/codercup/unibest/generate)
-
-## 本地使用
-
-### 前置依赖
-
-- **Node.js** - `>=v16.20`（推荐使用 `v18`）
+- **Node.js** - `>=v16.20`（推荐使用 `v18+`）
+- **pnpm** - `>=7.30`（推荐使用 `8.12+`）
 - **文本编辑器** - 推荐使用 [VS Code](https://code.visualstudio.com/)
 - **终端** - 为了运行 `uni` 命令，Windows 推荐 Git Bash，Linux 和 macOS 推荐 zsh
 
-::: details 最佳实践
-
-- **Node.js**: 总是使用偶数版本 (即 [LTS 版本](https://nodejs.org/en/about/previous-releases)，例如 18, 20)
-  :::
+## 下载项目
 
 打开终端，然后使用以下命令：
 
 ::: code-group
 
+```bash [create-unibest]
+pnpm create unibest my-unibest
+```
+
 ```bash [degit]
 pnpx degit codercup/unibest my-unibest
 ```
 
-```bash [create-unibest(comming soon)]
-# 还在开发中...
-pnpm create unibest my-unibest
-```
-
 :::
 
-在 VS Code 中打开项目文件夹：
-
-```bash
-code <project-name>
-```
-
-安装依赖：
+## 安装依赖
 
 ::: code-group
 
@@ -53,28 +33,27 @@ pnpm i
 
 :::
 
-## 开发
+## 运行（支持热更新）
 
-你可以使用 `dev` 命令直接启动 `h5` 模式的开发服务器
+- `h5 平台`： `pnpm dev:h5`，然后浏览器打开 `http://localhost:9000/`。
+- `wx 小程序`：`pnpm dev:mp-weixin` 然后打开微信开发者工具，导入本地文件夹，选择本项目的 `dist/dev/mp-weixin` 文件。
 
-::: code-group
+  ![Alt text](image-3.png)
 
-```bash [pnpm]
-pnpm dev
-```
+- `APP 平台`：`pnpm dev:app`, 然后打开 `HBuilderX`，导入刚刚生成的 `dist/dev/app` 文件夹，选择运行到 `模拟器`( `开发时优先使用` )，或者 `运行到安卓/ios 基座` (真机调试时使用) 。
 
-:::
+  ![Alt text](image-4.png)
+  ![Alt text](image-5.png)
 
-### 跨端开发
+  下面是我的 `mac` 电脑的演示，`windows` 平台类似：（这样就有 `热更新` 效果）
 
-同样使用 `dev` 命令，不同的是你需要使用冒号并跟着你要开发的平台标识。
+  ![Alt text](image-6.png)
+  ![Alt text](image-7.png)
 
-::: code-group
+## 发布
 
-```bash [pnpm]
-pnpm dev:<platform>
-```
+- `h5 平台`： `pnpm build:h5`，打包后的文件在 `dist/build/h5`，可以放到 web 服务器，如 nginx 运行。如果最终不是放在根目录，可以在 `manifest.config.ts` 文件的 `h5.router.base` 属性进行修改。
+- `wx 小程序`：`pnpm build:h5`, 打包后的文件在 `dist/build/mp-weixin`，然后通过微信开发者工具导入，并点击右上角的“上传”按钮进行上传。
+- `APP 平台`：`pnpm build:app`, 然后打开 `HBuilderX`，导入刚刚生成的 `dist/build/app` 文件夹，选择 `发行` - `原生APP 云打包`。
 
-:::
-
-> `pnpm dev` === `pnpm dev:h5`，即运行 `pnpm dev` 即可运行 `h5`。
+  ![Alt text](image-8.png)

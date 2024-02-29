@@ -14,7 +14,7 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /getting-started/installation
+      link: /guide/installation
     - theme: alt
       text: 查看Github
       link: https://github.com/codercup/unibest
