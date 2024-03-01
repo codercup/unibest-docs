@@ -9,6 +9,17 @@
 但是，`uni-app` 社区生态远不如 npm 生态繁荣，我们常常需要求助于 npm 生态来实现部分需求，而 `uni-app` 的黑盒性阻碍了这一点。
 
 unibest 充分拥抱开放生态，比如 VS Code 和 npm，希望能带给你更好的体验。 -->
+<div class="md-center">
+
+![GitHub Repo stars](https://img.shields.io/github/stars/codercup/unibest?style=flat&logo=github)
+![star](https://gitee.com/codercup/unibest/badge/star.svg?theme=dark)
+![GitHub forks](https://img.shields.io/github/forks/codercup/unibest?style=flat&logo=github)
+![fork](https://gitee.com/codercup/unibest/badge/fork.svg?theme=dark)
+![node version](https://img.shields.io/badge/node-%3E%3D18-green)
+![pnpm version](https://img.shields.io/badge/pnpm-%3E%3D7.30-green)
+![GitHub License](https://img.shields.io/github/license/codercup/unibest)
+
+</div>
 
 ## ✨ 特性
 
