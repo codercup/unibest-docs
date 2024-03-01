@@ -8,7 +8,7 @@
 
 ![snippets3](./gifs/snippets3.gif)
 
-## 代码块原理
+## 代码块配置
 
 除了 `v3` 代码块，我们还可以添加 `te` (template) 代码块，`sc` (script) 代码块，`st` (style) 代码块。
 
