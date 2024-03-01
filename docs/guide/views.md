@@ -60,9 +60,9 @@
 
 :::
 
-如果需要 `过滤` 某些页面，可以在 `vite.config.ts` 中使用 `exclude` 进行配置。如下示例，可以过滤掉 `所有的components里面的组件/页面`。
+如果需要 `过滤` 某些页面，可以在 `vite.config.ts` 中使用 `exclude` 进行配置。如下示例，可以过滤掉 `所有的components里面的页面`。
 
-如果需要设置 `分包` 则可以通过 `subPackages` 进行配置，配置项是个数组，可以配置多个。如下示例，配置了一个 `pages-sub` 分包，最终会在 `pages.json` 里面生成对一个的分包信息。
+如果需要设置 `分包` 则可以通过 `subPackages` 进行配置，该配置项是个数组，可以配置多个 `分包`。如下示例，配置了一个 `pages-sub` 分包，最终会在 `pages.json` 里面生成对一个的分包信息。
 
 :::code-group
 
@@ -94,28 +94,9 @@ return defineConfig({
 
 布局可以用来创建通用界面（如页眉和页脚显示）的包装器，不同的页面可能需要不同的布局。
 
-`src/layouts/default.vue` 文件将作为默认布局，在页面文件内设置 `route` 代码块可以指定自定义布局。
+`src/layouts/default.vue` 文件将作为默认布局，在页面文件内设置 `route` 代码块可以指定 `layout` 布局。
 
 :::code-group
-
-```vue [src/layouts/default.vue]
-<template>
-  <div>
-    <AppHeader />
-    <!-- src/pages/index.vue 和 src/pages/about.vue 内容展示 -->
-    <slot />
-    <AppFooter />
-  </div>
-</template>
-```
-
-```vue [src/layouts/demo.vue]
-<template>
-  <div>
-    <slot />
-  </div>
-</template>
-```
 
 ```vue [src/pages/index.vue]{3}
 <route lang="json5" type="home">
@@ -148,6 +129,25 @@ return defineConfig({
   <view>
     <view>通过 `/pages/about` 来访问这个页面</view>
   </view>
+</template>
+```
+
+```vue [src/layouts/default.vue]
+<template>
+  <div>
+    <AppHeader />
+    <!-- src/pages/index.vue 和 src/pages/about.vue 内容展示 -->
+    <slot />
+    <AppFooter />
+  </div>
+</template>
+```
+
+```vue [src/layouts/demo.vue]
+<template>
+  <div>
+    <slot />
+  </div>
 </template>
 ```
 
