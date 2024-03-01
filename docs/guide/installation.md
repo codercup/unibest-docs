@@ -14,7 +14,8 @@
 ::: code-group
 
 ```bash [create-unibest]
-pnpm create unibest my-unibest
+pnpm create unibest
+# 暂不支持 pnpm create unibest xxx，还在紧急开发中
 ```
 
 ```bash [degit]
