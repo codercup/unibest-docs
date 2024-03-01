@@ -48,6 +48,9 @@ pnpm i
   下面是我的 `mac` 电脑的演示，`windows` 平台类似：（这样就有 `热更新` 效果）
 
   ![Alt text](./screenshots/image-6.png)
+
+  `MAC` `iOS` 模拟器如下：
+
   ![Alt text](./screenshots/image-7.png)
 
 ## 发布
