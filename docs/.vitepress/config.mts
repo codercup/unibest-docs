@@ -78,6 +78,7 @@ export default defineConfig({
     siteTitle: 'unibest',
     nav: [
       { text: '快速开始', link: '/guide/installation', activeMatch: '/guide' },
+      { text: '常见问题', link: '/faq' },
       { text: '关于我', link: '/about' },
       {
         text: '相关链接',
@@ -133,6 +134,10 @@ export default defineConfig({
           // { text: '打包', link: 'build' },
           // { text: '部署', link: 'deployment' },
         ],
+      },
+      {
+        text: '常见问题',
+        link: 'faq',
       },
       {
         text: '关于我',

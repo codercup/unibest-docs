@@ -16,7 +16,7 @@
 
 ![Alt text](wx-gzh.png)
 
-## unibest 微信交流群
+## 微信交流群
 
 ① 群已满，下面是 ② 群交流群
 ![Alt text](wx-group.png)

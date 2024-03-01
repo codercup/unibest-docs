@@ -22,6 +22,10 @@
 
 `route` 代码块则可以配置页面相关信息，这些信息会自动同步到 `page.json`，无需切换到 `page.json` 进行配置。
 
+::: warning
+`pages.json` 文件是自动生成的，请不要手动修改，全局的东西请在 `pages.config.ts` 里面配置，页面上的东西请在 `route` 代码块配置。
+:::
+
 :::code-group
 
 ```vue [src/pages/index.vue]

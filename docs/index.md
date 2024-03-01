@@ -15,9 +15,12 @@ hero:
     - theme: brand
       text: 快速开始
       link: /guide/installation
-    - theme: alt
-      text: 查看Github
-      link: https://github.com/codercup/unibest
+    - theme: brand
+      text: 常见问题
+      link: /faq
+    # - theme: alt
+    #   text: 查看Github
+    #   link: https://github.com/codercup/unibest
     - theme: alt
       text: 查看演示
       link: https://codercup.github.io/unibest/
