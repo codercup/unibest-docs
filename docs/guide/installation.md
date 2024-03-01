@@ -2,8 +2,8 @@
 
 ## 前置依赖
 
-- **Node.js** - `>=v16.20`（推荐使用 `v18+`）
-- **pnpm** - `>=7.30`（推荐使用 `8.12+`）
+- **Node.js** - `>=v18`
+- **pnpm** - `>=7.30`（推荐使用 `8.15`）
 - **文本编辑器** - 推荐使用 [VS Code](https://code.visualstudio.com/)
 - **终端** - 为了运行 `uni` 命令，Windows 推荐 Git Bash，Linux 和 macOS 推荐 zsh
 
