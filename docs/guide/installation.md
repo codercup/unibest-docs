@@ -9,20 +9,28 @@
 
 ## 下载项目
 
-打开终端，然后使用以下命令：
+目前已经开发了 `create-unibest`，用户可以通过 `pnpm create unibest <项目名>` 命令生成项目模版：
 
 ::: code-group
 
-```bash [create-unibest]
-pnpm create unibest
-# 暂不支持 pnpm create unibest xxx，还在紧急开发中
-```
-
-```bash [degit]
-pnpx degit codercup/unibest my-unibest
+```bash [pnpm]
+# pnpm create unibest <项目名>
+pnpm create unibest my-unibest
 ```
 
 :::
+
+目前还支持 `-t` 参数选择模板，命令如 `pnpm create unibest <项目名> -t <模板名>`，目前已经内置了3个模板，分别是 `base`、`demo`、`i18n`。
+```sh
+# pnpm create unibest <项目名> -t <模板名>
+pnpm create unibest my-unibest -t base # 基础模板
+pnpm create unibest my-unibest -t i18n # 多语言模板
+pnpm create unibest my-unibest -t demo # 所有demo的模板，还包含了i18n
+```
+
+<!-- - 如果想学习所有的 `demo`，可以通过 `pnpm create unibest my-unibest-demo -t demo` 生成。(包含了所有的 `demo` 和 `i18n` 代码)
+- 如果是新开发一个项目，建议使用 `base` 模板，可以通过 `pnpm create unibest my-unibest -t base` 生成。（不含 `demo` 代码）
+- 如果项目有多语言需求，建议使用 `i18n` 模板，可以通过 `pnpm create unibest my-unibest -t i18n` 生成。（不含 `demo` 代码） -->
 
 ## 安装依赖
 
