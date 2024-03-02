@@ -129,6 +129,7 @@ export default defineConfig({
         items: [
           { text: '介绍', link: 'introduction' },
           { text: '快速开始', link: 'installation' },
+          { text: '跨端开发', link: 'run-build' },
           { text: '视图', link: 'views' },
           { text: '样式', link: 'styling' },
           { text: '图标', link: 'icon' },
