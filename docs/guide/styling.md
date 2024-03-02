@@ -46,3 +46,15 @@
 不必强求所有地方都使用 `UnoCSS`，如果设计稿在 `蓝湖`（或者类似的地方），已经提供了元素的完整样式，最好是使用 `传统的方式编写样式`，而不是拆解成 `原子化CSS`。
 
 `原子化CSS` 和 `传统方式编写样式` 两者不是互斥的，他们是互补的，合适的地方使用合适的方式。
+
+<div style='opacity:0;'>
+    <span id="busuanzi_container_site_pv">
+    本站总访问量<span id="busuanzi_value_site_pv"></span>次
+    </span>
+    <span id="busuanzi_container_site_uv">
+    本站访客数<span id="busuanzi_value_site_uv"></span>人次
+    </span>
+    <span id="busuanzi_container_page_pv">
+    本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+  </span>
+</div>

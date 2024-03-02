@@ -65,6 +65,7 @@
 :::
 
 ### 过滤和分包
+
 如果需要 `过滤` 某些页面，可以在 `vite.config.ts` 中使用 `exclude` 进行配置。如下示例，可以过滤掉 `所有的components里面的页面`。
 
 如果需要设置 `分包` 则可以通过 `subPackages` 进行配置，该配置项是个数组，可以配置多个 `分包`。如下示例，配置了一个 `pages-sub` 分包，最终会在 `pages.json` 里面生成对一个的分包信息。
@@ -182,3 +183,15 @@ return defineConfig({
 ```
 
 :::
+
+<div style='opacity:0;'>
+    <span id="busuanzi_container_site_pv">
+    本站总访问量<span id="busuanzi_value_site_pv"></span>次
+    </span>
+    <span id="busuanzi_container_site_uv">
+    本站访客数<span id="busuanzi_value_site_uv"></span>人次
+    </span>
+    <span id="busuanzi_container_page_pv">
+    本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+  </span>
+</div>

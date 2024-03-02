@@ -66,6 +66,7 @@ export default defineConfig({
       },
     ],
     ['script', { async: '', src: 'https://hm.baidu.com/hm.js?081c2ec121383d9e7d5a35c5833ab6ff' }],
+    ['script', { async: '', src: '//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js' }],
   ],
   markdown: {
     theme: {
