@@ -28,3 +28,12 @@ UniPages({
 }),
 ```
 :::
+
+## 4.支持 `uni-app x` 吗？
+
+不支持。但我们一直保持关注。[uni-app x 传送门](https://doc.dcloud.net.cn/uni-app-x/)
+
+`uni-app x` 是官方宣称的下一代 `uni-app`，是一个跨平台应用开发引擎。`uni-app x` 没有使用 `js` 和 `webview`，它基于 `uts` 语言。在 `App端`，`uts` 在 `iOS `编译为 `swift`、在 `Android` 编译为 `kotlin`，完全达到了原生应用的功能、性能。
+
+目前 `uni-app x` 可以生成 `Android(kotlin)`，其他端（`iOS(swift)`、`鸿蒙`、`H5`、`各种小程序`）还在适配中。
+

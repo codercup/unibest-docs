@@ -167,7 +167,7 @@ return defineConfig({
 ```vue [src/pages/index.vue]
 <template>
   <div>
-    <h1>欢迎使用 vitess-uni-app</h1>
+    <h1>欢迎使用 unibest</h1>
     <FlyDemo> 这个组件会自动导入 </FlyDemo>
   </div>
 </template>
