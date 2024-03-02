@@ -20,7 +20,7 @@ pnpm create unibest my-unibest
 
 :::
 
-目前还支持 `-t` 参数选择模板，命令如 `pnpm create unibest <项目名> -t <模板名>`，目前已经内置了3个模板，分别是 `base`、`demo`、`i18n`。
+目前还支持 `-t` 参数选择模板，命令如 `pnpm create unibest <项目名> -t <模板名>`，目前已经内置了3个模板，分别是 `base`、`i18n`、`demo`。
 ```sh
 # pnpm create unibest <项目名> -t <模板名>
 pnpm create unibest my-unibest -t base # 基础模板
