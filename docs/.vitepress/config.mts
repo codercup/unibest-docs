@@ -104,6 +104,10 @@ export default defineConfig({
             link: 'https://unocss.dev/',
           },
           {
+            text: 'tailwindcss',
+            link: 'https://tailwindcss.com/docs/flex',
+          },
+          {
             text: 'icones',
             link: 'https://icones.js.org/',
           },
