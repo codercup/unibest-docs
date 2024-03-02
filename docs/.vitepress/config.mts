@@ -65,6 +65,7 @@ export default defineConfig({
         content: '最好用的 uniapp 开发模板',
       },
     ],
+    ['script', { async: '', src: 'https://hm.baidu.com/hm.js?081c2ec121383d9e7d5a35c5833ab6ff' }],
   ],
   markdown: {
     theme: {
