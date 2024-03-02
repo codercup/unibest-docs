@@ -2,7 +2,7 @@
 
 这里写自动化部署到 github pages, 通过 github actions
 
-<div style='opacity:0;'>
+<div class='busuanzi_container'>
     <span id="busuanzi_container_site_pv">
     本站总访问量<span id="busuanzi_value_site_pv"></span>次
     </span>

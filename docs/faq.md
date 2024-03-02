@@ -46,7 +46,7 @@ UniPages({
 
 请看 `commitlint.config.ts` 里面的配置，需要满足对一个的设定。根据自己的需要，可以修改 `commitlint.config.ts` 里面的配置。
 
-<div style='opacity:0;'>
+<div class='busuanzi_container'>
     <span id="busuanzi_container_site_pv">
     本站总访问量<span id="busuanzi_value_site_pv"></span>次
     </span>

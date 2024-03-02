@@ -132,7 +132,7 @@ export const countStore = reactive({
 以上例子修改自 Vue 文档的 [用响应式 API 做简单状态管理](https://cn.vuejs.org/guide/scaling-up/state-management.html#simple-state-management-with-reactivity-api)。
 :::
 
-<div style='opacity:0;'>
+<div class='busuanzi_container'>
     <span id="busuanzi_container_site_pv">
     本站总访问量<span id="busuanzi_value_site_pv"></span>次
     </span>

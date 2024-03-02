@@ -50,3 +50,11 @@
   margin-right: 4px;
   margin-top: 4px;
 }
+
+.busuanzi_container {
+  opacity: 0;
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
+  line-height: 60px;
+}

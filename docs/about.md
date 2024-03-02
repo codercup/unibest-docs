@@ -21,7 +21,7 @@
 ① 群已满，下面是 ② 群
 ![Alt text](wx-group.png)
 
-<div style='opacity:0;'>
+<div class='busuanzi_container'>
     <span id="busuanzi_container_site_pv">
     本站总访问量<span id="busuanzi_value_site_pv"></span>次
     </span>

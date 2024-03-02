@@ -47,7 +47,7 @@
 
 `原子化CSS` 和 `传统方式编写样式` 两者不是互斥的，他们是互补的，合适的地方使用合适的方式。
 
-<div style='opacity:0;'>
+<div class='busuanzi_container'>
     <span id="busuanzi_container_site_pv">
     本站总访问量<span id="busuanzi_value_site_pv"></span>次
     </span>

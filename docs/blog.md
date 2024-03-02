@@ -8,7 +8,7 @@
 - [【unibest】uniapp + vue3 超实用模板（终）](https://juejin.cn/post/7321930742400188453)
 - [【unibest】uniapp + vue3 超实用模板（番外篇）](https://juejin.cn/editor/drafts/7315308701051519030)
 
-<div style='opacity:0;'>
+<div class='busuanzi_container'>
     <span id="busuanzi_container_site_pv">
     本站总访问量<span id="busuanzi_value_site_pv"></span>次
     </span>
