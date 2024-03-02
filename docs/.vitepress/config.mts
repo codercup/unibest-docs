@@ -107,14 +107,14 @@ export default defineConfig({
             text: 'icones',
             link: 'https://icones.js.org/',
           },
-          // {
-          //   text: 'uni-ui',
-          //   link: 'https://uniapp.dcloud.net.cn/component/uniui/uni-ui.html',
-          // },
-          // {
-          //   text: 'uv-ui',
-          //   link: 'https://www.uvui.cn/',
-          // },
+          {
+            text: 'uni-ui',
+            link: 'https://uniapp.dcloud.net.cn/component/uniui/uni-ui.html',
+          },
+          {
+            text: 'uv-ui',
+            link: 'https://www.uvui.cn/',
+          },
         ],
       },
     ],
