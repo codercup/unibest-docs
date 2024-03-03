@@ -55,6 +55,16 @@
   opacity: 0.3;
   display: flex;
   justify-content: space-around;
-  height: 60px;
-  line-height: 60px;
+}
+
+@media (max-width: 960px) {
+  .busuanzi_container {
+    flex-direction: column;
+  }
+}
+@media (min-width: 961px) {
+  .busuanzi_container {
+    height: 60px;
+    line-height: 60px;
+  }
 }
