@@ -1,6 +1,6 @@
 # 简介
 
-`unibest` 是由 `uniapp` + `Vue3` + `Ts` + `Vite4` + `UnoCss` + `UniUI` 驱动的跨端快速启动模板（基于 `VSCode` ），拥有代码提示、自动格式化、统一配置、代码片段、多语言支持等功能，内置了许多常用的基本组件和基本功能，开箱即用，让你编写 `uniapp` 拥有 `best` 体验。
+`unibest` 是一个集成了多种工具和技术的 `uniapp` 开发模板，由 `uniapp` + `Vue3` + `Ts` + `Vite4` + `UnoCss` + `UniUI` + `VSCode` 构建，模板具有代码提示、自动格式化、统一配置、代码片段等功能，并内置了许多常用的基本组件和基本功能，让你编写 `uniapp` 拥有 `best` 体验。
 
 <!-- ## 为什么
 
@@ -58,7 +58,7 @@ unibest 充分拥抱开放生态，比如 VS Code 和 npm，希望能带给你�
 - [ ] 登陆模板（APP）
 - [ ] 登陆模板（H5）
 
-## ⭐ Star History
+<!-- ## ⭐ Star History
 
 - `unibest` 的 `GitHub Star History` 如下： [传送门](https://star-history.com/#codercup/unibest&Date)
   [![Star History Chart](https://api.star-history.com/svg?repos=codercup/unibest&type=Date)](https://star-history.com/#codercup/unibest&Date)
@@ -70,7 +70,7 @@ unibest 充分拥抱开放生态，比如 VS Code 和 npm，希望能带给你�
 [![Star History Chart](https://api.star-history.com/svg?repos=codercup/unibest,Ares-Chang/uni-vitesse,uni-helper/vitesse-uni-app&type=Date)](https://star-history.com/#codercup/unibest&Ares-Chang/uni-vitesse&uni-helper/vitesse-uni-app)
 
 > 1. 黄色的 `uni-helper/vitesse-uni-app` 由 `unihelper` 官方维护。
-> 2. 蓝色的 `Ares-Chang/uni-vitesse` 由 `Aees-Chang` 个人维护。
+> 2. 蓝色的 `Ares-Chang/uni-vitesse` 由 `Aees-Chang` 个人维护。 -->
 
 <div class='busuanzi_container'>
     <span id="busuanzi_container_site_pv">

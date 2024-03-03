@@ -81,7 +81,7 @@ export default defineConfig({
     nav: [
       { text: '快速开始', link: '/guide/installation', activeMatch: '/guide' },
       { text: '常见问题', link: '/reference/faq', activeMatch: '/reference' },
-      { text: '关于我', link: '/reference/about' },
+      { text: '关于我', link: '/me/about' },
       {
         text: '相关链接',
         items: [
@@ -151,20 +151,23 @@ export default defineConfig({
             link: 'faq',
           },
           {
+            text: '注意事项',
+            link: 'tips',
+          },
+          {
             text: '最佳实践',
             link: 'best-practice'
           },
           {
-            text: '关于我',
-            link: 'about',
-          },
-          {
-            text: '博客列表',
+            text: 'unibest博客',
             link: 'blog',
           },
         ]
-      }
-
+      },
+      {
+        text: '关于我',
+        link: '/me/about',
+      },
     ],
     footer: {
       message: 'Released under the MIT License.',
