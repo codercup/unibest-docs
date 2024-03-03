@@ -4,7 +4,7 @@
 
 本项目引入了 `@uni-helper/vite-plugin-uni-pages`，`pages.json` 文件将会自动生成，手动修改 `pages.json` 将会被覆盖。
 
-全局的东西请在 `pages.config.ts` 里面配置，页面的东西请在 `vue` 文件的 `route` 代码快配置。详情请看 [视图章节](./guide/views)。
+全局的东西请在 `pages.config.ts` 里面配置，页面的东西请在 `vue` 文件的 `route` 代码快配置。详情请看 [视图章节](/guide/views)。
 
 ## 2.修改 `manifest.json` 被覆盖问题
 
@@ -16,7 +16,7 @@
 
 `vite.config.ts` 里面有一个配置，如下：(其中 `subPackages` 就是用来分包的)
 
-也可以查看 [过滤和分包 章节](./guide/views#过滤和分包)
+也可以查看 [过滤和分包 章节](/guide/views#过滤和分包)
 :::code-group
 
 ```ts [vite.config.ts]{5}
@@ -40,7 +40,7 @@ UniPages({
 
 ## 5.第一次 `git commit` 报错。
 
-请在 `pnpm dev` 之后进行第一次 `git commit`。[第一次 commit - 章节](./guide/installation#第一次-commit)
+请在 `pnpm dev` 之后进行第一次 `git commit`。[第一次 commit - 章节](/guide/installation#第一次-commit)
 
 ## 6.`git commit` 报错。
 
