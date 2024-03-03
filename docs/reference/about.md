@@ -11,15 +11,15 @@
 - Github: [codercup](https://github.com/codercup)
 - Gitee: [codercup](https://gitee.com/codercup)
 - 掘金：[菲鸽](https://juejin.cn/user/3263006241460792/posts)
-- 微信：[菲鸽](wx-me.png)
+- 微信：[菲鸽](./screenshots/wx-me.png)
 - 微信公众号：`菲鸽爱编程`
 
-![Alt text](wx-gzh.png)
+![微信公众号](./screenshots/wx-gzh.png)
 
 ## 微信交流群
 
 ① 群已满，下面是 ② 群
-![Alt text](wx-group.png)
+![微信群](./screenshots/wx-group.png)
 
 <div class='busuanzi_container'>
     <span id="busuanzi_container_site_pv">

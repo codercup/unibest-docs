@@ -19,7 +19,7 @@ hero:
       link: /guide/installation
     - theme: alt
       text: 常见问题
-      link: /faq
+      link: /reference/faq
     # - theme: alt
     #   text: 查看Github
     #   link: https://github.com/codercup/unibest

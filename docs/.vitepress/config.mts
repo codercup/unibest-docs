@@ -80,8 +80,8 @@ export default defineConfig({
     siteTitle: 'unibest',
     nav: [
       { text: '快速开始', link: '/guide/installation', activeMatch: '/guide' },
-      { text: '常见问题', link: '/faq' },
-      { text: '关于我', link: '/about' },
+      { text: '常见问题', link: '/reference/faq', activeMatch: '/reference' },
+      { text: '关于我', link: '/reference/about' },
       {
         text: '相关链接',
         items: [
@@ -143,17 +143,28 @@ export default defineConfig({
         ],
       },
       {
-        text: '常见问题',
-        link: 'faq',
-      },
-      {
-        text: '关于我',
-        link: 'about',
-      },
-      {
-        text: '博客列表',
-        link: 'blog',
-      },
+        text: '指南',
+        base: '/reference/',
+        items: [
+          {
+            text: '常见问题',
+            link: 'faq',
+          },
+          {
+            text: '最佳实践',
+            link: 'best-practice'
+          },
+          {
+            text: '关于我',
+            link: 'about',
+          },
+          {
+            text: '博客列表',
+            link: 'blog',
+          },
+        ]
+      }
+
     ],
     footer: {
       message: 'Released under the MIT License.',
