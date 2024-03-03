@@ -24,7 +24,8 @@
 - `wx 小程序`：`pnpm build:mp-weixin`，打包后的文件在 `dist/build/mp-weixin`，然后通过微信开发者工具导入，并点击右上角的“上传”按钮进行上传。
 - `APP 平台`：`pnpm build:app`，然后打开 `HBuilderX`，导入刚刚生成的 `dist/build/app` 文件夹，选择 `发行` - `原生APP-云打包`。
 
-  ![Alt text](./screenshots/image-8.png)
+  ![Alt text](./build/build1.png)
+  ![Alt text](./build/build.png)
 
 > 熟悉原生 APP 开发的开发者也可以使用 `原生APP-本地打包`。
 
