@@ -65,10 +65,6 @@ git commit -m "feat: init project"
 
 :::
 
-:::warning
-切记！执行完 `pnpm dev` 之后，再开始第一次 `git commit`，否则报错！
-:::
-
 <div class='busuanzi_container'>
     <span id="busuanzi_container_site_pv">
     本站总访问量<span id="busuanzi_value_site_pv"></span>次

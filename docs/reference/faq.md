@@ -38,11 +38,7 @@ UniPages({
 
 目前 `uni-app x` 可以生成 `Android(kotlin)`，其他端（`iOS(swift)`、`鸿蒙`、`H5`、`各种小程序`）还在适配中。
 
-## 5.第一次 `git commit` 报错。
-
-请在 `pnpm dev` 之后进行第一次 `git commit`。[第一次 commit - 章节](/guide/installation#第一次-commit)
-
-## 6.`git commit` 报错。
+## 5.`git commit` 报错。
 
 请看 `commitlint.config.ts` 里面的配置，需要满足对一个的设定。根据自己的需要，可以修改 `commitlint.config.ts` 里面的配置。
 
