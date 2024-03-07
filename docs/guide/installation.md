@@ -14,19 +14,19 @@
 ::: code-group
 
 ```bash [pnpm]
-# pnpm create unibest <项目名>
-pnpm create unibest my-unibest
+pnpm create unibest <项目名称> # 默认用 base 模板
+pnpm create unibest <项目名称> -t <模板名>
+
 ```
 
 :::
 
-目前还支持 `-t` 参数选择模板，命令如 `pnpm create unibest <项目名> -t <模板名>`，目前已经内置了 3 个模板，分别是 `base`、`i18n`、`demo`。
+支持 `-t` 参数选择模板，目前已有 3 个模板，分别是 `base`、`i18n`、`demo`。
 
 ```sh
-# pnpm create unibest <项目名> -t <模板名>
 pnpm create unibest my-unibest -t base # 基础模板
 pnpm create unibest my-unibest -t i18n # 多语言模板
-pnpm create unibest my-unibest -t demo # 所有demo的模板，还包含了i18n
+pnpm create unibest my-unibest -t demo # 所有demo的模板，包含了i18n
 ```
 
 <!-- - 如果想学习所有的 `demo`，可以通过 `pnpm create unibest my-unibest-demo -t demo` 生成。(包含了所有的 `demo` 和 `i18n` 代码)
