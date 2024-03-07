@@ -7,7 +7,7 @@ hero:
   text: 'best uniapp 开发模板'
   # tagline: unibest 是由 uniapp + Vue3 + Vite4 + UnoCss + VSCode 驱动的跨端开发模板，具有代码提示、自动格式化、统一配置、代码片段、多语言支持等功能，内置了许多常用的基本组件和基本功能，开箱即用，让你编写 uniapp 拥有 best 体验。
   # tagline: 基于 VSCode + Vue3 + Ts 的跨端开发模板！
-  tagline: unibest 是一个集成了多种工具和技术的 uniapp 开发模板，由 uniapp + Vue3 + Ts + Vite4 + UnoCss + uv-ui + VSCode 构建，模板具有代码提示、自动格式化、统一配置、代码片段等功能，并内置了许多常用的基本组件和基本功能，让你编写 uniapp 拥有 best 体验。
+  # tagline: unibest 是一个集成了多种工具和技术的 uniapp 开发模板，由 uniapp + Vue3 + Ts + Vite4 + UnoCss + uv-ui + VSCode 构建，模板具有代码提示、自动格式化、统一配置、代码片段等功能，并内置了许多常用的基本组件和基本功能，让你编写 uniapp 拥有 best 体验。
   image:
     src: /logo.svg
     alt: unibest
