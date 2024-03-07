@@ -35,6 +35,7 @@
 - 代码里面 `class` 填写 `i-carbon-user-avatar` 并且支持改颜色
 
 ![Alt text](./screenshots/icon-vscode-1.png)
+![Alt text](./screenshots/icon-vscode-2.png)
 
 <div class='busuanzi_container'>
     <span id="busuanzi_container_site_pv">

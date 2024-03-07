@@ -40,7 +40,7 @@ UniPages({
 
 ## 5.`git commit` 报错。
 
-请看 `commitlint.config.ts` 里面的配置，需要满足对一个的设定。根据自己的需要，可以修改 `commitlint.config.ts` 里面的配置。
+请看 `commitlint.config.ts` 里面的配置，需要满足对应的设定。根据自己的需要，可以修改 `commitlint.config.ts` 里面的配置。
 
 <div class='busuanzi_container'>
     <span id="busuanzi_container_site_pv">
