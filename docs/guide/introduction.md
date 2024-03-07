@@ -12,8 +12,8 @@ unibest 充分拥抱开放生态，比如 VS Code 和 npm，希望能带给你�
 <div class="md-center">
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/codercup/unibest?style=flat&logo=github)
-![star](https://gitee.com/codercup/unibest/badge/star.svg?theme=dark)
 ![GitHub forks](https://img.shields.io/github/forks/codercup/unibest?style=flat&logo=github)
+![star](https://gitee.com/codercup/unibest/badge/star.svg?theme=dark)
 ![fork](https://gitee.com/codercup/unibest/badge/fork.svg?theme=dark)
 ![node version](https://img.shields.io/badge/node-%3E%3D18-green)
 ![pnpm version](https://img.shields.io/badge/pnpm-%3E%3D7.30-green)
