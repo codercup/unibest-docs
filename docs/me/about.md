@@ -18,8 +18,8 @@
 
 ## 微信交流群
 
-① 群已满，下面是 ② 群
-![微信群](./screenshots/wx-group.png)
+①② 群已满，下面是 ③ 群
+![微信群](https://mp-5b51e857-a600-4088-83fd-10c4c5133d89.cdn.bspapp.com/fg/wx-group.jpg)
 
 <div class='busuanzi_container'>
     <span id="busuanzi_container_site_pv">
