@@ -80,8 +80,8 @@ export default defineConfig({
     siteTitle: 'unibest',
     nav: [
       { text: '快速开始', link: '/guide/installation', activeMatch: '/guide' },
-      { text: '常见问题', link: '/reference/faq', activeMatch: '/reference' },
       { text: '关于我', link: '/me/about' },
+      { text: '常见问题', link: '/reference/faq', activeMatch: '/reference' },
       {
         text: '相关链接',
         items: [
@@ -144,7 +144,29 @@ export default defineConfig({
         ],
       },
       {
-        text: '指南',
+        text: '联系',
+        base: '/me/',
+        items: [
+          {
+            text: '关于我',
+            link: 'about',
+          },
+          {
+            text: '加群学习',
+            link: 'group',
+          },
+          {
+            text: 'unibest博客',
+            link: 'blog',
+          },
+          {
+            text: '笔记',
+            link: 'note',
+          },
+        ]
+      },
+      {
+        text: '其他',
         base: '/reference/',
         items: [
           {
@@ -159,15 +181,8 @@ export default defineConfig({
             text: '最佳实践',
             link: 'best-practice'
           },
-          {
-            text: 'unibest博客',
-            link: 'blog',
-          },
+
         ]
-      },
-      {
-        text: '关于我',
-        link: '/me/about',
       },
     ],
     footer: {
