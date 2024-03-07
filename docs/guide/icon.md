@@ -35,16 +35,3 @@
 - 代码里面 `class` 填写 `i-carbon-user-avatar` 并且支持改颜色
 
 ![Alt text](./screenshots/icon-vscode-1.png)
-![Alt text](./screenshots/icon-vscode-2.png)
-
-<div class='busuanzi_container'>
-    <span id="busuanzi_container_site_pv">
-    本站总访问量<span id="busuanzi_value_site_pv"></span>次
-    </span>
-    <span id="busuanzi_container_site_uv">
-    本站访客数<span id="busuanzi_value_site_uv"></span>人次
-    </span>
-    <span id="busuanzi_container_page_pv">
-    本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-  </span>
-</div>

@@ -10,8 +10,6 @@
 
 ::: tip 了解 `uni-app` 关于 `App.vue` 的更多信息
 
-<https://uniapp.dcloud.net.cn/collocation/App.html>
-
 :::
 
 ## Pages 页面
@@ -184,14 +182,6 @@ return defineConfig({
 
 :::
 
-<div class='busuanzi_container'>
-    <span id="busuanzi_container_site_pv">
-    本站总访问量<span id="busuanzi_value_site_pv"></span>次
-    </span>
-    <span id="busuanzi_container_site_uv">
-    本站访客数<span id="busuanzi_value_site_uv"></span>人次
-    </span>
-    <span id="busuanzi_container_page_pv">
-    本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-  </span>
-</div>
+:::tip
+不可滥用自动导入，不是全局要用的组件不建议放到 `src/components` 里面，会增加包的体积。
+:::

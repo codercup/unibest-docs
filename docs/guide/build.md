@@ -175,15 +175,3 @@ export default defineConfig({
 ### 构建小程序
 
 对于小程序，你可以直接设置小程序最低基础库要求，以排除部分过于老旧的设备。
-
-<div class='busuanzi_container'>
-    <span id="busuanzi_container_site_pv">
-    本站总访问量<span id="busuanzi_value_site_pv"></span>次
-    </span>
-    <span id="busuanzi_container_site_uv">
-    本站访客数<span id="busuanzi_value_site_uv"></span>人次
-    </span>
-    <span id="busuanzi_container_page_pv">
-    本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-  </span>
-</div>

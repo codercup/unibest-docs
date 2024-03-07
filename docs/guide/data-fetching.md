@@ -1,12 +1,8 @@
 # 数据获取
 
-你可以使用你喜欢的第三方请求库来获取数据。一般情况下，直接使用 `uni-app` 内置方法即可。
+`unibest` 使用 `uni-app` 的内置请求方法来获取数据，并内置了请求拦截，开箱即用。
 
-## `uni-app` 内置方法
-
-`uni-app` 提供了 [uni.request](https://uniapp.dcloud.net.cn/api/request/request.html)、[uni.uploadFile](https://uniapp.dcloud.net.cn/api/request/network-file.html#uploadfile)、[uni.downloadFile](https://uniapp.dcloud.net.cn/api/request/network-file.html#downloadfile)、[WebSocket](https://uniapp.dcloud.net.cn/api/request/websocket.html) 等支持。一般情况下，你可以直接使用它们。
-
-## request 请求封装+使用示例
+下面的代码块显示了 `请求封装文件` 和 `如何使用`。
 
 ::: code-group
 
@@ -67,7 +63,9 @@ export const http = <T>(options: CustomRequestOptions) => {
     uni.request({
       ...options,
       dataType: 'json',
+      // #ifndef MP-WEIXIN
       responseType: 'json',
+      // #endif
       // 响应成功
       success(res) {
         // 状态码 2xx，参考 axios 的设计
@@ -129,9 +127,9 @@ export const postFooAPI = (name: string) => {
 }
 ```
 
-```vue [src/demo.vue]
+```vue [src/pages/demo.vue]
 <script lang="ts" setup>
-import { getFooAPI, postFooAPI, IFooItem } from '@/service/foo'
+import { getFooAPI, IFooItem } from '@/service/foo'
 import { IResData } from '@/typings'
 
 // 原始数据
@@ -154,18 +152,6 @@ const reset = () => {
 
 :::
 
-## request 使用示例截图
+请求使用流程截图如下：
 
 ![Alt text](./screenshots/request.png)
-
-<div class='busuanzi_container'>
-    <span id="busuanzi_container_site_pv">
-    本站总访问量<span id="busuanzi_value_site_pv"></span>次
-    </span>
-    <span id="busuanzi_container_site_uv">
-    本站访客数<span id="busuanzi_value_site_uv"></span>人次
-    </span>
-    <span id="busuanzi_container_page_pv">
-    本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-  </span>
-</div>

@@ -9,13 +9,13 @@
 
 ## 下载项目
 
-目前已经开发了 `create-unibest`，用户可以通过 `pnpm create unibest <项目名>` 命令生成项目模版：
+通过 `pnpm create unibest <项目名>` 命令生成项目模版：
 
 ::: code-group
 
 ```bash [pnpm]
 pnpm create unibest <项目名称> # 默认用 base 模板
-pnpm create unibest <项目名称> -t <模板名>
+pnpm create unibest <项目名称> -t <模板名> # 支持自定义模板
 
 ```
 
@@ -60,19 +60,8 @@ pnpm dev
 ::: code-group
 
 ```bash
+git add .
 git commit -m "feat: init project"
 ```
 
 :::
-
-<div class='busuanzi_container'>
-    <span id="busuanzi_container_site_pv">
-    本站总访问量<span id="busuanzi_value_site_pv"></span>次
-    </span>
-    <span id="busuanzi_container_site_uv">
-    本站访客数<span id="busuanzi_value_site_uv"></span>人次
-    </span>
-    <span id="busuanzi_container_page_pv">
-    本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-  </span>
-</div>

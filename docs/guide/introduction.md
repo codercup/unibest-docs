@@ -74,15 +74,3 @@ unibest 充分拥抱开放生态，比如 VS Code 和 npm，希望能带给你�
 
 > 1. 黄色的 `uni-helper/vitesse-uni-app` 由 `unihelper` 官方维护。
 > 2. 蓝色的 `Ares-Chang/uni-vitesse` 由 `Aees-Chang` 个人维护。 -->
-
-<div class='busuanzi_container'>
-    <span id="busuanzi_container_site_pv">
-    本站总访问量<span id="busuanzi_value_site_pv"></span>次
-    </span>
-    <span id="busuanzi_container_site_uv">
-    本站访客数<span id="busuanzi_value_site_uv"></span>人次
-    </span>
-    <span id="busuanzi_container_page_pv">
-    本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-  </span>
-</div>
