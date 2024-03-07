@@ -60,6 +60,8 @@
 @media (max-width: 960px) {
   .busuanzi_container {
     flex-direction: column;
+    padding-left: 30px;
+    padding-top: 12px;
   }
 }
 @media (min-width: 961px) {
