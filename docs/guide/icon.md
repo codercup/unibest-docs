@@ -35,3 +35,7 @@
 - 代码里面 `class` 填写 `i-carbon-user-avatar` 并且支持改颜色
 
 ![Alt text](./screenshots/icon-vscode-1.png)
+
+::: tip
+如果图标没有预览效果，请安装 `VSCode` 插件 `antfu.iconify` ( 也是 `antfu` 大神的作品 )。
+:::

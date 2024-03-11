@@ -6,11 +6,23 @@
 
 [UnoCSS](https://unocss.dev/) 是按需使用的原子 CSS 引擎，提供了良好的样式支持。
 
-![Alt text](./screenshots/tailwindcss3.png)
+![Alt text](./screenshots/styling.png)
 
-<!-- ![unocss](./gifs/unocss.gif) -->
+<!--
+```html
+<view class="bg-white overflow-hidden pt-2 px-4">
+  <view class="text-center text-3xl mt-4">关于页面</view>
+  <view class="text-center text-3xl mt-8">
+    鸽友们好，我是<text class="text-red-500">菲鸽</text>
+  </view>
+</view>
+``` -->
 
 如果不记得原子类，可以查 `Tailwind CSS`，[Tailwind CSS 传送门](https://tailwindcss.com/docs/display)
+
+::: tip
+如果原子化 CSS 没有预览效果，请安装 `VSCode` 插件 `antfu.unocss` ( `antfu` 大神的作品 )。
+:::
 
 常用的原子类：
 
@@ -21,8 +33,6 @@
 - line-height: `leading-10` (不是 `l-10`, 也不是 `lh-10`)
 - hover: `hover:text-green-200`, `hover:bg-green-300`, `hover:border-dashed`
 - flex: `flex`, `items-center`, `justify-center`, `flex-1`
-
-![tailwindcss](./screenshots/tailwindcss.png)
 
 ## UnoCSS 多平台
 
