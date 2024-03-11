@@ -131,7 +131,6 @@ export default defineConfig({
         items: [
           { text: '介绍', link: 'introduction' },
           { text: '快速开始', link: 'installation' },
-          { text: '跨端开发', link: 'run-build' },
           { text: '视图', link: 'views' },
           { text: '样式', link: 'styling' },
           { text: '图标', link: 'icon' },
@@ -139,6 +138,7 @@ export default defineConfig({
           { text: '数据获取', link: 'data-fetching' },
           { text: 'pinia状态管理', link: 'state-pinia' },
           { text: '简单状态管理', link: 'state-easy' },
+          { text: '跨端开发', link: 'run-build' },
           // { text: '打包', link: 'build' },
           // { text: '部署', link: 'deployment' },
         ],

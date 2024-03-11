@@ -12,23 +12,14 @@
 - Gitee: [codercup](https://gitee.com/codercup)
 - 掘金：[菲鸽](https://juejin.cn/user/3263006241460792/posts)
 - 微信：[菲鸽](./screenshots/wx-me.png)
-- 微信公众号：`菲鸽爱编程`
+
+## 微信公众号
+
+微信公众号：`菲鸽爱编程`
 
 ![微信公众号](./screenshots/wx-gzh.png)
 
 ## 微信交流群
 
 ①② 群已满，下面是 ③ 群
-![微信群](https://mp-5b51e857-a600-4088-83fd-10c4c5133d89.cdn.bspapp.com/fg/wx-group.jpg)
-
-<div class='busuanzi_container'>
-    <span id="busuanzi_container_site_pv">
-    本站总访问量<span id="busuanzi_value_site_pv"></span>次
-    </span>
-    <span id="busuanzi_container_site_uv">
-    本站访客数<span id="busuanzi_value_site_uv"></span>人次
-    </span>
-    <span id="busuanzi_container_page_pv">
-    本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-  </span>
-</div>
+![Alt text](image-2.png)
