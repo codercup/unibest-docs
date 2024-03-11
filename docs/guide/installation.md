@@ -7,7 +7,7 @@
 - **文本编辑器** - 推荐使用 [VS Code](https://code.visualstudio.com/)
 - **终端** - 为了运行 `uni` 命令，Windows 推荐 Git Bash，Linux 和 macOS 推荐 zsh
 
-## 下载项目
+## 创建项目
 
 通过 `pnpm create unibest <项目名>` 命令生成项目模版：
 
@@ -65,3 +65,9 @@ git commit -m "feat: init project"
 ```
 
 :::
+
+## `v3` 代码块
+
+在 `vue` 文件中，输入 `v3` 按 `tab` 即可快速生成页面模板，可以大大加快页面生成。
+
+`v3` 代码块 [传送门](./code-snippets)。

@@ -35,5 +35,11 @@
 
 点击 `ignore` 后可以正常使用，万一以后出现什么特殊情况，记得看看是不是版本问题。
 
-> tips: mac 可以安装多个版本的软件，
-> ![multiple-version](./screenshots/multiple-version.png)
+::: tip
+
+`MAC` 可以安装多个版本的软件，如下图我安装了 `3.8.12` (3.8.12.20230817) 和 `3.99` (3.99.2023122611) 两个版本，平时的项目使用 `3.99`, `unibest` 打包的时候使用 `3.8.12`。
+
+`window` 系统也可以，安装到不同目录下即可。
+
+![multiple-version](./screenshots/multiple-version.png)
+:::
