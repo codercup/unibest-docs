@@ -58,31 +58,37 @@
 
 :::
 
-### 过滤和分包
+## Pages 过滤和分包
 
-如果需要 `过滤` 某些页面，可以在 `vite.config.ts` 中使用 `exclude` 进行配置。如下示例，可以过滤掉 `所有的components里面的页面`。
+- 过滤
+
+默认 `src/pages` 里面的 `vue` 文件都会生成一个页面，如果不需要生成页面可以对 `vite.config.ts` 中的 `UniPages` 进行 `exclude` 配置。如下示例，可以过滤掉 `所有的components里面的页面`。
+
+:::code-group
+
+```ts [vite.config.ts]{2}
+UniPages({
+  exclude: ['**/components/**/**.*'],
+  routeBlockLang: 'json5',
+  homePage: 'pages/index/index',
+  subPackages: ['src/pages-sub'], // 是个数组，可以配置多个
+})
+```
+
+:::
+
+- 分包
 
 如果需要设置 `分包` 则可以通过 `subPackages` 进行配置，该配置项是个数组，可以配置多个 `分包`。如下示例，配置了一个 `pages-sub` 分包，最终会在 `pages.json` 里面生成对一个的分包信息。
 
 :::code-group
 
-```ts [vite.config.ts]{9,12}
-import { defineConfig, loadEnv } from 'vite'
-// @see https://uni-helper.js.org/vite-plugin-uni-pages
-import UniPages from '@uni-helper/vite-plugin-uni-pages'
-import Uni from '@dcloudio/vite-plugin-uni'
-
-return defineConfig({
-  plugins: [
-    UniPages({
-      exclude: ['**/components/**/**.*'],
-      routeBlockLang: 'json5',
-      homePage: 'pages/index/index',
-      subPackages: ['src/pages-sub'], // 是个数组，可以配置多个
-    }),
-    // UniXXX 需要在 Uni 之前引入
-    Uni(),
-  ],
+```ts [vite.config.ts]{5}
+UniPages({
+  exclude: ['**/components/**/**.*'],
+  routeBlockLang: 'json5',
+  homePage: 'pages/index/index',
+  subPackages: ['src/pages-sub'], // 是个数组，可以配置多个
 })
 ```
 
@@ -92,31 +98,13 @@ return defineConfig({
 
 得益于 [@uni-helper/vite-plugin-uni-layouts](https://github.com/uni-helper/vite-plugin-uni-layouts)，你可以轻松地切换不同的布局。
 
-布局可以用来创建通用界面（如页眉和页脚显示）的包装器，不同的页面可能需要不同的布局。
+`src/layouts` 文件夹下的 `vue` 文件都会自动生成一个布局，默认的布局文件名为 `default.vue` （ `unibest` 已经内置该文件）。
 
-`src/layouts/default.vue` 文件将作为默认布局，在页面文件内设置 `route` 代码块可以指定 `layout` 布局。
+如果需要修改使用的布局，可以通过 `vue` 文件内 `route` 代码块指定需要的布局。
 
 :::code-group
 
-```vue [src/pages/index.vue]{3}
-<route lang="json5" type="home">
-{
-  layout: 'default',
-  style: {
-    navigationStyle: 'custom',
-    navigationBarTitleText: '首页',
-  },
-}
-</route>
-<template>
-  <div>
-    <h1>欢迎使用 unibest</h1>
-    <h4>unibest 是最好的 uniapp 开发模板</h4>
-  </div>
-</template>
-```
-
-```vue [src/pages/about.vue]{3}
+```vue [src/pages/demo.vue]{3}
 <route lang="json5">
 {
   layout: 'demo',
@@ -125,29 +113,15 @@ return defineConfig({
   },
 }
 </route>
-<template>
-  <view>
-    <view>通过 `/pages/about` 来访问这个页面</view>
-  </view>
-</template>
-```
-
-```vue [src/layouts/default.vue]
-<template>
-  <div>
-    <AppHeader />
-    <!-- src/pages/index.vue 和 src/pages/about.vue 内容展示 -->
-    <slot />
-    <AppFooter />
-  </div>
-</template>
 ```
 
 ```vue [src/layouts/demo.vue]
 <template>
-  <div>
+  <view>
+    <!-- 这里可以写通用的布局，比如导航栏，tabbar等 -->
+    <!-- slot里面装的就是子页面的内容 -->
     <slot />
-  </div>
+  </view>
 </template>
 ```
 
@@ -157,18 +131,22 @@ return defineConfig({
 
 得益于 [@uni-helper/vite-plugin-uni-components](https://github.com/uni-helper/vite-plugin-uni-components)，组件将自动注册到全局，你不需要显式导入它们。只需要在 `src/components` 目录下创建组件，然后直接使用即可。
 
+:::tip
+不可滥用自动导入，不是全局要用的组件不建议放到 `src/components` 里面，会增加包的体积。
+:::
+
 :::code-group
 
 ```vue [src/pages/index.vue]
 <template>
   <div>
     <h1>欢迎使用 unibest</h1>
-    <FlyDemo> 这个组件会自动导入 </FlyDemo>
+    <FgTest> 这个组件会自动导入 </FgTest>
   </div>
 </template>
 ```
 
-```vue [src/components/FlyDemo.vue]
+```vue [src/components/FgTest.vue]
 <template>
   <span>
     <slot />
@@ -178,6 +156,6 @@ return defineConfig({
 
 :::
 
-:::tip
-不可滥用自动导入，不是全局要用的组件不建议放到 `src/components` 里面，会增加包的体积。
+:::warning
+如果包体积太大，可以考虑是否把全局组件移出 `src/components`，或者直接删除本插件。
 :::
