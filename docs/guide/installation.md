@@ -9,7 +9,7 @@
 
 ## 创建项目
 
-通过下面的命令可以快速生成项目模版，`pnpm create unibest <项目名称>`。
+通过下面的命令可以快速生成项目模版，`pnpm create unibest <项目名称>` ，如果不写 `<项目名称>` 会进入命令行交互模式。
 
 ```sh
 pnpm create unibest my-project
@@ -23,10 +23,6 @@ pnpm create unibest my-project -t base # 基础模板
 pnpm create unibest my-project -t demo # 所有demo的模板(包括i18n)
 pnpm create unibest my-project -t i18n # 多语言模板
 ```
-
-<!-- - 如果想学习所有的 `demo`，可以通过 `pnpm create unibest xxx-demo -t demo` 生成。(包含了所有的 `demo` 和 `i18n` 代码)
-- 如果是新开发一个项目，建议使用 `base` 模板，可以通过 `pnpm create unibest xxx -t base` 生成。（不含 `demo` 代码）
-- 如果项目有多语言需求，建议使用 `i18n` 模板，可以通过 `pnpm create unibest xxx -t i18n` 生成。（不含 `demo` 代码） -->
 
 ## 安装依赖
 
