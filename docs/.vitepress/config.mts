@@ -134,7 +134,7 @@ export default defineConfig({
           { text: '视图', link: 'views' },
           { text: '样式', link: 'styling' },
           { text: '图标', link: 'icon' },
-          { text: '代码块', link: 'code-snippets' },
+          { text: 'v3 代码块', link: 'code-snippets' },
           { text: '数据获取', link: 'data-fetching' },
           { text: 'pinia状态管理', link: 'state-pinia' },
           { text: '简单状态管理', link: 'state-easy' },
