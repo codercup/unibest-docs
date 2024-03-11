@@ -1,10 +1,10 @@
 # 数据获取
 
-`unibest` 使用 `uni-app` 的内置请求方法来获取数据，并内置了请求拦截，开箱即用。
+`unibest` 使用 `uni-app` 的内置请求方法来获取数据，并内置了请求拦截，开箱即用。后台主要使用 `laf` 云开发平台，推荐码链接 [https://laf.run/signup?code=ohaOgIX](https://laf.run/signup?code=ohaOgIX) 。
 
-## 请求
+## 获取数据
 
-下面的代码块显示了 `请求封装文件` 和 `如何使用`。
+下面的代码块显示了页面如何快捷获取数据。
 
 ::: code-group
 
@@ -59,13 +59,9 @@ export const postFooAPI = (name: string) => {
 
 :::
 
-请求使用流程截图如下：
-
-![Alt text](./screenshots/request.png)
-
 ## laf 云开发
 
-博主的后台使用的 `laf` 云开发平台，博主的 `laf` 推荐码是 [https://laf.run/signup?code=ohaOgIX](https://laf.run/signup?code=ohaOgIX)，欢迎前往体验。
+本人后台主要使用的 `laf` 云开发平台，推荐码链接是 [https://laf.run/signup?code=ohaOgIX](https://laf.run/signup?code=ohaOgIX)，欢迎前往体验。
 
 新用户注册 `laf` 即送 `10元`，服务可以随时停用启用，停用期间不收费，我的应用一个月就 `13.15元`，如果长时间关闭更便宜。
 
