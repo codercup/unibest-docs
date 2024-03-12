@@ -152,10 +152,6 @@ export default defineConfig({
             link: 'about',
           },
           {
-            text: '加群学习',
-            link: 'group',
-          },
-          {
             text: 'unibest博客',
             link: 'blog',
           },
