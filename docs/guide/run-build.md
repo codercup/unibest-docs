@@ -11,6 +11,9 @@
 
   ![Alt text](./screenshots/image-4.png)
   ![Alt text](./screenshots/image-5.png)
+  ![Alt text](./screenshots/image-build.png)
+
+> 如果需要配置其他模拟器，可以参考：[安装模拟器](https://uniapp.dcloud.net.cn/tutorial/run/installSimulator.html)
 
 :::tip
 
