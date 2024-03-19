@@ -37,6 +37,14 @@
 
 ## 运行效果
 
-![Alt text](image-7.png)
-![Alt text](image-8.png)
-![Alt text](image-9.png)
+- ios 模拟器运行效果如下：
+  ![Alt text](image-7.png)
+  ![Alt text](image-8.png)
+  ![Alt text](image-9.png)
+
+- 微信小程序运行效果如下：
+  ![Alt text](image-10.png)
+
+> 目前微信小程序静态资源还有点问题，如下图，后续会修复。
+
+![Alt text](image-12.png)
