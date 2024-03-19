@@ -139,6 +139,7 @@ export default defineConfig({
           { text: '简单状态管理', link: 'state-easy' },
           { text: '跨端开发', link: 'run-build' },
           { text: 'v3 代码块', link: 'code-snippets' },
+          { text: 'hbx 版本', link: 'hbuilderx' },
           // { text: '打包', link: 'build' },
           // { text: '部署', link: 'deployment' },
         ],
