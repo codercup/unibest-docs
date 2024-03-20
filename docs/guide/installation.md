@@ -11,11 +11,27 @@
 
 通过下面的命令可以快速生成项目模版，`pnpm create unibest <项目名称>` ，如果不写 `<项目名称>` 会进入命令行交互模式。
 
-```sh
+::: code-group
+
+```bash [pnpm]
 pnpm create unibest my-project
 ```
 
-支持 `-t` 参数选择模板，目前已有 `3` 个模板，分别是 `base`、`demo`、`i18n`。
+```bash [npm]
+npm create unibest my-project
+# 如果提示报错，请使用下面的命令
+npm create unibest@latest my-project
+```
+
+:::
+
+::: tip
+强烈推荐是用 `pnpm`，性能更好，速度更快。
+
+如果使用 `npm` 建议添加上标记名（@latest），否则 `npm` 可能会解析到缓存的过时软件包版本。
+:::
+
+`create unibest` 支持 `-t` 参数选择模板，目前已有 `3` 个模板，分别是 `base`、`demo`、`i18n`。
 
 ```sh
 pnpm create unibest my-project # 默认用 base 模板
@@ -32,6 +48,10 @@ pnpm create unibest my-project -t i18n # 多语言模板
 pnpm i
 ```
 
+```bash [npm]
+npm i
+```
+
 :::
 
 ## 运行
@@ -40,6 +60,10 @@ pnpm i
 
 ```bash [pnpm]
 pnpm dev
+```
+
+```bash [npm]
+npm run dev
 ```
 
 :::
