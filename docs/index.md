@@ -13,8 +13,8 @@ hero:
     alt: unibest
   actions:
     - theme: brand
-      text: 快速开始
-      link: /guide/installation
+      text: 查看文档
+      link: /guide/introduction
     # - theme: alt
     #   text: 查看Github
     #   link: https://github.com/codercup/unibest
