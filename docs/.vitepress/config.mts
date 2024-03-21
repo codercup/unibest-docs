@@ -138,6 +138,7 @@ export default defineConfig({
           { text: 'pinia状态管理', link: 'state-pinia' },
           { text: '简单状态管理', link: 'state-easy' },
           { text: '跨端开发', link: 'run-build' },
+          { text: 'APP打包专题', link: 'app-build' },
           { text: 'v3 代码块', link: 'code-snippets' },
           { text: 'hbx 版本', link: 'hbuilderx' },
           // { text: '打包', link: 'build' },
