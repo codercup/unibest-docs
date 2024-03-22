@@ -42,14 +42,14 @@ UniPages({
 
 请看 `commitlint.config.ts` 里面的配置，需要满足对应的设定。根据自己的需要，可以修改 `commitlint.config.ts` 里面的配置。
 
-<div class='busuanzi_container'>
-    <span id="busuanzi_container_site_pv">
-    本站总访问量<span id="busuanzi_value_site_pv"></span>次
-    </span>
-    <span id="busuanzi_container_site_uv">
-    本站访客数<span id="busuanzi_value_site_uv"></span>人次
-    </span>
-    <span id="busuanzi_container_page_pv">
-    本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-  </span>
-</div>
+## 6. 支付宝小程序运行报错。
+
+勾选上 `本地开发跳过 ES5 转译` 即可。
+
+- before: 默认报错
+
+![Alt text](build-zfb-1.png)
+
+- after: 勾选上 `本地开发跳过 ES5 转译`，正常运行
+
+![Alt text](build-zfb-2.png)
