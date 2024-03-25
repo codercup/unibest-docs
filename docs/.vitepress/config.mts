@@ -118,6 +118,10 @@ export default defineConfig({
             link: 'https://uniapp.dcloud.net.cn/component/uniui/uni-ui.html',
           },
           {
+            text: 'wot-ui',
+            link: 'https://wot-design-uni.gitee.io/',
+          },
+          {
             text: 'uv-ui',
             link: 'https://www.uvui.cn/',
           },

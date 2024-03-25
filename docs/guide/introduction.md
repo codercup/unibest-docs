@@ -1,14 +1,7 @@
 # 简介
 
-`unibest` 是一个集成了多种工具和技术的 `uniapp` 开发模板，由 `uniapp` + `Vue3` + `Ts` + `Vite4` + `UnoCss` + `uv-ui` + `VSCode` 构建，模板具有代码提示、自动格式化、统一配置、代码片段等功能，并内置了许多常用的基本组件和基本功能，让你编写 `uniapp` 拥有 `best` 体验。
+`unibest` 是一个集成了多种工具和技术的 `uniapp` 开发模板，由 `uniapp` + `Vue3` + `Ts` + `Vite4` + `UnoCss` + `wot-ui` + `VSCode` 构建，模板具有代码提示、自动格式化、统一配置、代码片段等功能，并内置了许多常用的基本组件和基本功能，让你编写 `uniapp` 拥有 `best` 体验。
 
-<!-- ## 为什么
-
-`uni-app` 背后的公司 DCloudio 选择创建自己的生态，比如 HBuilderX、uni_modules 等。这部分工作对部分开发者来说意义非凡，他们可以轻松上手并享受社区提供的一切资源。
-
-但是，`uni-app` 社区生态远不如 npm 生态繁荣，我们常常需要求助于 npm 生态来实现部分需求，而 `uni-app` 的黑盒性阻碍了这一点。
-
-unibest 充分拥抱开放生态，比如 VS Code 和 npm，希望能带给你更好的体验。 -->
 <div class="md-center">
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/codercup/unibest?style=flat&logo=github)
@@ -65,19 +58,15 @@ unibest 充分拥抱开放生态，比如 VS Code 和 npm，希望能带给你�
 - [ ] 登陆模板（APP）
 - [ ] 登陆模板（H5）
 
-<!-- ## ⭐ Star History
+::: tip
 
-- `unibest` 的 `GitHub Star History` 如下： [传送门](https://star-history.com/#codercup/unibest&Date)
-  [![Star History Chart](https://api.star-history.com/svg?repos=codercup/unibest&type=Date)](https://star-history.com/#codercup/unibest&Date)
+问：为什么 `UI库` 从 `uv-ui` 改为了 `wot-ui` ？
 
-- 几个同类型的 `uniapp` 模板的 `GitHub Star History` 如下：[传送门](https://star-history.com/#codercup/unibest&Ares-Chang/uni-vitesse&uni-helper/vitesse-uni-app&Date)
+答：`wot-ui`(`wot-design-uni`) 是 `vue3 + ts` 开发的 `UI库` ，[wot-design-uni 官网链接](https://wot-design-uni.gitee.io/)。
 
-> **`红色` 的为 `unibest` ，遥遥领先其他几个同类型项目。**
+UI 选型文章请看 [【unibest】 uniapp + vue3 模板 UI 框架选型](https://juejin.cn/spost/7337513012393607207).
 
-[![Star History Chart](https://api.star-history.com/svg?repos=codercup/unibest,Ares-Chang/uni-vitesse,uni-helper/vitesse-uni-app&type=Date)](https://star-history.com/#codercup/unibest&Ares-Chang/uni-vitesse&uni-helper/vitesse-uni-app)
-
-> 1. 黄色的 `uni-helper/vitesse-uni-app` 由 `unihelper` 官方维护。
-> 2. 蓝色的 `Ares-Chang/uni-vitesse` 由 `Aees-Chang` 个人维护。 -->
+:::
 
 ## 各端产物
 
