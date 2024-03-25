@@ -150,6 +150,10 @@ export default defineConfig({
         ],
       },
       {
+        text: '🥤一杯咖啡',
+        link: '/rewards/index'
+      },
+      {
         text: '联系',
         base: '/me/',
         items: [
