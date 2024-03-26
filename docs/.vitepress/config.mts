@@ -83,6 +83,10 @@ export default defineConfig({
       { text: '关于我', link: '/me/about' },
       { text: '常见问题', link: '/reference/faq', activeMatch: '/reference' },
       {
+        text: '🥤一杯咖啡',
+        link: '/rewards/index'
+      },
+      {
         text: '相关链接',
         items: [
           {
