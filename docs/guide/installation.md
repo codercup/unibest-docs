@@ -31,7 +31,10 @@ npm create unibest@latest my-project
 如果使用 `npm` 建议添加上标记名（@latest），否则 `npm` 可能会解析到缓存的过时软件包版本。
 :::
 
-`create unibest` 支持 `-t` 参数选择模板，目前已有 `5` 个模板，分别是 `base`、`demo`、`i18n`、`ucharts`、`hbx`。
+`create unibest` 支持 `-t` 参数选择模板，目前已有两大类 `6` 个模板
+
+- vscode 模板(4 个）：分别是 `base`、`demo`、`i18n`、`ucharts`
+- hbx 模板（2 个）：分别是 `hbx-base`、`hbx-demo`。
 
 ```sh
 # VS Code 模板
@@ -41,10 +44,12 @@ pnpm create unibest my-project -t demo # 所有demo的模板(包括i18n)
 pnpm create unibest my-project -t i18n # 多语言模板
 pnpm create unibest my-project -t ucharts # 秋云图表模板
 
-# HBuilderX 模板，方便使用 uniCloud 云开发
+# HBuilderX 模板，方便使用 uniCloud 云开发 (未来可以对接 uni-app x)
 pnpm create unibest my-project -t hbx-base # hbx的base模板
 pnpm create unibest my-project -t hbx-demo # hbx的demo模板，包含所有的demo
 ```
+
+> `js 模板` 和 `uni-app x 模板` 还在开发中，4 月份会面世。 （update on 2024-03-27)
 
 ## 安装依赖
 
