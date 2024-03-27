@@ -19,7 +19,7 @@ hero:
       text: 常见问题
       link: /reference/faq
     - theme: brand
-      text: 🥤一杯咖啡
+      text: 🥤开源打赏
       link: /rewards/index
 
 features:
