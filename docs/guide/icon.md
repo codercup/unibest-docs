@@ -11,11 +11,11 @@
 
 如 `wot-ui` 的 `wd-icon` 组件，其中颜色可以通过 `color` 配置或 `unocss class` 设置。
 
-```vue
+```html
 <wd-icon name="add-circle" color="red"></wd-icon>
-<wd-icon class="text-green" name="add-circle"></wd-icon>
+<wd-icon name="add-circle" class="text-green"></wd-icon>
 <!-- color 和 unocss class 同时存在时以 color 为优先 -->
-<wd-icon class="text-green" name="add-circle" color="red"></wd-icon>
+<wd-icon name="add-circle" class="text-green" color="red"></wd-icon>
 ```
 
 ::: tip
