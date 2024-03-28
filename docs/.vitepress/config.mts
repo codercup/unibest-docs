@@ -154,7 +154,7 @@ export default defineConfig({
         ],
       },
       {
-        text: '🥤一杯咖啡',
+        text: '🥤 打赏',
         link: '/rewards/index'
       },
       {
