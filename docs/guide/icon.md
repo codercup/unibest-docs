@@ -3,7 +3,7 @@
 有 3 种方式使用图标：
 
 - 使用引入的 `UI 库` 的图标
-- 使用 `iconify` 图标库
+- `UnoCSS Icons`
 - 使用 `iconfont` 图标库
 - 其他图标库
 
@@ -22,9 +22,9 @@
 `wot-ui` 全称 `wot-design-uni`，是 `wot-design` 的 `uniapp` 版本。文档地址见：[https://wot-design-uni.gitee.io/](https://wot-design-uni.gitee.io/)
 :::
 
-## iconify 图标库
+## `UnoCSS Icons`
 
-`iconfiy` 图标库拥有 `10万+` 的海量图标，总能找到你想要的。
+`UnoCSS Icons` 可以方便接入 `iconfiy` 图标库，后者拥有 `10万+` 的海量图标，总能找到你想要的。
 
 ### 安装 iconify
 
@@ -61,23 +61,25 @@
 ![Alt text](./screenshots/icon-vscode-1.png)
 
 ::: tip
-如果图标没有预览效果，请安装 `VSCode` 插件 `antfu.iconify` ( 也是 `antfu` 大神的作品 )。
+如果图标没有预览效果，请安装 `VSCode` 插件 `antfu.iconify`。
 :::
 
 ## iconfont 图标库
 
 `iconfont` 同样有海量免费的图标，同时支持上传自己的图标，公司的项目通常会使用 `iconfont`。
 
-使用步骤：（TODO: white）
+::: details
+使用步骤：（TODO: write）
 
 - `iconfont` 创建项目，并寻找图标，或者上传自己的图标。
 - 拿到 iconfont 的链接，如 `https://at.alicdn.com/t/font_2507683_q49z1l`
 - 代码中引入，并使用
 
+:::
+
 ## 其它图标库
 
-字节跳动的 `IconPark`，链接 [https://iconpark.oceanengine.com/](https://iconpark.oceanengine.com/)。
-![alt text](image-14.png)
+其他优秀的可以免费商用的图标库：
 
-不知道谁家的 `yesicon`，链接 [https://yesicon.app/](https://yesicon.app/)。
-![alt text](image-13.png)
+- 字节跳动的 `IconPark`，链接 [https://iconpark.oceanengine.com/](https://iconpark.oceanengine.com/)。
+- 不知道谁家的 `yesicon`，链接 [https://yesicon.app/](https://yesicon.app/)。
