@@ -80,12 +80,9 @@ export default defineConfig({
     siteTitle: 'unibest',
     nav: [
       { text: '快速开始', link: '/guide/installation', activeMatch: '/guide' },
-      { text: '关于我', link: '/me/about' },
       { text: '常见问题', link: '/reference/faq', activeMatch: '/reference' },
-      {
-        text: '🥤开源打赏',
-        link: '/rewards/index'
-      },
+      { text: '🥤 打赏', link: '/rewards/index' },
+      { text: '关于我', link: '/me/about' },
       {
         text: '相关链接',
         items: [
