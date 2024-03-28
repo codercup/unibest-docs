@@ -151,6 +151,24 @@ export default defineConfig({
         ],
       },
       {
+        text: '指南',
+        base: '/reference/',
+        items: [
+          {
+            text: '常见问题',
+            link: 'faq',
+          },
+          // {
+          //   text: '注意事项',
+          //   link: 'tips',
+          // },
+          // {
+          //   text: '最佳实践',
+          //   link: 'best-practice'
+          // },
+        ]
+      },
+      {
         text: '🥤 打赏',
         link: '/rewards/index'
       },
@@ -172,25 +190,7 @@ export default defineConfig({
           },
         ]
       },
-      {
-        text: '其他',
-        base: '/reference/',
-        items: [
-          {
-            text: '常见问题',
-            link: 'faq',
-          },
-          {
-            text: '注意事项',
-            link: 'tips',
-          },
-          {
-            text: '最佳实践',
-            link: 'best-practice'
-          },
 
-        ]
-      },
     ],
     footer: {
       message: 'Released under the MIT License.',
