@@ -34,9 +34,14 @@ UniPages({
 
 不支持。但我们一直保持关注。[uni-app x 传送门](https://doc.dcloud.net.cn/uni-app-x/)
 
+目前 `unibest` 已经有 `hbx` 模板，后续接入 `uni-app x` 会很容易，坐等官方发布。
+
+::: details
 `uni-app x` 是官方宣称的下一代 `uni-app`，是一个跨平台应用开发引擎。`uni-app x` 没有使用 `js` 和 `webview`，它基于 `uts` 语言。在 `App端`，`uts` 在 `iOS `编译为 `swift`、在 `Android` 编译为 `kotlin`，完全达到了原生应用的功能、性能。
 
-目前 `uni-app x` 可以生成 `Android(kotlin)`，其他端（`iOS(swift)`、`鸿蒙`、`H5`、`各种小程序`）还在适配中。
+目前 `uni-app x` 可以生成 `Android(kotlin)` 和 `web` 端，其他端（`iOS(swift)`、`鸿蒙`、`各种小程序`）还在适配中。
+
+:::
 
 ## 5.`git commit` 报错。
 
@@ -46,10 +51,16 @@ UniPages({
 
 勾选上 `本地开发跳过 ES5 转译` 即可。
 
-- before: 默认报错
+- 默认运行是会报错的，如下图
 
 ![Alt text](build-zfb-1.png)
 
-- after: 勾选上 `本地开发跳过 ES5 转译`，正常运行
+- 只需要勾选上 `本地开发跳过 ES5 转译` 即可正常运行，如下图
 
 ![Alt text](build-zfb-2.png)
+
+## 7. 为什么 `UI库` 从 `uv-ui` 改为了 `wot-ui` ？
+
+`wot-ui`(`wot-design-uni`) 是 `vue3 + ts` 开发的 `UI库`，相比 `uv-ui` 编码体验好很多，[wot-ui 文档链接](https://wot-design-uni.gitee.io/)。
+
+`UI 选型` 文章请看我的掘金文章：[【unibest】 uniapp + vue3 模板 UI 框架选型](https://juejin.cn/spost/7337513012393607207).

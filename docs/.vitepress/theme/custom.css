@@ -46,7 +46,8 @@
   margin-right: -4px;
   margin-top: -4px;
 }
-.md-center > p img {
+.md-center img {
+  display: inline-block;
   margin-right: 4px;
   margin-top: 4px;
 }
