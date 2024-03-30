@@ -59,7 +59,7 @@
   easycom: {
     autoscan: true,
     custom: {
-  -     '^uv-(.*)': '@climblee/uv-ui/components/uv-$1/uv-$1.vue',
+  +   '^uv-(.*)': '@climblee/uv-ui/components/uv-$1/uv-$1.vue',
     },
   },
   ```
