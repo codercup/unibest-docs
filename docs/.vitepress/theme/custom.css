@@ -53,6 +53,11 @@
   height: 1.4em;
   line-height: 1.6;
 }
+.md-center2 img {
+  display: inline-block;
+  margin-right: 4px;
+  margin-top: 4px;
+}
 
 .busuanzi_container {
   opacity: 0.3;

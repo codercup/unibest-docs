@@ -66,7 +66,7 @@
 
 web 在线地址：[https://codercup.github.io/unibest/#/](https://codercup.github.io/unibest/#/)
 
-<p class="md-center" align='center'>
+<p class="md-center2" align='center'>
 <img alt="special sponsor appwrite" src="./screenshots/product-mp.png" style="margin-left:0px;">
 <img alt="special sponsor appwrite" src="./screenshots/product-andriod.png" style="margin-left:20px;">
 </p>
