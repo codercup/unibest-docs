@@ -149,7 +149,7 @@ const reset = () => {
 ::: details
 
 ```ts
-import { createProdMockServer } from 'vite-plugin-mock/dist/client'
+import { createProdMockServer } from 'vite-plugin-mock/client'
 
 // TODO: check mock 文件位置
 const modules = import.meta.glob('../mock/**/*.ts', { eager: true })
