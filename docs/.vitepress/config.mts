@@ -149,6 +149,7 @@ export default defineConfig({
           { text: 'v3 代码块', link: 'code-snippets' },
           { text: '环境变量', link: 'env' },
           { text: 'Mock', link: 'mock' },
+          { text: '图表库', link: 'ucharts' },
           { text: 'hbx 版本', link: 'hbuilderx' },
           // { text: '打包', link: 'build' },
           // { text: '部署', link: 'deployment' },
