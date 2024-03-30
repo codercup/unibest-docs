@@ -145,6 +145,7 @@ export default defineConfig({
           { text: '跨端开发', link: 'run-build' },
           { text: 'APP打包专题', link: 'app-build' },
           { text: 'v3 代码块', link: 'code-snippets' },
+          { text: '环境变量', link: 'env' },
           { text: 'hbx 版本', link: 'hbuilderx' },
           // { text: '打包', link: 'build' },
           // { text: '部署', link: 'deployment' },
