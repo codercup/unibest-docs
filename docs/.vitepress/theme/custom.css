@@ -50,6 +50,8 @@
   display: inline-block;
   margin-right: 4px;
   margin-top: 4px;
+  height: 1.4em;
+  line-height: 1.6;
 }
 
 .busuanzi_container {
