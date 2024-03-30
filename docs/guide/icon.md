@@ -1,15 +1,17 @@
-# 图标
+# Icons
 
-有 3 种方式使用图标：
+通常有以下几种方式使用图标：
 
-- 使用引入的 `UI 库` 的图标
+- `UI 库 Icons`
 - `UnoCSS Icons`
-- 使用 `iconfont` 图标库
+- `iconfont`
 - 其他图标库
 
-## UI 库的图标
+## UI 库 Icons
 
-如 `wot-ui` 的 `wd-icon` 组件，其中颜色可以通过 `color` 配置或 `unocss class` 设置。
+优先使用引入的 UI 库的图标，如使用 `wot-ui` 的 `wd-icon` 组件。
+
+注意：`wot-ui icons` 颜色可以通过 `color` 配置或 `UnoCSS` 设置；同时设置时，`color` 优先级高。
 
 ```html
 <wd-icon name="add-circle" color="red"></wd-icon>
@@ -18,15 +20,11 @@
 <wd-icon name="add-circle" class="text-green" color="red"></wd-icon>
 ```
 
-::: tip
-`wot-ui` 全称 `wot-design-uni`，是 `wot-design` 的 `uniapp` 版本。文档地址见：[https://wot-design-uni.gitee.io/](https://wot-design-uni.gitee.io/)
-:::
-
 ## `UnoCSS Icons`
 
 `UnoCSS Icons` 可以方便接入 `iconfiy` 图标库，后者拥有 `10万+` 的海量图标，总能找到你想要的。
 
-### 安装 iconify
+### 1. 安装 iconify
 
 在使用 `iconify` 之前需要安装对应的图标库，安装格式如下：
 
@@ -38,7 +36,7 @@
 `unibest` 已经装好了 `carbon` 图标库，可以直接使用。
 :::
 
-### 使用 iconify
+### 2. 使用 iconify
 
 打开网址：[https://icones.js.org/](https://icones.js.org/)
 

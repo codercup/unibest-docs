@@ -138,7 +138,7 @@ export default defineConfig({
           { text: '快速开始', link: 'installation' },
           { text: '视图', link: 'views' },
           { text: 'UI库', link: 'UI' },
-          { text: '样式', link: 'styling' },
+          { text: 'CSS', link: 'css' },
           { text: '图标', link: 'icon' },
           { text: '数据获取', link: 'data-fetching' },
           { text: 'pinia状态管理', link: 'state-pinia' },

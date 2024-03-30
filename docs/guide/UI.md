@@ -9,7 +9,7 @@
 具体 UI 库选型过程，请看我的掘金文章：[【unibest】 uniapp + vue3 模板 UI 框架选型](https://juejin.cn/spost/7337513012393607207).
 
 ::: tip
-`wot-ui` 全称 `wot-design-uni`，文档地址: [https://wot-design-uni.gitee.io/](https://wot-design-uni.gitee.io/).
+`wot-ui` 全称 `wot-design-uni`，是 `wot-design` 的 `uniapp` 版本，文档地址：[https://wot-design-uni.gitee.io/](https://wot-design-uni.gitee.io/).
 :::
 
 ## 卸载 wot-ui 库
