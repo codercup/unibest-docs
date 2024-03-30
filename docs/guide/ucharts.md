@@ -1,9 +1,13 @@
-# 图表库
+# ucharts
 
-目前支持秋云图标库 `ucharts` ，如需使用请切换为 `ucharts` 分支，或者直接创建该模板项目：
+目前支持秋云图标库 `ucharts` [官网](https://www.ucharts.cn/v2/#/) 。
+
+如果您已经 `clone` `unibest` 项目仓库，那么切换到 `ucharts` 分支即可。
+
+如果想创建一个新的 `ucharts 项目`，运行下面的命令即可：
 
 ```sh
- pnpm create unibest my-unibest -t ucharts
+pnpm create unibest my-unibest -t ucharts
 ```
 
 `ucharts` 效果图：
