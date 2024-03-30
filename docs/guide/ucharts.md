@@ -13,3 +13,9 @@
 ![alt text](image-15.png)
 
 ![alt text](image-16.png)
+
+::: tip
+引入过程的 `commit` 记录如下，供参考：
+
+![alt text](image-17.png)
+:::
