@@ -28,6 +28,8 @@
 
 常用的原子类：
 
+::: details
+
 - 宽高内外边距： `w-2`, `h-4`, `px-6`, `mt-8`等
 - 前景色背景色：`text-green-400`, `bg-green-500`
 - border: `border-2`, `border-solid`, `border-green-600`, `b-r-2` (注意 `border` = `border-1`，就是说边框 `1px` 时，一般简写为 `border` )
@@ -35,6 +37,7 @@
 - line-height: `leading-10` (不是 `l-10`, 也不是 `lh-10`)
 - hover: `hover:text-green-200`, `hover:bg-green-300`, `hover:border-dashed`
 - flex: `flex`, `items-center`, `justify-center`, `flex-1`
+  :::
 
 ## 传统方式
 
