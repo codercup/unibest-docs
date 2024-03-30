@@ -166,6 +166,10 @@ export default defineConfig({
             text: '常见问题',
             link: 'faq',
           },
+          {
+            text: '包分析',
+            link: 'build-analysis',
+          },
           // {
           //   text: '注意事项',
           //   link: 'tips',
