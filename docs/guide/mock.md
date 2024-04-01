@@ -7,7 +7,7 @@
 ## 安装
 
 ```sh
-pnpm add
+pnpm add vite-plugin-mock -D
 ```
 
 ## vite.config.ts 配置
