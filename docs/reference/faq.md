@@ -63,7 +63,7 @@ UniPages({
 
 `wot-ui`(`wot-design-uni`) 是 `vue3 + ts` 开发的 `UI库`，相比 `uv-ui` 编码体验好很多，[wot-ui 文档链接](https://wot-design-uni.gitee.io/)。
 
-`UI 选型` 文章请看我的掘金文章：[【unibest】 uniapp + vue3 模板 UI 框架选型](https://juejin.cn/spost/7337513012393607207).
+`UI 选型` 文章请看我的掘金文章：[【unibest】 uniapp + vue3 模板 UI 框架选型](https://juejin.cn/post/7337513012393607207).
 
 ## 8. `uni-app` 无法使用 `process.env` 变量，怎么办？
 
