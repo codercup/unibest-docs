@@ -13,13 +13,11 @@
 
 有 2 种方式导入项目：
 
-- 直接引入 git 仓库地址：
+- 从 `Git` 导入...
+- 从本地目录导入...
 
 ![Alt text](image-1.png)
 ![Alt text](image-2.png)
-
-- 先手动 `clone` 项目，然后本地导入:
-
 ![Alt text](image-3.png)
 
 ## 运行项目
@@ -33,18 +31,21 @@
 
 - 项目下执行 `pnpm i`
 - 右键项目，选择 `重新识别项目类型`
+
   ![Alt text](image-6.png)
 
 ## 运行效果
 
 - ios 模拟器运行效果如下：
+
   ![Alt text](image-7.png)
   ![Alt text](image-8.png)
   ![Alt text](image-9.png)
 
 - 微信小程序运行效果如下：
+
   ![Alt text](image-10.png)
 
-> 目前微信小程序静态资源还有点问题，如下图，后续会修复。
+> 目前微信小程序静态资源还有点问题，如下图 `logo 不见了`，后续会修复。
 
 ![Alt text](image-12.png)
