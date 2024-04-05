@@ -140,6 +140,8 @@ export default defineConfig({
         items: [
           { text: '介绍', link: 'introduction' },
           { text: '快速开始', link: 'installation' },
+          { text: '跨端开发', link: 'run-build' },
+          { text: 'APP打包', link: 'app-build' },
           { text: '视图', link: 'views' },
           { text: 'UI库', link: 'UI' },
           { text: 'CSS', link: 'css' },
@@ -149,8 +151,6 @@ export default defineConfig({
           { text: 'ucharts', link: 'ucharts' },
           { text: 'pinia状态管理', link: 'state-pinia' },
           { text: '简单状态管理', link: 'state-easy' },
-          { text: '跨端开发', link: 'run-build' },
-          { text: 'APP打包专题', link: 'app-build' },
           { text: 'v3 代码块', link: 'code-snippets' },
           { text: '环境变量', link: 'env' },
           { text: 'Mock', link: 'mock' },
@@ -162,7 +162,7 @@ export default defineConfig({
       },
       {
         text: '🥤 打赏',
-        link: '/rewards/index'
+        link: '/rewards/index',
       },
       {
         text: '指南',
@@ -184,7 +184,7 @@ export default defineConfig({
           //   text: '最佳实践',
           //   link: 'best-practice'
           // },
-        ]
+        ],
       },
       {
         text: '联系',
@@ -202,9 +202,8 @@ export default defineConfig({
             text: '笔记',
             link: 'note',
           },
-        ]
+        ],
       },
-
     ],
     footer: {
       message: 'Released under the MIT License.',
