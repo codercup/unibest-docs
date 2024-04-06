@@ -11,7 +11,13 @@
 - Github: [codercup](https://github.com/codercup)
 - Gitee: [codercup](https://gitee.com/codercup)
 - 掘金：[菲鸽](https://juejin.cn/user/3263006241460792/posts)
-- 微信：[菲鸽](./screenshots/wx-me.png)
+- 微信：`codercup`
+- QQ：`1020103647`
+- 邮箱：`1020103647@qq.com`
+
+微信名片：
+
+![菲鸽](./screenshots/wx-me.png)
 
 ## 微信公众号
 
@@ -21,5 +27,6 @@
 
 ## 微信交流群
 
-①② 群已满，下面是 ③ 群
-![Alt text](image-2.png)
+最新的微信交流群：
+
+![](https://oss.laf.run/ukw0y1-site/wx-group.jpg)
