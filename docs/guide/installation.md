@@ -66,7 +66,9 @@ pnpm i
 ```
 
 ```bash [npm]
-npm i
+# npm i 会报错
+npm i -g pnpm
+pnpm i
 ```
 
 :::
