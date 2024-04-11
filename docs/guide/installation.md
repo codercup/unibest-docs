@@ -23,7 +23,7 @@ pnpm create unibest my-project
 
 ```bash [npm]
 npm create unibest my-project
-# 如果提示报错，请使用下面的命令
+# 如果提示报错，请使用下面的命令，增加 @latest 标识
 npm create unibest@latest my-project
 ```
 
