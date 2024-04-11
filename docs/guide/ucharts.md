@@ -1,6 +1,6 @@
 # ucharts
 
-目前支持秋云图标库 `ucharts` [官网](https://www.ucharts.cn/v2/#/) 。
+目前支持秋云图表库 `ucharts` [官网](https://www.ucharts.cn/v2/#/) 。
 
 如果您已经 `clone` `unibest` 项目仓库，那么切换到 `ucharts` 分支即可。
 
