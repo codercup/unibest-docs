@@ -72,6 +72,9 @@
     "@uni-helper/uni-app-types",
     "@uni-helper/uni-ui-types",
   + "@ttou/uv-typings/shim",
-  + "@ttou/uv-typings/v3"
+  + "@ttou/uv-typings/v2"
   ]
   ```
+  :::tip
+  注意：`@ttou/uv-typings/v2` 是 `v2` 不是 `v3`。
+  :::
