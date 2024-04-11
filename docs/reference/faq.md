@@ -68,3 +68,7 @@ UniPages({
 ## 8. `uni-app` 无法使用 `process.env` 变量，怎么办？
 
 使用 `import.meta.env` 替代！
+
+## 9. 如何修改首页？
+
+`route-block` 块里面设置 `type="home"` 即可，请确保项目里面只有一个页面是这个配置。
