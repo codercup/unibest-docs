@@ -55,7 +55,11 @@
 - 1.把 `.env` 文件里的 `VITE_SERVER_BASEURL` 设置为空字符串。
 - 2.把 `url` 拼接去掉，注释掉第 29 行代码。
 
-![alt text](image-18.png)
+![alt text](./assets/proxy/image-18.png)
+
+:::tip
+`unibest` 在 `v2.0.0` 时已经内置，无需处理。
+:::
 
 ## 线上代理
 
