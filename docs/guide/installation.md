@@ -103,9 +103,3 @@ git commit -m "feat: init project"
 ## `v3` 代码块
 
 在 `vue` 文件中，输入 `v3` 按 `tab` 即可快速生成页面模板，可以大大加快页面生成。
-
-## 相关链接
-
-跨端开发专题请前往 [跨端开发](./run-build)
-
-App 打包专题请前往 [App 打包](./app-build)

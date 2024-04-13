@@ -1,12 +1,22 @@
-# 视图
+# Uni 插件
 
-## App.vue
+`unibest` 引入了 `uni-helper` 团队的几个重要插件，少了它们 `unibest` 就缺少了灵魂。`Uni 插件` 列表如下：
 
-`App.vue` 是 uni-app 应用主组件和入口文件，所有页面都是在 `App.vue` 下进行切换的。
+- `vite-plugin-uni-pages`
 
-`App.vue` 本身不是页面，这里不能编写视图元素，也就是不能使用 `<template>`。
+  - 介绍：为 `Vite` 下的 `uni-app` 提供基于文件系统的路由
+  - 额外：使用 `TypeScript` 来编写 `uni-app` 的 `pages.json`
+  - 访问地址：[https://github.com/uni-helper/vite-plugin-uni-pages](https://github.com/uni-helper/vite-plugin-uni-pages)
 
-[应用生命周期](https://uniapp.dcloud.net.cn/collocation/App.html#applifecycle) 只能在 `App.vue` 中监听，在页面监听无效。
+- `vite-plugin-uni-layouts`
+
+  - 介绍：为 `Vite` 下的 `uni-app` 提供类 `nuxt` 的 `layouts` 系统
+  - 访问地址：[https://github.com/uni-helper/vite-plugin-uni-layouts](https://github.com/uni-helper/vite-plugin-uni-layouts)
+
+- `vite-plugin-uni-manifest`
+
+  - 介绍：使用 `TypeScript` 来编写 `uni-app` 的 `manifest.json`
+  - 访问地址：[https://github.com/uni-helper/vite-plugin-uni-manifest](https://github.com/uni-helper/vite-plugin-uni-manifest)
 
 ## Pages 页面
 
@@ -125,37 +135,4 @@ UniPages({
 </template>
 ```
 
-:::
-
-## Components 组件
-
-得益于 [@uni-helper/vite-plugin-uni-components](https://github.com/uni-helper/vite-plugin-uni-components)，组件将自动注册到全局，你不需要显式导入它们。只需要在 `src/components` 目录下创建组件，然后直接使用即可。
-
-:::tip
-不可滥用自动导入，不是全局要用的组件不建议放到 `src/components` 里面，会增加包的体积。
-:::
-
-:::code-group
-
-```vue [src/pages/index.vue]
-<template>
-  <div>
-    <h1>欢迎使用 unibest</h1>
-    <FgTest> 这个组件会自动导入 </FgTest>
-  </div>
-</template>
-```
-
-```vue [src/components/FgTest.vue]
-<template>
-  <span>
-    <slot />
-  </span>
-</template>
-```
-
-:::
-
-:::warning
-如果包体积太大，可以考虑是否把全局组件移出 `src/components`，或者直接删除本插件。
 :::

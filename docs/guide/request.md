@@ -1,4 +1,4 @@
-# 数据获取
+# 请求
 
 `unibest` 使用 `uni-app` 的内置请求方法来获取数据，并内置了请求拦截，开箱即用。后台主要使用 `laf` 云开发平台，推荐码链接 [https://laf.run/signup?code=ohaOgIX](https://laf.run/signup?code=ohaOgIX) 。
 
