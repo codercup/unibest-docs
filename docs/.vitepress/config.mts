@@ -140,23 +140,26 @@ export default defineConfig({
         items: [
           { text: '介绍', link: 'introduction' },
           { text: '快速开始', link: 'installation' },
-          { text: '跨端开发', link: 'run-build' },
+          { text: '跨端开发', link: 'cross-build' },
           { text: 'Uni 插件', link: 'uni-plugin' },
           { text: 'UI 库', link: 'UI' },
           { text: '样式', link: 'css' },
           { text: '图标', link: 'icon' },
           { text: '请求', link: 'request' },
+          { text: 'v3 代码块', link: 'code-snippets' },
+          { text: 'hbx 版本', link: 'hbx' },
+        ],
+      },
+      {
+        text: '进阶',
+        base: '/advance/',
+        items: [
           { text: 'Proxy', link: 'proxy' },
           { text: 'ucharts', link: 'ucharts' },
           { text: 'pinia状态管理', link: 'state-pinia' },
           { text: '简单状态管理', link: 'state-easy' },
-          { text: 'v3 代码块', link: 'code-snippets' },
           { text: '环境变量', link: 'env' },
           { text: 'Mock', link: 'mock' },
-
-          { text: 'hbx 版本', link: 'hbuilderx' },
-          // { text: '打包', link: 'build' },
-          // { text: '部署', link: 'deployment' },
         ],
       },
       {

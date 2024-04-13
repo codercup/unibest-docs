@@ -1,6 +1,6 @@
 # 样式
 
-本模块介绍 `UnoCSS` 和 `传统方式` 分别如何编写样式。
+本模块介绍 `UnoCSS` 和 `传统方式` 分别如何编写样式；两者相辅相成，发挥最大效用。
 
 ## UnoCSS
 
@@ -28,8 +28,6 @@
 
 常用的原子类：
 
-::: details
-
 - 宽高内外边距： `w-2`, `h-4`, `px-6`, `mt-8`等
 - 前景色背景色：`text-green-400`, `bg-green-500`
 - border: `border-2`, `border-solid`, `border-green-600`, `b-r-2` (注意 `border` = `border-1`，就是说边框 `1px` 时，一般简写为 `border` )
@@ -37,7 +35,6 @@
 - line-height: `leading-10` (不是 `l-10`, 也不是 `lh-10`)
 - hover: `hover:text-green-200`, `hover:bg-green-300`, `hover:border-dashed`
 - flex: `flex`, `items-center`, `justify-center`, `flex-1`
-  :::
 
 ## 传统方式
 
@@ -45,7 +42,7 @@
 
 如果设计稿不是 `750px` 可以调整蓝湖的设置，让设计稿宽度为 `750px`。
 
-::: details
+::: tip
 
 `rpx` 是相对于基准宽度的单位，可以根据屏幕宽度进行自适应。`uni-app` 规定屏幕基准宽度 `750rpx`。
 

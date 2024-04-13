@@ -1,6 +1,14 @@
 # hbx 版本
 
-`unibest` 也提供 `hbx` 版本，方便喜欢 HBuilder 的开发者使用，操作如下。
+`unibest` 也提供 `hbx` 版本，方便使用 `HBuilder` 的开发者使用。
+
+:::tip
+`hbx 版本` 适用于 `2 类用户`
+
+- 使用 `uniCloud` 云开发的用户，必须使用 `hbx 版本`。
+- 开发 `App` 的用户，可选使用 `hbx 版本`。
+
+:::
 
 ## 仓库地址
 
@@ -15,10 +23,6 @@
 
 - 从 `Git` 导入...
 - 从本地目录导入...
-
-![Alt text](image-1.png)
-![Alt text](image-2.png)
-![Alt text](image-3.png)
 
 ## 运行项目
 
@@ -35,6 +39,8 @@
   ![Alt text](image-6.png)
 
 ## 运行效果
+
+经过上面的操作后，就可以正常运行了。
 
 - ios 模拟器运行效果如下：
 

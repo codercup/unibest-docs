@@ -1,6 +1,6 @@
 # 代码块
 
-`VS Code` 的 `Code Snippets` 代码块可以大大加快 `vue` 文件的生成。
+`VS Code` 的 `Code Snippets` 代码块可以大大加快 `vue` 文件页面结构的生成。
 
 ## `v3` 代码块
 
