@@ -4,7 +4,7 @@
 
 本项目引入了 `@uni-helper/vite-plugin-uni-pages`，`pages.json` 文件将会自动生成，手动修改 `pages.json` 将会被覆盖。
 
-全局的东西请在 `pages.config.ts` 里面配置，页面的东西请在 `vue` 文件的 `route` 代码快配置。详情请看 [视图章节](/guide/views)。
+全局的东西请在 `pages.config.ts` 里面配置，页面的东西请在 `vue` 文件的 `route` 代码快配置。详情请看 [Uni 插件](/guide/uni-plugin)。
 
 ## 2.修改 `manifest.json` 被覆盖问题
 
@@ -16,14 +16,12 @@
 
 `vite.config.ts` 里面有一个配置，如下：(其中 `subPackages` 就是用来分包的)
 
-也可以查看 [过滤和分包 章节](/guide/views#过滤和分包)
+也可以查看 [过滤和分包 章节](/guide/uni-plugin#设置-pages-过滤和分包)
 :::code-group
 
-```ts [vite.config.ts]{5}
+```ts [vite.config.ts]{3}
 UniPages({
     exclude: ['**/components/**/**.*'],
-    routeBlockLang: 'json5',
-    homePage: 'pages/index/index',
     subPackages: ['src/pages-sub'], // 是个数组，可以配置多个
 }),
 ```
@@ -36,11 +34,12 @@ UniPages({
 
 目前 `unibest` 已经有 `hbx` 模板，后续接入 `uni-app x` 会很容易，坐等官方发布。
 
+目前 `uni-app x` 可以生成 `Android(kotlin)` 、`iOS(swift)` 和 `web` 端，其他端（ `各种小程序` 、`鸿蒙` ）还在适配中。
+
 ::: details
 `uni-app x` 是官方宣称的下一代 `uni-app`，是一个跨平台应用开发引擎。`uni-app x` 没有使用 `js` 和 `webview`，它基于 `uts` 语言。在 `App端`，`uts` 在 `iOS `编译为 `swift`、在 `Android` 编译为 `kotlin`，完全达到了原生应用的功能、性能。
 
-目前 `uni-app x` 可以生成 `Android(kotlin)` 和 `web` 端，其他端（`iOS(swift)`、`鸿蒙`、`各种小程序`）还在适配中。
-
+`Android(kotlin)` 最先上线，`iOS(swift)` 在 `2024年3月底` 上线。
 :::
 
 ## 5.`git commit` 报错。
