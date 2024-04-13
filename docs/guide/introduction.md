@@ -34,6 +34,15 @@
 
 - 🖥 `多环境` 配置分开，想则怎么配置就怎么配置
 
+## ⭐ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=codercup/unibest&type=Date)](https://star-history.com/#codercup/unibest&Date)
+
+## ❤️ 群聊 & 打赏
+
+![](https://oss.laf.run/ukw0y1-site/wx-group.jpg)
+![](https://oss.laf.run/ukw0y1-site/pay-wx.png)
+
 ## 👍 实用功能
 
 - [x] 页面下拉刷新（全局+局部）
@@ -59,15 +68,6 @@
 - [x] 九宫格抽奖
 - [ ] 登陆模板（APP）
 - [ ] 登陆模板（H5）
-
-## ⭐ Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=codercup/unibest&type=Date)](https://star-history.com/#codercup/unibest&Date)
-
-## ❤️ 群聊 & 打赏
-
-![](https://oss.laf.run/ukw0y1-site/wx-group.jpg)
-![](https://oss.laf.run/ukw0y1-site/pay-wx.png)
 
 ## 🌸 产物地址
 

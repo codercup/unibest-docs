@@ -1,24 +1,24 @@
 # Uni 插件
 
-`unibest` 引入了 `uni-helper` 团队的几个重要插件，少了它们 `unibest` 就缺少了灵魂。`Uni 插件` 列表如下：
+`unibest` 引入了 `uni-helper` 团队的几个重要插件，少了它们 `unibest` 就缺少了灵魂，感谢 `uni-helper` 团队的贡献。`Uni 插件` 列表如下：
 
 - `vite-plugin-uni-pages`
 
   - 介绍：为 `Vite` 下的 `uni-app` 提供基于文件系统的路由
   - 额外：使用 `TypeScript` 来编写 `uni-app` 的 `pages.json`
-  - 访问地址：[https://github.com/uni-helper/vite-plugin-uni-pages](https://github.com/uni-helper/vite-plugin-uni-pages)
+  - 访问地址：[@uni-helper/vite-plugin-uni-pages](https://github.com/uni-helper/vite-plugin-uni-pages)
 
 - `vite-plugin-uni-layouts`
 
   - 介绍：为 `Vite` 下的 `uni-app` 提供类 `nuxt` 的 `layouts` 系统
-  - 访问地址：[https://github.com/uni-helper/vite-plugin-uni-layouts](https://github.com/uni-helper/vite-plugin-uni-layouts)
+  - 访问地址：[@uni-helper/vite-plugin-uni-layouts](https://github.com/uni-helper/vite-plugin-uni-layouts)
 
 - `vite-plugin-uni-manifest`
 
   - 介绍：使用 `TypeScript` 来编写 `uni-app` 的 `manifest.json`
-  - 访问地址：[https://github.com/uni-helper/vite-plugin-uni-manifest](https://github.com/uni-helper/vite-plugin-uni-manifest)
+  - 访问地址：[@uni-helper/vite-plugin-uni-manifest](https://github.com/uni-helper/vite-plugin-uni-manifest)
 
-## Pages 页面
+## vite-plugin-uni-pages
 
 得益于 [@uni-helper/vite-plugin-uni-pages](https://github.com/uni-helper/vite-plugin-uni-pages)，约定式路由（文件路由）的实现轻而易举。
 
@@ -68,49 +68,30 @@
 
 :::
 
-## Pages 过滤和分包
+## 设置 pages 过滤和分包
 
-- 过滤
+- 过滤：默认 `src/pages` 里面的 `vue` 文件都会生成一个页面，如果不需要生成页面可以对 `vite.config.ts` 中的 `UniPages` 进行 `exclude` 配置。
 
-默认 `src/pages` 里面的 `vue` 文件都会生成一个页面，如果不需要生成页面可以对 `vite.config.ts` 中的 `UniPages` 进行 `exclude` 配置。如下示例，可以过滤掉 `所有的components里面的页面`。
+- 分包：如果需要设置 `分包` 则可以通过 `subPackages` 进行配置，该配置项是个数组，可以配置多个 `分包`，注意分包的目录不能为 `src/pages` 里面的子目录。
 
 :::code-group
 
-```ts [vite.config.ts]{2}
+```ts [vite.config.ts]
 UniPages({
   exclude: ['**/components/**/**.*'],
-  routeBlockLang: 'json5',
-  homePage: 'pages/index/index',
   subPackages: ['src/pages-sub'], // 是个数组，可以配置多个
 })
 ```
 
 :::
 
-- 分包
-
-如果需要设置 `分包` 则可以通过 `subPackages` 进行配置，该配置项是个数组，可以配置多个 `分包`。如下示例，配置了一个 `pages-sub` 分包，最终会在 `pages.json` 里面生成对一个的分包信息。
-
-:::code-group
-
-```ts [vite.config.ts]{5}
-UniPages({
-  exclude: ['**/components/**/**.*'],
-  routeBlockLang: 'json5',
-  homePage: 'pages/index/index',
-  subPackages: ['src/pages-sub'], // 是个数组，可以配置多个
-})
-```
-
-:::
-
-## Layouts 布局
+## vite-plugin-uni-layouts
 
 得益于 [@uni-helper/vite-plugin-uni-layouts](https://github.com/uni-helper/vite-plugin-uni-layouts)，你可以轻松地切换不同的布局。
 
-`src/layouts` 文件夹下的 `vue` 文件都会自动生成一个布局，默认的布局文件名为 `default.vue` （ `unibest` 已经内置该文件）。
+`src/layouts` 文件夹下的 `vue` 文件都会自动生成一个布局，默认的布局文件名为 `default` ，路径 `src/layouts/default.vue` 。
 
-如果需要修改使用的布局，可以通过 `vue` 文件内 `route` 代码块指定需要的布局。
+如果需要修改使用的布局，可以通过 `vue` 文件内 `route` 代码块指定需要的布局，如下示例使用 `demo` 布局。
 
 :::code-group
 
@@ -135,4 +116,12 @@ UniPages({
 </template>
 ```
 
+:::
+
+## vite-plugin-uni-manifest
+
+得益于 [@uni-helper/vite-plugin-uni-manifest](https://github.com/uni-helper/vite-plugin-uni-manifest)，你可以使用 `TypeScript` 来编写 `manifest.json`。
+
+::: warning
+`manifest.json` 文件是自动生成的，请不要手动修改，需要配置的内容请在 `manifest.config.ts` 里面配置。
 :::

@@ -140,10 +140,10 @@ export default defineConfig({
         items: [
           { text: '介绍', link: 'introduction' },
           { text: '快速开始', link: 'installation' },
-          { text: '跨端开发', link: 'cross-build' },
+          { text: '运行发布', link: 'build' },
           { text: 'Uni 插件', link: 'uni-plugin' },
-          { text: 'UI 库', link: 'UI' },
           { text: '样式', link: 'css' },
+          { text: 'pinia', link: 'pinia' },
           { text: '图标', link: 'icon' },
           { text: '请求', link: 'request' },
           { text: 'v3 代码块', link: 'code-snippets' },
@@ -152,11 +152,11 @@ export default defineConfig({
       },
       {
         text: '进阶',
-        base: '/advance/',
+        base: '/advanced/',
         items: [
+          { text: 'UI 库更换', link: 'UI' },
           { text: 'Proxy', link: 'proxy' },
           { text: 'ucharts', link: 'ucharts' },
-          { text: 'pinia状态管理', link: 'state-pinia' },
           { text: '简单状态管理', link: 'state-easy' },
           { text: '环境变量', link: 'env' },
           { text: 'Mock', link: 'mock' },

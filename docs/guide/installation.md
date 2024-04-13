@@ -55,7 +55,7 @@ pnpm create unibest my-project -t hbx-base # hbx的base模板
 pnpm create unibest my-project -t hbx-demo # hbx的demo模板，包含所有的demo
 ```
 
-> `uni-app x 模板` 还在开发中，4 月份会面世。 （update on 2024-04-05)
+<!-- > `uni-app x 模板` 还在开发中，4 月份会面世。 （update on 2024-04-05) -->
 
 ## 安装依赖
 

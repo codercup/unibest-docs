@@ -55,5 +55,5 @@ const countStore = useCountStore()
 :::
 
 ::: tip
-请不要随意把数据丢到 `pinia`，如果是简单状态管理，尽量使用 `ref` 或者 `reactive`，详情见下一章节 [简单状态管理章节](./state-easy).
+请不要随意把数据丢到 `pinia`，如果是简单状态管理，尽量使用 `ref` 或者 `reactive`，详情见 [简单状态管理章节](/advanced/state-easy).
 :::

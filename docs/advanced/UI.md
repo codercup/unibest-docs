@@ -1,6 +1,4 @@
-# UI 库
-
-## 默认使用 wot-ui 库
+# UI 库更换
 
 `unibest` 经过几次更迭，先后使用 `uni-ui`、`uv-ui`、`wot-ui` 库作为默认 UI 库，目前最新的模版使用 `wot-ui` 为默认 UI 库。
 
@@ -11,6 +9,8 @@
 ::: tip
 `wot-ui` 全称 `wot-design-uni`，是 `wot-design` 的 `uniapp` 版本，文档地址：[https://wot-design-uni.gitee.io/](https://wot-design-uni.gitee.io/).
 :::
+
+`UI 库` 更换需要先卸载原有的 `wot-ui` 库，再安装其他 `UI 库`。
 
 ## 卸载 wot-ui 库
 
@@ -75,6 +75,3 @@
   + "@ttou/uv-typings/v2"
   ]
   ```
-  :::tip
-  注意：`@ttou/uv-typings/v2` 是 `v2` 不是 `v3`。
-  :::
