@@ -145,9 +145,10 @@ export default defineConfig({
           { text: '样式', link: 'css' },
           { text: 'pinia', link: 'pinia' },
           { text: '图标', link: 'icon' },
+          { text: 'svg', link: 'svg' },
           { text: '请求', link: 'request' },
           { text: 'v3 代码块', link: 'code-snippets' },
-          { text: 'hbx 版本', link: 'hbx' },
+          { text: 'hbx 模板', link: 'hbx' },
         ],
       },
       {

@@ -1,6 +1,6 @@
-# hbx 版本
+# hbx 模板
 
-`unibest` 也提供 `hbx` 版本，方便使用 `HBuilder` 的开发者使用。
+`unibest` 也提供 `hbx` 模板，方便使用 `HBuilder` 的开发者使用。
 
 :::tip
 `hbx 版本` 适用于 `2 类用户`
