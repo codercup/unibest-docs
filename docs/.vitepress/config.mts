@@ -155,7 +155,7 @@ export default defineConfig({
         text: '进阶',
         base: '/advanced/',
         items: [
-          { text: 'UI 库', link: 'ui' },
+          { text: 'UI 库', link: 'ui2' },
           { text: 'Proxy', link: 'proxy' },
           { text: 'ucharts', link: 'ucharts' },
           { text: '简单状态管理', link: 'state-easy' },
