@@ -107,10 +107,6 @@ export default defineConfig({
             link: 'https://uniapp.dcloud.net.cn/component/uniui/uni-ui.html',
           },
           {
-            text: 'tailwindcss',
-            link: 'https://tailwindcss.com/docs/flex',
-          },
-          {
             text: 'uv-ui',
             link: 'https://www.uvui.cn/',
           },
