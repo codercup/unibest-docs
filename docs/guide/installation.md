@@ -34,13 +34,6 @@ npm create unibest@latest my-project
 如果使用 `npm` 建议添加上标记名（@latest），否则 `npm` 可能会解析到缓存的过时软件包版本。
 :::
 
-> 因最近频繁更新 `base` 模板，如果使用 `pnpm` 安装出现问题，请使用 `npm` 安装。
->
-> ```diff
-> - pnpm create unibest@latest xx -t base
-> + npm create unibest@latest xx -t base
-> ```
-
 `create unibest` 支持 `-t` 参数选择模板，目前已有两大类 `8` 个模板
 
 - `普通` 模板( `6个` ）：分别是 `base`、`demo`、`ucharts`、`tabbar`、`i18n`、`js`
