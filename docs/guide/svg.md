@@ -42,11 +42,13 @@ import TaskComponent from './task.svg?component'
 
 :::
 
-- h5 端支持上面 4 种方式，
-- 非 h5 端只支持上面的 2 种方式，如下：
+- `H5端` 支持上面 `4` 种方式 ❤️
+- `非H5端` 仅支持其中 `2` 种方式，如下：
 
 ```html
 <image src="/static/svg/task.svg" mode="scaleToFill" class="h-20 w-20" />
 <!-- import iconUrl from './task.svg?url' -->
 <image :src="iconUrl" mode="scaleToFill" class="h-20 w-20" />
 ```
+
+鉴于此，`SvgIcon` 组件对应的插件 `vite-plugin-svg-icons` 就卸载了，不再安装。
