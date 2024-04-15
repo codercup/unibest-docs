@@ -91,6 +91,38 @@ export default defineConfig({
             link: 'https://uniapp.dcloud.net.cn/',
           },
           {
+            text: 'UnoCSS',
+            link: 'https://unocss.dev/',
+          },
+          {
+            text: 'icones',
+            link: 'https://icones.js.org/',
+          },
+          {
+            text: 'wot-ui',
+            link: 'https://wot-design-uni.gitee.io/',
+          },
+          {
+            text: 'uni-ui',
+            link: 'https://uniapp.dcloud.net.cn/component/uniui/uni-ui.html',
+          },
+          {
+            text: 'tailwindcss',
+            link: 'https://tailwindcss.com/docs/flex',
+          },
+          {
+            text: 'uv-ui',
+            link: 'https://www.uvui.cn/',
+          },
+          {
+            text: 'ucharts',
+            link: 'https://www.ucharts.cn/v2/#/',
+          },
+          {
+            text: 'Alova.js',
+            link: 'https://alova.js.org/zh-CN',
+          },
+          {
             text: 'Vue',
             link: 'https://cn.vuejs.org/',
           },
@@ -101,34 +133,6 @@ export default defineConfig({
           {
             text: 'Pinia',
             link: 'https://pinia.vuejs.org/zh/',
-          },
-          {
-            text: 'UnoCSS',
-            link: 'https://unocss.dev/',
-          },
-          {
-            text: 'tailwindcss',
-            link: 'https://tailwindcss.com/docs/flex',
-          },
-          {
-            text: 'icones',
-            link: 'https://icones.js.org/',
-          },
-          {
-            text: 'uni-ui',
-            link: 'https://uniapp.dcloud.net.cn/component/uniui/uni-ui.html',
-          },
-          {
-            text: 'wot-ui',
-            link: 'https://wot-design-uni.gitee.io/',
-          },
-          {
-            text: 'uv-ui',
-            link: 'https://www.uvui.cn/',
-          },
-          {
-            text: 'ucharts',
-            link: 'https://www.ucharts.cn/v2/#/',
           },
         ],
       },
