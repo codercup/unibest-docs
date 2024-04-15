@@ -111,12 +111,12 @@ export default defineConfig({
             link: 'https://www.uvui.cn/',
           },
           {
-            text: 'ucharts',
-            link: 'https://www.ucharts.cn/v2/#/',
-          },
-          {
             text: 'Alova.js',
             link: 'https://alova.js.org/zh-CN',
+          },
+          {
+            text: 'ucharts',
+            link: 'https://www.ucharts.cn/v2/#/',
           },
           {
             text: 'Vue',
