@@ -4,63 +4,39 @@
 
 多个后台地址时，通常有 `2` 个方案：
 
-- 1. 编写多个 `http 实例`，每个实例传入不同的后台地址。
-- 2. 使用 `proxy 代理` ，将请求转发到不同的后台地址。（推荐）
+- 1. 编写多个 `http 实例`，每个实例传入不同的后台地址。（不推荐）
+- 2. ~~使用 `proxy 代理` ，将请求转发到不同的后台地址。~~ （仅 `H5端` 可用，其他端不行，不推荐）
+- 3. 拦截器里面针对不同后端服务，做映射。（推荐）
 
-**这里只介绍第二种方案。**
+::: warning
+对于第二种，因为`非H5端`，走 `build`，不走本地代理，所以配置的 `devServer` 的 `proxy` 不生效。
+:::
 
-`proxy 代理` 又分为 `本地代理` 和 `线上代理`，分别使用 `vite proxy` 和 `nginx` 配置来完成。
+这里只介绍第三种，需要修改的地方就为 `src/interceptors/request.ts` 的一处。
 
-## 本地代理
+![](image.png)
 
-`vite.config.ts` 的 `proxy` 配置如下。
-
-`/basic-api` 代表需要命中的 `path`，`target` 是请求转发到的地址，`rewrite` 是重写 `path`（下面是把 `/basic-api` 替换为空）。
-
-当请求 `/basic-api/user` 时，实际请求的地址是 `http://localhost:3000/user`。
+可以写一个映射对象，如：
 
 ```ts
- server: {
-      proxy: {
-        '/basic-api': {
-          target: 'http://localhost:3000',
-          changeOrigin: true,
-          ws: true,
-          rewrite: (path) => path.replace(new RegExp(`^/basic-api`), ''),
-          // only https
-          // secure: false
-        },
-        '/upload': {
-          target: 'http://localhost:3300/upload',
-          changeOrigin: true,
-          ws: true,
-          rewrite: (path) => path.replace(new RegExp(`^/upload`), ''),
-        },
-      },
-      open: true, // 项目启动后，自动打开
-      warmup: {
-        clientFiles: ['./index.html', './src/{views,components}/*'],
-      },
-    },
+const proxyMap = {
+  cms:'http://localhost:8080/cms',
+  ums:'http://localhost:8080/ums',
+}
+Object.keys(proxyMap).forEach(key=>{
+  if(options.url.startsWith(`/${key}`)){
+    options.url = proxyMap[key] + options.url
+  }
+}
+
+// 接口调用的地方使用如下格式：
+// export const getFooAPI = (name: string) => {
+//   return http<IFooItem>({
+//     url: `/cms/foo`,
+//     method: 'GET',
+//     query: { name },
+//   })
+// }
 ```
 
-::: tip
-优化点：上面配置里转发的 `target` 可以通过 `.env` 配置。
-:::
-
-## 代码变更
-
-通过代理的方式，需要把请求拦截里面的 `url 拼接` 去掉，有 2 种方式：
-
-- 1.把 `.env` 文件里的 `VITE_SERVER_BASEURL` 设置为空字符串。
-- 2.把 `url` 拼接去掉，注释掉第 29 行代码。
-
-![alt text](./assets/proxy/image-18.png)
-
-:::tip
-`unibest` 在 `v2.0.0` 时已经内置，无需处理。
-:::
-
-## 线上代理
-
-使用 `nginx` 配置代理即可。
+代码仅供参考，可以自行修改。
