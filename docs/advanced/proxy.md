@@ -9,7 +9,7 @@
 - 3. 拦截器里面针对不同后端服务，做映射。（推荐）
 
 ::: warning
-对于第二种，因为`非H5端`，走 `build`，不走本地代理，所以配置的 `devServer` 的 `proxy` 不生效。
+对于第二种，因为`非H5端` 会走 `build`，不走本地代理，所以配置的 `devServer` 的 `proxy` 不生效。
 :::
 
 这里只介绍第三种，需要修改的地方就为 `src/interceptors/request.ts` 的一处。
