@@ -16,13 +16,14 @@
 
 ![](image.png)
 
-可以写一个映射对象，如：
-
-```ts
+```ts {17}
+// 可以写一个映射对象，如：
 const proxyMap = {
   cms:'http://localhost:8080/cms',
   ums:'http://localhost:8080/ums',
 }
+
+// 拦截器部分修改如下
 Object.keys(proxyMap).forEach(key=>{
   if(options.url.startsWith(`/${key}`)){
     options.url = proxyMap[key] + options.url
@@ -32,7 +33,7 @@ Object.keys(proxyMap).forEach(key=>{
 // 接口调用的地方使用如下格式：
 // export const getFooAPI = (name: string) => {
 //   return http<IFooItem>({
-//     url: `/cms/foo`,
+//     url: `/cms/foo`, // 看这里！！！
 //     method: 'GET',
 //     query: { name },
 //   })
