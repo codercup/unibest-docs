@@ -8,15 +8,20 @@
 
 ## 模板介绍
 
+`create unibest` 支持 `-t` 参数选择模板，目前已有两大类 `8` 个模板
+
+- `普通` 模板( `6个` ）：分别是 `base`、`demo`、`ucharts`、`tabbar`、`i18n`、`js`
+- `hbx` 模板( `2个` ）：分别是 `hbx-base`、`hbx-demo`。
+
 ![](https://oss.laf.run/ukw0y1-site/unibest-templates-xmind.jpg)
 
 ## 创建项目
 
-通过下面的命令可以快速生成项目模版，`pnpm create unibest <项目名称>` ，如果不写 `<项目名称>` 会进入命令行交互模式。
+通过下面的命令可以快速生成项目模板，`pnpm create unibest <项目名称>` ，如果不写 `<项目名称>` 会进入命令行交互模式。
 
 ::: code-group
 
-```bash [pnpm]
+```bash [pnpm]h
 pnpm create unibest my-project
 ```
 

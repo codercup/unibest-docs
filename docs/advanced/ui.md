@@ -1,6 +1,6 @@
 # UI 库
 
-`unibest` 经过几次更迭，先后使用 `uni-ui`、`uv-ui`、`wot-ui` 库作为默认 UI 库，目前最新的模版使用 `wot-ui` 为默认 UI 库。
+`unibest` 经过几次更迭，先后使用 `uni-ui`、`uv-ui`、`wot-ui` 库作为默认 UI 库，目前最新的模板使用 `wot-ui` 为默认 UI 库。
 
 `wot-ui` 是 `vue3+ts` 编写的全端支持的 UI 库，编码体验比 `uv-ui` 更好；而官方维护的 `uni-ui` 则样式略丑，组件较少，故弃之。
 
