@@ -1,12 +1,20 @@
 # 常见问题
 
-## 1.修改 `pages.json` 被覆盖问题
+## 1. 如何设置/修改首页？
+
+`route-block` 块里面设置 `type="home"` 即可，请确保项目里面 `只有一个页面` 是这个配置。
+
+> 注意：如果有多个，会按照字母顺序排列，可能不是您的想要的效果。
+
+## 2.修改 `pages.json`、`manifest.json` 被覆盖问题
+
+- `pages.json`
 
 本项目引入了 `@uni-helper/vite-plugin-uni-pages`，`pages.json` 文件将会自动生成，手动修改 `pages.json` 将会被覆盖。
 
 全局的东西请在 `pages.config.ts` 里面配置，页面的东西请在 `vue` 文件的 `route` 代码快配置。详情请看 [Uni 插件](/guide/uni-plugin)。
 
-## 2.修改 `manifest.json` 被覆盖问题
+- `manifest.json`
 
 本项目引入了 `@uni-helper/vite-plugin-uni-manifest`，`manifest.json` 文件将会自动生成，手动修改 `manifest.json` 将会被覆盖。
 
@@ -67,7 +75,3 @@ UniPages({
 ## 8. `uni-app` 无法使用 `process.env` 变量，怎么办？
 
 使用 `import.meta.env` 替代！
-
-## 9. 如何修改首页？
-
-`route-block` 块里面设置 `type="home"` 即可，请确保项目里面只有一个页面是这个配置。
