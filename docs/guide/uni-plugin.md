@@ -83,7 +83,7 @@
 ```ts [vite.config.ts]
 UniPages({
   exclude: ['**/components/**/**.*'],
-  subPackages: ['src/pages-sub'], // 是个数组，可以配置多个
+  subPackages: ['src/pages-sub'], // 是个数组，可以配置多个，但不能为 `src/pages` 里面的子目录
 })
 ```
 
