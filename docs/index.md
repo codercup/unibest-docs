@@ -11,8 +11,8 @@ hero:
     alt: unibest
   actions:
     - theme: brand
-      text: 快速开始
-      link: /guide/installation
+      text: 介绍
+      link: /guide/introduction
     - theme: alt
       text: 查看演示
       link: https://codercup.github.io/unibest/#/
