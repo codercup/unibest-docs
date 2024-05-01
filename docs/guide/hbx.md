@@ -15,7 +15,7 @@
 没有梯子的用户优先推荐使用 `gitee` 仓库，速度更快。（两个仓库会实时同步，无差别。）
 
 - gitee: [https://gitee.com/codercup/unibest-hbx.git](https://gitee.com/codercup/unibest-hbx.git)
-- gitee: [https://github.com/codercup/unibest-hbx.git](https://github.com/codercup/unibest-hbx.git)
+- github: [https://github.com/codercup/unibest-hbx.git](https://github.com/codercup/unibest-hbx.git)
 
 ## 导入项目
 
