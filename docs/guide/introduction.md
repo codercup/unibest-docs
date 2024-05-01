@@ -28,7 +28,7 @@ Github Star History 实时地址：[https://star-history.com/#codercup/unibest&D
 
 同类模板对比实时地址：[https://star-history.com/#codercup/unibest&Ares-Chang/uni-vitesse&uni-helper/vitesse-uni-app&Date](https://star-history.com/#codercup/unibest&Ares-Chang/uni-vitesse&uni-helper/vitesse-uni-app&Date)
 
-## 生成过程
+## 🗂 生成过程
 
 `unibest` 由最初始的官方 cli 脚手架模板生成，执行的命令如下：
 
@@ -89,7 +89,7 @@ npx degit dcloudio/uni-preset-vue#vite-ts my-vue3-project
 
 - 🖥 `多环境` 配置分开，想则怎么配置就怎么配置
 
-## 项目目录结构
+## 📦 目录结构
 
 通过 `tree -I node_modules -I dist -I .git -a > tree.md` 命令生成。
 
