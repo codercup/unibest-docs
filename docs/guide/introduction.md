@@ -195,4 +195,4 @@ npx degit dcloudio/uni-preset-vue#vite-ts my-vue3-project
 
 项目目录真实截图如下：
 
-![](https://files.mdnice.com/user/23743/edbcc9f5-e341-4887-a9df-72441829658a.png)
+![alt text](image-15.png)
