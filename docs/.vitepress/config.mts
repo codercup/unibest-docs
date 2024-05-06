@@ -196,21 +196,21 @@ export default defineConfig({
       //   ],
       // },
       {
-        text: '联系',
+        text: '微信群',
         base: '/me/',
         items: [
           {
             text: '关于我',
             link: 'about',
           },
-          {
-            text: 'unibest博客',
-            link: 'blog',
-          },
-          {
-            text: '笔记',
-            link: 'note',
-          },
+          // {
+          //   text: 'unibest博客',
+          //   link: 'blog',
+          // },
+          // {
+          //   text: '笔记',
+          //   link: 'note',
+          // },
         ],
       },
     ],
