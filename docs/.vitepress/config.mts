@@ -79,10 +79,9 @@ export default defineConfig({
     logo: '/logo.svg',
     siteTitle: 'unibest',
     nav: [
-      { text: '快速开始', link: '/guide/installation', activeMatch: '/guide' },
-      { text: '🥤 打赏', link: '/rewards/index' },
-      { text: '常见问题', link: '/reference/faq', activeMatch: '/reference' },
-      { text: '关于我', link: '/me/about' },
+      { text: '快速开始', link: '/base/2', activeMatch: '/base' },
+      { text: '微信群', link: '/me/about' },
+      { text: '常见问题', link: '/base/14', activeMatch: '/base' },
       {
         text: '相关链接',
         items: [
@@ -136,19 +135,22 @@ export default defineConfig({
     sidebar: [
       {
         text: '基础',
-        base: '/guide/',
+        base: '/base/',
         items: [
-          { text: '介绍', link: 'introduction' },
-          { text: '快速开始', link: 'installation' },
-          { text: '运行发布', link: 'build' },
-          { text: 'Uni 插件', link: 'uni-plugin' },
-          { text: '样式', link: 'css' },
-          { text: 'pinia', link: 'pinia' },
-          { text: '图标', link: 'icon' },
-          { text: 'svg', link: 'svg' },
-          { text: '请求', link: 'request' },
-          { text: 'v3 代码块', link: 'code-snippets' },
-          { text: 'hbx 模板', link: 'hbx' },
+          { text: '介绍', link: '1' },
+          { text: '快速开始', link: '2' },
+          { text: '插件篇', link: '3' },
+          { text: '样式篇', link: '4' },
+          { text: '图标篇', link: '5' },
+          { text: 'SVG篇', link: '6' },
+          { text: 'UI库', link: '7' },
+          { text: '请求篇', link: '8' },
+          { text: '状态篇', link: '9' },
+          { text: '多语言篇', link: '10' },
+          { text: '运行发布', link: '11' },
+          { text: '环境变量', link: '12' },
+          { text: 'hbx 模板', link: '13' },
+          { text: '常见问题', link: '14' },
         ],
       },
       {
