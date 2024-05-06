@@ -16,12 +16,9 @@ hero:
     - theme: alt
       text: 查看演示
       link: https://codercup.github.io/unibest/#/
-    - theme: alt
-      text: 常见问题
-      link: /reference/faq
     - theme: brand
-      text: 加群
-      link: /me/about
+      text: 一杯咖啡
+      link: /rewards/index
 
 features:
   - icon: ⚡️

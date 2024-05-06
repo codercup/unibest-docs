@@ -11,7 +11,7 @@
 - Github: [codercup](https://github.com/codercup)
 - Gitee: [codercup](https://gitee.com/codercup)
 - 掘金：[菲鸽](https://juejin.cn/user/3263006241460792/posts)
-- 微信：`codercup` = `菲鸽`
+- 微信：`codercup` = `菲鸽`，大家都叫我 `鸽鸽`
 - QQ：`1020103647`
 - 邮箱：`1020103647@qq.com`
 
@@ -35,8 +35,16 @@
 
 如果本项目对你的工作起到了帮助，加快了您的项目进展，解决了您的问题，欢迎 `打赏` ！
 
-一毛钱也是爱~
+`鸽鸽` 希望得到您的支持，谢谢！
 
 <p align='center'>
 <img alt="special sponsor appwrite" src="./screenshots/pay-wx.png" width="300" style="display:inline-block; margin-left:10px;">
 </p>
+
+## 靓照
+
+五一陪儿子玩，不料给我拍出来靓照，正好没有合适的照片，就用它了。（ `5月5日`，最新鲜的照片了。）
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)

@@ -94,6 +94,10 @@ export default defineConfig({
             link: 'https://unocss.dev/',
           },
           {
+            text: 'tailwindcss',
+            link: 'https://tailwindcss.com/',
+          },
+          {
             text: 'icones',
             link: 'https://icones.js.org/',
           },
@@ -153,44 +157,44 @@ export default defineConfig({
           { text: '常见问题', link: '14' },
         ],
       },
-      {
-        text: '进阶',
-        base: '/advanced/',
-        items: [
-          { text: 'UI 库', link: 'ui' },
-          { text: 'Proxy', link: 'proxy' },
-          { text: 'ucharts', link: 'ucharts' },
-          { text: '简单状态管理', link: 'state-easy' },
-          { text: '环境变量', link: 'env' },
-          { text: 'Mock', link: 'mock' },
-        ],
-      },
+      // {
+      //   text: '进阶',
+      //   base: '/advanced/',
+      //   items: [
+      //     { text: 'UI 库', link: 'ui' },
+      //     { text: 'Proxy', link: 'proxy' },
+      //     { text: 'ucharts', link: 'ucharts' },
+      //     { text: '简单状态管理', link: 'state-easy' },
+      //     { text: '环境变量', link: 'env' },
+      //     { text: 'Mock', link: 'mock' },
+      //   ],
+      // },
       {
         text: '🥤 打赏',
         link: '/rewards/index',
       },
-      {
-        text: '指南',
-        base: '/reference/',
-        items: [
-          {
-            text: '常见问题',
-            link: 'faq',
-          },
-          {
-            text: '包分析',
-            link: 'build-analysis',
-          },
-          // {
-          //   text: '注意事项',
-          //   link: 'tips',
-          // },
-          // {
-          //   text: '最佳实践',
-          //   link: 'best-practice'
-          // },
-        ],
-      },
+      // {
+      //   text: '指南',
+      //   base: '/reference/',
+      //   items: [
+      //     {
+      //       text: '常见问题',
+      //       link: 'faq',
+      //     },
+      //     {
+      //       text: '包分析',
+      //       link: 'build-analysis',
+      //     },
+      //     {
+      //       text: '注意事项',
+      //       link: 'tips',
+      //     },
+      //     {
+      //       text: '最佳实践',
+      //       link: 'best-practice'
+      //     },
+      //   ],
+      // },
       {
         text: '联系',
         base: '/me/',
