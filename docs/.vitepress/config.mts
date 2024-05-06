@@ -100,7 +100,7 @@ export default defineConfig({
           },
           {
             text: 'wot-ui',
-            link: 'https://wot-design-uni.gitee.io/',
+            link: 'https://wot-design-uni.netlify.app',
           },
           {
             text: 'uni-ui',

@@ -5,7 +5,7 @@
 `wot-ui` 是 `vue3+ts` 编写的全端支持的 UI 库，编码体验比 `uv-ui` 更好；而官方维护的 `uni-ui` 则样式略丑，组件较少，故弃之。
 
 ::: tip
-`wot-ui` 全称 `wot-design-uni`，是 `wot-design` 的 `uniapp` 版本，文档地址：[https://wot-design-uni.gitee.io/](https://wot-design-uni.gitee.io/).
+`wot-ui` 全称 `wot-design-uni`，是 `wot-design` 的 `uniapp` 版本，文档地址：[wot-design-uni](https://wot-design-uni.netlify.app/)。
 :::
 
 如果需要更换 `UI 库` 需要先卸载原有的 `wot-ui` 库，再安装其他 `UI 库`，当然也支持同时存在多个 `UI 库`。
