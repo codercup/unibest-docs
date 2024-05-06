@@ -20,8 +20,8 @@ hero:
       text: 常见问题
       link: /reference/faq
     - theme: brand
-      text: 🥤 打赏
-      link: /rewards/index
+      text: 加群
+      link: /me/about
 
 features:
   - icon: ⚡️

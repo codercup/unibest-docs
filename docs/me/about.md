@@ -11,13 +11,13 @@
 - Github: [codercup](https://github.com/codercup)
 - Gitee: [codercup](https://gitee.com/codercup)
 - 掘金：[菲鸽](https://juejin.cn/user/3263006241460792/posts)
-- 微信：`codercup`
+- 微信：`codercup` = `菲鸽`
 - QQ：`1020103647`
 - 邮箱：`1020103647@qq.com`
 
-微信名片：
+<!-- 微信名片：
 
-![菲鸽](./screenshots/wx-me.png)
+![菲鸽](./screenshots/wx-me.png) -->
 
 ## 微信公众号
 
@@ -30,3 +30,13 @@
 最新的微信交流群：
 
 ![](https://oss.laf.run/ukw0y1-site/wx-group.jpg)
+
+## 鼓励
+
+如果本项目对你的工作起到了帮助，加快了您的项目进展，解决了您的问题，欢迎 `打赏` ！
+
+一毛钱也是爱~
+
+<p align='center'>
+<img alt="special sponsor appwrite" src="./screenshots/pay-wx.png" width="300" style="display:inline-block; margin-left:10px;">
+</p>
