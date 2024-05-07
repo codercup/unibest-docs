@@ -63,7 +63,7 @@ git commit -m "feat: xxx" --no-verify
 
 项目下，执行 `npx @dcloudio/uvm@latest` 即可更新。
 
-![](https://files.mdnice.com/user/23743/07a6175a-d7c9-442b-aaf9-41788184f2c1.png)
+![alt text](./assets/14-1.png)
 
 > 注意，上面的命令会自动安装 `vue-i18n`，可以手动删除（`pnpm un vue-i18n`)，也可以不理它（没多大影响）。
 
@@ -84,12 +84,10 @@ git commit -m "feat: xxx" --no-verify
 ## 9. 支付宝小程序运行报错。
 
 - 默认运行是会报错的，如下图
-
-![](https://files.mdnice.com/user/23743/6f238633-1c81-4b5a-a076-e43fa51246da.png)
+  ![alt text](./assets/14-2.png)
 
 - 只需要勾上 `本地开发跳过 ES5 转译` 即可正常运行，如下图
-
-![](https://files.mdnice.com/user/23743/c1e34cae-6fa1-4e93-be9c-f8c1904c586f.png)
+  ![alt text](./assets/14-3.png)
 
 > 总结：勾上 `本地开发跳过 ES5 转译` 即可。
 
@@ -107,12 +105,12 @@ git commit -m "feat: xxx" --no-verify
 
 关键截图如下：
 
-![](https://files.mdnice.com/user/23743/7d136c9c-20ad-4df3-99a7-35034026aa77.png)
+![alt text](./assets/14-4.png)
 
 真实运行报错截图如下：（分别是 `小程序` 和 `APP` ）
 
-![](https://files.mdnice.com/user/23743/96d2251c-a4a2-45ef-a11a-3a94b106ba10.png)
+![alt text](./assets/14-5.png)
 
-![](https://files.mdnice.com/user/23743/88f925ea-7b64-4e02-bed9-7ced44b5ff57.png)
+![alt text](./assets/14-6.png)
 
 全文完~

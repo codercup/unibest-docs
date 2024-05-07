@@ -31,8 +31,7 @@
 |         vite-plugin-restart          | `通用插件`，vite 配置更改后自动重启服务                                                                                                                                               |
 
 `UniXXX()` 插件都需要在 `uni()` 之前引入，因为最终都需要 `Uni` 来处理所有的代码。如下图：
-
-![](https://files.mdnice.com/user/23743/7ebb88da-d0d2-48d2-a8a7-8dde523d7d2e.png)
+![vite uni plugin](./assets/3-1.png)
 
 接下来介绍一下 `uni 插件`，其他 `通用插件` 大家都比较熟悉，不再赘述。
 

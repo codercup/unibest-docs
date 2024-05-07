@@ -6,23 +6,22 @@
 
 [UnoCSS](https://unocss.dev/) 是按需使用的原子 CSS 引擎，提供了良好的样式支持。
 
-![](https://files.mdnice.com/user/23743/80f013a1-7c5c-418e-af00-c0e939a5a380.png)
+![alt text](./assets/4-1.png)
 
 在 VSCode 中还可以预览，
 
-![](https://files.mdnice.com/user/23743/3311af37-9941-4036-91e0-045d299eb72e.png)
+![alt text](./assets/4-2.png)
 
-![](https://files.mdnice.com/user/23743/7e152807-c98c-460a-a900-c0032aae3eb4.png)
+![alt text](./assets/4-3.png)
 
 > 如果原子化 `UnoCSS` 没有预览效果，请安装 `VSCode` 插件 `antfu.unocss`。
 
 如果不记得原子类，可以查 `UnoCSS 的原子类`，[UnoCSS Interactive](https://unocss.dev/interactive/)，如下图
-
-![](https://files.mdnice.com/user/23743/055d8ba1-7c65-4513-9637-9677df685f87.png)
+![alt text](./assets/4-4.png)
 
 也可以查看 `tailwindcss` 的原子类，更加清晰明了，[链接 - tailwindcss](https://tailwindcss.com/)，如下图：
 
-![](https://files.mdnice.com/user/23743/eab8c2ab-c25d-4e2a-8ae1-6fe23e60cc2d.png)
+![alt text](./assets/4-5.png)
 
 ## 常用的原子类：
 

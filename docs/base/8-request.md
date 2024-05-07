@@ -118,7 +118,7 @@ VITE_SERVER_BASEURL = 'https://ukw0y1.laf.run'
 - 如果是 `http` 开头的请求路径，则直接请求
 - 如果不是，则拼接上 `VITE_SERVER_BASEURL`
 
-![](https://files.mdnice.com/user/23743/b1fb63bb-1f8d-46c2-af05-f19e2bd63866.png)
+![alt text](./assets/8-1.png)
 
 但在多后台地址时就不能这么玩了，需要处理如下：（关注上图的箭头部分）
 

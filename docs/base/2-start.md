@@ -25,13 +25,13 @@ npm create unibest@latest my-project
 
 实际操作截图如下：
 
-![](https://files.mdnice.com/user/23743/9533e9d7-eaa9-4124-8c3c-2ce00a50c425.png)
+![create project](./assets/2-1.png)
 
 > 强烈推荐是用 `pnpm`，性能更好，速度更快，节省磁盘空间。
 >
 > 如果没有 `pnpm` 可以通过 `npm i -g pnpm` 安装。
 
-![](https://files.mdnice.com/user/23743/0f02a36f-8eef-4190-8676-baac47ba5e5e.png)
+![unibest templates](./assets/2-2.png)
 
 `create unibest` 支持 `-t` 参数选择模板，目前已有两大类 `8` 个模板
 
@@ -87,4 +87,4 @@ git commit -m "feat: init project"
 
 > 原理：基于 `VSCode` 代码块生成。
 
-![alt text](snippets3.gif)
+![alt text](./assets/2-3.gif)

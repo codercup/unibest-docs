@@ -14,8 +14,6 @@
 
 `unibest` 内置了 `约定式路由`、`layout布局`、`请求封装`、`请求拦截`、`登录拦截`、`UnoCSS`、`i18n多语言` 等基础功能，提供了 `代码提示`、`自动格式化`、`统一配置`、`代码片段` 等辅助功能，让你编写 `uniapp` 拥有 `best` 体验 （ `unibest 的由来`）。
 
-![](https://files.mdnice.com/user/23743/6252fa5f-4499-4396-984c-4eecf8fc209b.png)
-
 ## ⭐ Star History
 
 Github Star History 实时地址：[https://star-history.com/#codercup/unibest&Date](https://star-history.com/#codercup/unibest&Date) 。

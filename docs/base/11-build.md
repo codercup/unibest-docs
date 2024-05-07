@@ -4,16 +4,14 @@
 
 - `h5 平台`： `pnpm dev:h5`（ 或者简单点 `pnpm dev` ），然后浏览器打开 `http://localhost:9000/`。
 - `wx 小程序`：`pnpm dev:mp-weixin`，然后打开微信开发者工具，导入本地文件夹，选择本项目的 `dist/dev/mp-weixin` 文件。
-
-![](https://files.mdnice.com/user/23743/a9858f2a-d109-4b5f-bf9c-f3f674881dca.png)
+- ![alt text](./assets/11-1.png)
 
 - `APP 平台`：`pnpm dev:app`，然后打开 `HBuilderX`，导入刚刚生成的 `dist/dev/app` 文件夹，选择运行到 `模拟器`( `开发时优先使用` )，或者 `运行到安卓/ios 基座` (真机调试时使用) 。
 
-![](https://files.mdnice.com/user/23743/da4e9b58-a909-4bb7-b256-19a6d37a02ea.png)
+![alt text](./assets/11-2.png)
 
-![](https://files.mdnice.com/user/23743/ff47e6ac-9f16-4b97-ab6c-45fed175881d.png)
-
-![](https://files.mdnice.com/user/23743/a23be6ce-f950-4403-ab93-90c0459471b7.png)
+![alt text](./assets/11-3.png)
+![alt text](./assets/11-4.png)
 
 > 如果需要配置其他模拟器，可以参考：[安装模拟器](https://uniapp.dcloud.net.cn/tutorial/run/installSimulator.html)
 
@@ -25,9 +23,8 @@
 - `wx 小程序`：`pnpm build:mp-weixin`，打包后的文件在 `dist/build/mp-weixin`，然后通过微信开发者工具导入，并点击右上角的“上传”按钮进行上传。
 - `APP 平台`：`pnpm build:app`，然后打开 `HBuilderX`，导入刚刚生成的 `dist/build/app` 文件夹，选择 `发行` - `原生APP-云打包`。
 
-![](https://files.mdnice.com/user/23743/e88b4204-5d29-47eb-bf2c-23b6947fdf39.png)
-
-![](https://files.mdnice.com/user/23743/d868379b-eede-457d-aed2-2b142cfcb661.png)
+![alt text](./assets/11-5.png)
+![alt text](./assets/11-6.png)
 
 > 熟悉原生 APP 开发的开发者也可以使用 `原生APP-本地打包`。
 
@@ -37,15 +34,15 @@
 
 - 1. 重新获取自己的 `AppId`
 
-![](https://files.mdnice.com/user/23743/202dea02-b01a-4ee2-8b2d-0d38e973c20f.png)
+![alt text](./assets/11-7.png)
 
 - 2. 根据上面获取到的 `AppId` 修改 `env/.env` 文件的 `VITE_UNI_APPID` 字段
 
-![](https://files.mdnice.com/user/23743/a2c3e79c-8503-4dd6-830d-3d1cb664d915.png)
+![alt text](./assets/11-8.png)
 
 - 3. （可选）云打包如果有出现解析时出问题的，把 `minSdkVersion` 版本改低一点就好了，比如 `21`。（最低 `21`，不能低于 `21`；我模板里面设置的是 `30`）。
 
-![](https://files.mdnice.com/user/23743/ad0cb7b2-aaf0-485a-99de-c91a3d47ed5c.png)
+![alt text](./assets/11-9.png)
 
 ## APP 打包注意事项 （下）
 
@@ -67,7 +64,7 @@
 "@dcloudio/uni-app": "3.0.0-4000820240401001",  => 4.08
 ```
 
-![](https://files.mdnice.com/user/23743/7bf0d459-e3ee-487e-a786-67b6b8e0fc08.png)
+![alt text](./assets/11-10.png)
 
 > 温馨提示：下面的部分是使用 `uni-app` 版本为 `3.8.12` 时写的文档，适当参考~
 
@@ -77,7 +74,7 @@
 
 > `MAC` 可以安装多个版本的软件，如下图我安装了 `3.8.12` (3.8.12.20230817) 和最新的 `3.99` (3.99.2023122611) 两个版本，平时的项目使用 `3.99`, 打包 `unibest` 的时候使用 `3.8.12`。
 >
-> ![](https://files.mdnice.com/user/23743/08436171-7087-4c2f-9ca0-f7cf7d812b0e.png)
+> ![alt text](./assets/11-11.png)
 >
 > `window` 系统也可以，安装到不同目录下即可。
 
