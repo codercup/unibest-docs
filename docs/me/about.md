@@ -37,7 +37,7 @@
 
 如果本项目对你的工作起到了帮助，加快了您的项目进展，解决了您的问题，欢迎 `打赏` ！
 
-`鸽鸽` 希望得到您的支持，谢谢！
+希望得到您的支持，感谢！
 
 <p align='center'>
 <img alt="special sponsor appwrite" src="./screenshots/pay-wx.png" width="300" style="display:inline-block; margin-left:10px;">
@@ -45,6 +45,8 @@
 
 ## 靓照
 
-五一陪儿子玩，不料给我拍出来靓照，正好没有合适的照片，就用它了。（ `5月5日`，最新鲜的照片了。）
+五一陪儿子玩，不料给我拍出来美美的靓照，正好没有合适的照片，就用它了。
+
+`2024年5月5日`，最新鲜的照片了。
 
 ![alt text](image-3.png)
