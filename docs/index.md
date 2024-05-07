@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 介绍
-      link: /guide/introduction
+      link: /base/1-introduction
     - theme: alt
       text: 查看演示
       link: https://codercup.github.io/unibest/#/
