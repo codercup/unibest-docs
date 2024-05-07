@@ -91,7 +91,7 @@ npx degit dcloudio/uni-preset-vue#vite-ts my-vue3-project
 
 通过 `tree -I node_modules -I dist -I .git -a > tree.md` 命令生成。
 
-```tree
+```txt
 .
 ├── .editorconfig
 ├── .eslintrc-auto-import.json

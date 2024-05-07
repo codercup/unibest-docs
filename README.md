@@ -10,7 +10,7 @@ tree -l 文件名 >README.md
 
 tree -l docs/.vitepress/theme >README.md
 
-```tree
+```txt
 docs/.vitepress/theme
 ├── index.ts
 └── style
