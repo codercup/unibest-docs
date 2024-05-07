@@ -25,16 +25,16 @@
 
 此时运行菜单会提示 `本项目类型无法运行`，如下图
 
-![](https://files.mdnice.com/user/23743/f404c38a-8c9e-4f58-ae23-cae39a06513c.png)
+![alt text](./assets/13-1.png)
 
-![](https://files.mdnice.com/user/23743/90a4465f-6a56-4f72-92c3-79d74961b7ae.png)
+![alt text](./assets/13-2.png)
 
 需要执行如下 2 步：
 
 - 项目下执行 `pnpm i`
 - 右键项目，选择 `重新识别项目类型`
 
-![](https://files.mdnice.com/user/23743/161268af-253a-45d4-b562-c7180a53cf3c.png)
+![alt text](./assets/13-3.png)
 
 ## 运行效果
 
@@ -42,19 +42,19 @@
 
 - ios 模拟器运行效果如下：
 
-![](https://files.mdnice.com/user/23743/deda7b82-1c3d-4837-8c70-37051e56a621.png)
+![alt text](./assets/13-4.png)
 
-![](https://files.mdnice.com/user/23743/ae70460e-4ae2-49b4-922b-d5d58d4976fe.png)
+![alt text](./assets/13-5.png)
 
-![](https://files.mdnice.com/user/23743/ce1148b8-2167-4135-94a5-2bf32d14af18.png)
+![alt text](./assets/13-6.png)
 
 - 微信小程序运行效果如下：
 
-![](https://files.mdnice.com/user/23743/b9c2c20f-af3f-4133-a77d-f05ea4d84bf5.png)
+![alt text](./assets/13-7.png)
 
 > 目前微信小程序静态资源还有点问题，如下图 `logo 不见了`，后续会修复。
 
-![](https://files.mdnice.com/user/23743/4a971ae9-f453-419f-8bba-4a69ed3c1ebf.png)
+![alt text](./assets/13-8.png)
 
 > 另外还发现 `UnoCSS Icon` 不生效，原因未知。
 
