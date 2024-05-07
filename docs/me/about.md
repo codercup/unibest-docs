@@ -4,6 +4,8 @@
 
 热爱编程，喜欢分享，平时比较宅，喜欢撸代码，偶尔打篮球和玩王者荣耀。
 
+![alt text](image-2.png)
+
 [![](https://opengraph.githubassets.com/1cac1150838995e1f7d1643c00eee51a5d884f2054f995c9d3225b07b0eddb39/codercup/unibest)](https://github.com/codercup/unibest)
 
 ## 找到我
@@ -44,7 +46,5 @@
 ## 靓照
 
 五一陪儿子玩，不料给我拍出来靓照，正好没有合适的照片，就用它了。（ `5月5日`，最新鲜的照片了。）
-
-![alt text](image-2.png)
 
 ![alt text](image-3.png)
