@@ -216,6 +216,16 @@ export default defineConfig({
           // },
         ],
       },
+      {
+        text: '其他',
+        base: '/other/',
+        items: [
+          {
+            text: '未来规划',
+            link: 'roadmap',
+          },
+        ],
+      },
     ],
     footer: {
       message: 'Released under the MIT License.',
