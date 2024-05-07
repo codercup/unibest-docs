@@ -206,10 +206,10 @@ export default defineConfig({
             text: '关于我',
             link: 'about',
           },
-          // {
-          //   text: 'unibest博客',
-          //   link: 'blog',
-          // },
+          {
+            text: 'unibest博客',
+            link: 'blog',
+          },
           // {
           //   text: '笔记',
           //   link: 'note',
