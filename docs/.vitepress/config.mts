@@ -79,9 +79,9 @@ export default defineConfig({
     logo: '/logo.svg',
     siteTitle: 'unibest',
     nav: [
-      { text: '快速开始', link: '/base/2', activeMatch: '/base' },
+      { text: '快速开始', link: '/base/2-install', activeMatch: '/base' },
       { text: '微信群', link: '/me/about' },
-      { text: '常见问题', link: '/base/14', activeMatch: '/base' },
+      { text: '常见问题', link: '/base/14-faq', activeMatch: '/base' },
       {
         text: '相关链接',
         items: [

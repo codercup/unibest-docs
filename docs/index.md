@@ -17,7 +17,7 @@ hero:
       text: 查看演示
       link: https://codercup.github.io/unibest/#/
     - theme: brand
-      text: 一杯咖啡
+      text: 🥤 打赏
       link: /rewards/index
 
 features:
