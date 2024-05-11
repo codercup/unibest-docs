@@ -138,7 +138,7 @@ export default defineConfig({
     ],
     sidebar: [
       {
-        text: '基础',
+        text: '基础·必看',
         base: '/base/',
         items: [
           { text: '介绍', link: '1-introduction' },

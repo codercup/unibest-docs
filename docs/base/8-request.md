@@ -146,153 +146,15 @@ export const getFooAPI = (name: string) => {
 }
 ```
 
-## useRequest + useUpload 源码
+## 环境变量配置
 
-`授人予鱼不如授人以渔`，下面看看 2 个文件的源码吧。
-
-### useRequest
-
-文件 `src/hooks/useRequest.ts` 源码如下：
-
-```ts
-type IUseRequestOptions<T> = {
-  /** 是否立即执行，如果是则在onLoad执行 */
-  immediate?: boolean
-  /** 初始化数据 */
-  initialData?: T
-}
-
-/**
- * useRequest是一个定制化的请求钩子，用于处理异步请求和响应。
- * @param func 一个执行异步请求的函数，返回一个包含响应数据的Promise。
- * @param options 包含请求选项的对象 {immediate, initialData}。
- * @param options.immediate 是否立即执行请求，默认为true。
- * @param options.initialData 初始化数据，默认为undefined。
- * @returns 返回一个对象{loading, error, data, run}，包含请求的加载状态、错误信息、响应数据和手动触发请求的函数。
- */
-export default function useRequest<T>(
-  func: () => Promise<IResData<T>>,
-  options: IUseRequestOptions<T> = { immediate: true },
-) {
-  const loading = ref(false)
-  const error = ref(false)
-  const data = ref<T>()
-  const run = async () => {
-    loading.value = true
-    func()
-      .then((res) => {
-        data.value = res.data
-        error.value = false
-      })
-      .catch((err) => {
-        error.value = err
-      })
-      .finally(() => {
-        loading.value = false
-      })
-  }
-
-  onLoad(() => {
-    options.immediate && run()
-  })
-  return { loading, error, data, run }
-}
-```
-
-注意，需要在 `.env` 里面配置 `VITE_SERVER_BASEURL`，用在 `src/interceptors/request.ts` 文件拼接请求地址；而 `多后台地址` 时则用不上，可以删除。
+- 需要在 `.env` 里面配置 `VITE_SERVER_BASEURL`，用在 `src/interceptors/request.ts` 文件拼接请求地址；而 `多后台地址` 时则用不上，可以删除。
 
 ```text
 VITE_SERVER_BASEURL = 'https://ukw0y1.laf.run'
 ```
 
-### useUpload
-
-文件 `src/hooks/useUpload.ts` 源码如下：
-
-```ts
-/**
- * useUpload 是一个定制化的请求钩子，用于处理上传图片。
- * @param formData 额外传递给后台的数据，如{name: '菲鸽'}。
- * @returns 返回一个对象{loading, error, data, run}，包含请求的加载状态、错误信息、响应数据和手动触发请求的函数。
- */
-export default function useUpload<T>(formData: Record<string, any> = {}) {
-  const loading = ref(false)
-  const error = ref(false)
-  const data = ref<T>()
-  const url = import.meta.env.VITE_UPLOAD_BASEURL
-  const run = () => {
-    // #ifdef MP-WEIXIN
-    // 微信小程序从基础库 2.21.0 开始， wx.chooseImage 停止维护，请使用 uni.chooseMedia 代替。
-    // 微信小程序在2023年10月17日之后，使用本API需要配置隐私协议
-    uni.chooseMedia({
-      count: 1,
-      mediaType: ['image'],
-      success: (res) => {
-        console.log(res)
-        loading.value = true
-        const tempFilePath = res.tempFiles[0].tempFilePath
-        uni.uploadFile({
-          url,
-          filePath: tempFilePath,
-          name: 'file',
-          formData,
-          success: (uploadFileRes) => {
-            console.log(uploadFileRes.data)
-            data.value = uploadFileRes.data as T
-          },
-          fail: (err) => {
-            console.log('uni.uploadFile err->', err)
-            error.value = true
-          },
-          complete: () => {
-            loading.value = false
-          },
-        })
-      },
-      fail: (err) => {
-        console.log('uni.chooseMedia err->', err)
-        error.value = true
-      },
-    })
-    // #endif
-    // #ifndef MP-WEIXIN
-    uni.chooseImage({
-      count: 1,
-      success: (res) => {
-        console.log(res)
-        loading.value = true
-        const tempFilePath = res.tempFilePaths[0]
-        uni.uploadFile({
-          url,
-          filePath: tempFilePath,
-          name: 'file',
-          formData,
-          success: (uploadFileRes) => {
-            console.log(uploadFileRes.data)
-            data.value = uploadFileRes.data as T
-          },
-          fail: (err) => {
-            console.log('uni.uploadFile err->', err)
-            error.value = true
-          },
-          complete: () => {
-            loading.value = false
-          },
-        })
-      },
-      fail: (err) => {
-        console.log('uni.chooseImage err->', err)
-        error.value = true
-      },
-    })
-    // #endif
-  }
-
-  return { loading, error, data, run }
-}
-```
-
-注意，需要在 `.env` 里面配置 `VITE_UPLOAD_BASEURL`:
+- 需要在 `.env` 里面配置 `VITE_UPLOAD_BASEURL`:
 
 ```text
 VITE_UPLOAD_BASEURL = 'https://ukw0y1.laf.run/upload'
