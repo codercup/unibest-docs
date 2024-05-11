@@ -148,22 +148,16 @@ export const getFooAPI = (name: string) => {
 
 ## 环境变量配置
 
-- 需要在 `.env` 里面配置 `VITE_SERVER_BASEURL`，用在 `src/interceptors/request.ts` 文件拼接请求地址；而 `多后台地址` 时则用不上，可以删除。
+- `普通请求` 需要在 `.env` 里面配置 `VITE_SERVER_BASEURL`，用在 `src/interceptors/request.ts` 文件拼接请求地址；而 `多后台地址` 时则用不上，可以删除。
 
 ```text
 VITE_SERVER_BASEURL = 'https://ukw0y1.laf.run'
 ```
 
-- 需要在 `.env` 里面配置 `VITE_UPLOAD_BASEURL`:
+- `图片上传` 需要在 `.env` 里面配置 `VITE_UPLOAD_BASEURL`:
 
 ```text
 VITE_UPLOAD_BASEURL = 'https://ukw0y1.laf.run/upload'
 ```
-
-## 总结
-
-本文介绍了多种请求方式，使用都非常简单，最后给出了 `useRequest` 和 `useUpload` 的源码。
-
-希望您收获的不仅是 `鱼`，还有 `渔`。
 
 全文完~
