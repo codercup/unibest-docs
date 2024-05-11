@@ -4,7 +4,7 @@
 
 - [wot-ui](https://wot-design-uni.netlify.app) -- `五星推荐⭐⭐⭐⭐⭐`
 - [uni-ui](https://uniapp.dcloud.net.cn/component/uniui/uni-ui.html)
-<!-- - [uv-ui](https://www.uvui.cn/) -->
+- [uv-ui](https://www.uvui.cn/)
 
 ## 原子类 CSS
 

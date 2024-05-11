@@ -188,6 +188,10 @@ export default defineConfig({
             link: 'links',
           },
           {
+            text: '图片占位图',
+            link: 'image',
+          },
+          {
             text: '未来规划',
             link: 'roadmap',
           },
