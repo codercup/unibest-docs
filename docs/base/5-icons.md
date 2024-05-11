@@ -75,7 +75,7 @@ onLoad(() => {
 
 ## `UnoCSS Icons`
 
-`UnoCSS Icons` 可以方便接入 `iconfiy` 图标库，后者拥有 `10万+` 的海量图标，总能找到你想要的。
+`UnoCSS Icons` 可以方便接入 `iconify` 图标库，后者拥有 `10万+` 的海量图标，总能找到你想要的。
 
 ### 1. 安装 iconify
 
