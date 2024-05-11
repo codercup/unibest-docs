@@ -17,9 +17,9 @@
 - QQ：`1020103647`
 - 邮箱：`1020103647@qq.com`
 
-<!-- 微信名片：
+微信名片：
 
-![菲鸽](./screenshots/wx-me.png) -->
+![菲鸽](./screenshots/wx-me.png)
 
 ## 微信公众号
 
