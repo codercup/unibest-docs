@@ -4,8 +4,13 @@
 
 有群友第一次看到 `unibest` 里面 `vue` 文件 `route-block` 这种写法，表示很奇怪，啥时候支持这种写法了，没学过啊，穿越了？！
 
-```html
-<route lang="json5"> { layout: 'demo', style: { navigationBarTitleText: 'UniUI 使用' }, } </route>
+```vue
+<route lang="json5">
+{
+  layout: 'demo',
+  style: { navigationBarTitleText: 'UniUI 使用' },
+}
+</route>
 
 <template>
   <uni-card>

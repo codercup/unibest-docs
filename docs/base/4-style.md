@@ -200,6 +200,8 @@ shortcuts: [['center', 'flex justify-center items-center']],
 
 > 举个例子，设计稿显示某元素宽度 `100px`，就写 `w-100` 即可。
 
+另外还可以不改设计稿尺寸，直接像写传统 `rpx` 一样写在类里面，如 `w-[100rpx]`。
+
 ## 总结
 
 本文主要介绍了 `UnoCSS` 的使用，以及 `unocss.config.ts` 中的一些配置项。
