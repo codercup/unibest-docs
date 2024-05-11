@@ -79,61 +79,24 @@ export default defineConfig({
     logo: '/logo.svg',
     siteTitle: 'unibest',
     nav: [
-      { text: '快速开始', link: '/base/2-start', activeMatch: '/base' },
-      { text: '微信群', link: '/me/about' },
-      { text: '常见问题', link: '/base/14-faq', activeMatch: '/base' },
+      {
+        text: '快速开始',
+        link: '/base/2-start',
+        activeMatch: '/base',
+      },
+      {
+        text: '微信群',
+        link: '/me/about',
+      },
+      {
+        text: '常见问题',
+        link: '/base/14-faq',
+        activeMatch: '/base',
+      },
       {
         text: '相关链接',
-        items: [
-          {
-            text: 'Uniapp',
-            link: 'https://uniapp.dcloud.net.cn/',
-          },
-          {
-            text: 'UnoCSS',
-            link: 'https://unocss.dev/',
-          },
-          {
-            text: 'tailwindcss',
-            link: 'https://tailwindcss.com/',
-          },
-          {
-            text: 'icones',
-            link: 'https://icones.js.org/',
-          },
-          {
-            text: 'wot-ui',
-            link: 'https://wot-design-uni.netlify.app',
-          },
-          {
-            text: 'uni-ui',
-            link: 'https://uniapp.dcloud.net.cn/component/uniui/uni-ui.html',
-          },
-          {
-            text: 'uv-ui',
-            link: 'https://www.uvui.cn/',
-          },
-          {
-            text: 'Alova.js',
-            link: 'https://alova.js.org/zh-CN',
-          },
-          {
-            text: 'ucharts',
-            link: 'https://www.ucharts.cn/v2/#/',
-          },
-          {
-            text: 'Vue',
-            link: 'https://cn.vuejs.org/',
-          },
-          {
-            text: 'Vite ',
-            link: 'https://cn.vitejs.dev/',
-          },
-          {
-            text: 'Pinia',
-            link: 'https://pinia.vuejs.org/zh/',
-          },
-        ],
+        link: '/other/links',
+        activeMatch: '/other',
       },
     ],
     sidebar: [
@@ -220,6 +183,10 @@ export default defineConfig({
         text: '其他',
         base: '/other/',
         items: [
+          {
+            text: '相关链接',
+            link: 'links',
+          },
           {
             text: '未来规划',
             link: 'roadmap',
