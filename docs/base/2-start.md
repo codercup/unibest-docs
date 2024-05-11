@@ -88,3 +88,8 @@ git commit -m "feat: init project"
 > 原理：基于 `VSCode` 代码块生成。
 
 ![alt text](./assets/2-3.gif)
+
+## 注意事项
+
+- 若代码里面自动引入的 `API` 报错，只需要 `pnpm dev` 即可。
+- 若代码运行后，`H5端` 浏览器界面底部没有 `tabbar`， 刷新浏览器或者再次 `pnpm dev` 即可。
