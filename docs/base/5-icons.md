@@ -167,6 +167,8 @@ onLoad(() => {
 
 ![alt text](image-3.png)
 
+> 详细版请看 - [iconfont 啰嗦版](/advanced/iconfont)
+
 ## 其它图标库
 
 其他优秀的可以免费商用的图标库：
