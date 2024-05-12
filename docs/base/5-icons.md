@@ -146,7 +146,7 @@ onLoad(() => {
 
 - 1. 打开`阿里巴巴矢量图标库 iconfont`，地址：[https://www.iconfont.cn/](https://www.iconfont.cn/)，并登录。
 - 2. 寻找需要的图标，加入项目，也可以上传自己的图标。
-- 3. 图标方式选择 `Font class`（ 注： `Symbol` 原理是 `SVG雪碧图` ，`非H5端` 不支持）`项目设置` 勾选上 `base64`，否则`非H5端` 不支持，然后点击生成链接。
+- 3. 图标方式选择 `Font class`，`项目设置` 勾选上 `base64`，否则`非H5端` 不支持，然后点击生成链接。
 
 ![alt text](image-2.png)
 ![alt text](image-1.png)
@@ -167,7 +167,7 @@ onLoad(() => {
 
 ![alt text](image-3.png)
 
-> 详细版请看 - [iconfont 啰嗦版](/advanced/iconfont)
+> 上面的选择有疑问的可以看详细版 - [iconfont 详细版](/advanced/iconfont)
 
 ## 其它图标库
 
