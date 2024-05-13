@@ -121,6 +121,7 @@ export default defineConfig({
           { text: '环境变量', link: '12-env' },
           { text: 'hbx 模板', link: '13-hbx' },
           { text: '常见问题', link: '14-faq' },
+          { text: '常见问题2', link: '15-faq' },
         ],
       },
       // {
