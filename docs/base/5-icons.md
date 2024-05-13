@@ -148,8 +148,8 @@ onLoad(() => {
 - 2. 寻找需要的图标，加入项目，也可以上传自己的图标。
 - 3. 图标方式选择 `Font class`，`项目设置` 勾选上 `base64`，否则`非H5端` 不支持，然后点击生成链接。
 
-![alt text](image-2.png)
-![alt text](image-1.png)
+![alt text](./assets/5-9.png)
+![alt text](./assets/5-10.png)
 
 - 4. 把上面的 `css` 链接里面的内容写入在 `style/iconfont.css`，并引入到 `style/index.scss`。
 - 5. 页面上直接写 `<i class="iconfont icon-package text-red"></i>` 即可！
@@ -165,7 +165,7 @@ onLoad(() => {
 
 预览如下：
 
-![alt text](image-3.png)
+![alt text](./assets/5-11.png)
 
 > 上面的选择有疑问的可以看详细版 - [iconfont 详细版](/advanced/iconfont)
 
