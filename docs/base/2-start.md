@@ -72,7 +72,7 @@ pnpm dev:mp-weixin
 
 `pnpm dev` 之后在浏览器打开 `http://localhost:9000/`。
 
-> 其他平台构建和发布，查看第十一章节：《十一、运行发布篇》。
+> 其他平台构建和发布，查看 [运行发布篇](./11-build)。
 
 ## 第一次 `commit`
 
