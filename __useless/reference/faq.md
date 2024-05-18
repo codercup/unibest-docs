@@ -68,7 +68,7 @@ UniPages({
 
 ## 7. 为什么 `UI库` 从 `uv-ui` 改为了 `wot-ui` ？
 
-`wot-ui`(`wot-design-uni`) 是 `vue3 + ts` 开发的 `UI库`，相比 `uv-ui` 编码体验好很多，[wot-ui 文档链接](https://wot-design-uni.gitee.io/)。
+`wot-ui`(`wot-design-uni`) 是 `vue3 + ts` 开发的 `UI库`，相比 `uv-ui` 编码体验好很多，[wot-ui 文档链接](https://wot-design-uni.netlify.app/)。
 
 `UI 选型` 文章请看我的掘金文章：[【unibest】 uniapp + vue3 模板 UI 框架选型](https://juejin.cn/post/7337513012393607207).
 
