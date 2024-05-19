@@ -72,8 +72,12 @@ github 和 gitee 实时同步，代码一致。
 ### 普通模板：
 
 - https://github.com/codercup/unibest
-
 - https://gitee.com/codercup/unibest
+
+> `demo` 模板是在 `hello-unibest` 中，如下：
+
+- https://github.com/codercup/hello-unibest
+- https://gitee.com/codercup/hello-unibest
 
 ### hbx 模板
 
