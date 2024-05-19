@@ -167,7 +167,7 @@ onLoad(() => {
 
 ![alt text](./assets/5-11.png)
 
-> 上面的选择有疑问的可以看详细版 - [iconfont 详细版](/advanced/iconfont)
+> 上面的选择有疑问的可以看详细版 - [iconfont 详细版](/other/iconfont/iconfont)
 
 ## 其它图标库
 
