@@ -8,7 +8,9 @@
 
 > `wot-ui` 全称 `wot-design-uni`，是 `wot-design` 的 `uniapp` 版本，文档地址：[https://wot-design-uni.netlify.app/](https://wot-design-uni.netlify.app/).
 
-> `UI库` 变迁，请看 `《unibest UI库 选型》` 文章，文章比较了几个热门 `UI库` 的 `组件数量`、`github star 数量`、`编写语言`、`多端支持度` 等。
+> `UI库` 变迁，请看掘金文章 [《unibest UI 库 选型》](https://juejin.cn/post/7337513012393607207) ，里面比较了几个热门 `UI库` 的 `组件数量`、`github star 数量`、`编写语言`、`多端支持度` 等，并最终选择了 `wot-ui` 。
+
+---
 
 很多群友反馈有其他 `UI` 库的需求，那么更换 `UI 库` 需要哪些步骤呢？
 
