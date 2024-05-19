@@ -109,7 +109,7 @@ export default defineConfig({
             text: '快速开始',
             link: '2-start',
           },
-          { text: '插件篇', link: '3-plugin' },
+          { text: 'uni 插件', link: '3-plugin' },
           { text: '样式篇', link: '4-style' },
           { text: '图标篇', link: '5-icons' },
           { text: 'SVG篇', link: '6-svg' },

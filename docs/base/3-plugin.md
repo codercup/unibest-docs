@@ -1,27 +1,29 @@
-# 插件篇
+# uni 插件
 
 ## 引言
 
-有群友第一次看到 `unibest` 里面 `vue` 文件 `route-block` 这种写法，表示很奇怪，啥时候支持这种写法了，没学过啊，穿越了？！
+有群友第一次看到 `unibest` 里面 `vue` 文件 `route-block` 这种写法，表示很奇怪，重来没见过！
 
 ```vue
 <route lang="json5">
 {
   layout: 'demo',
-  style: { navigationBarTitleText: 'UniUI 使用' },
+  style: {
+    navigationBarTitleText: '标题',
+  },
 }
 </route>
 
 <template>
-  <uni-card>
-    <text>这是一个基础卡片示例，内容较少，此示例展示了一个没有任何属性不带阴影的卡片。</text>
-  </uni-card>
+  <view class="text-green-500"> 菲鸽，你好，我喜欢你！ </view>
 </template>
 ```
 
+## uni 插件总览
+
 哈哈，这个当然是 `uni插件` 的功劳了，具体点是 `@uni-helper/vite-plugin-uni-pages` 插件的功劳，该插件由 `uni-helper` 官方团队开发。
 
-本文就来说说 `unibest` 都引入了哪些有用的 `Vite插件`，主要分为 2 大类，一类是 `uni插件`，另外一类是 `通用插件`。下面这个表格描述了各个插件的主要作用。
+本文就来说说 `unibest` 都引入了哪些有用的 `uni插件`。下面这个表格描述了各个插件的主要作用。
 
 |                插件名                | 作用                                                                                                                                                                                  |
 | :----------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -29,18 +31,11 @@
 |  @uni-helper/vite-plugin-uni-pages   | `uni 插件`，也是 `unibest 灵魂插件`，`route-block` 就是它的功劳，让你可以直接在本文件就能设置页面的路元信息，无需跑去 `pages.json` 配置，同时支持 `pages.config.ts` 编写 `pages.json` |
 | @uni-helper/vite-plugin-uni-layouts  | `uni 插件`，支多种 `layouts` 布局，群友脑洞大开，充分利用这个特性实现平时不容实现的写法                                                                                               |
 | @uni-helper/vite-plugin-uni-manifest | `uni 插件`，支持 `manifest.config.ts` 编写 `manifest.json`                                                                                                                            |
-|             unocss/vite              | `通用插件`，`Unocss 插件`                                                                                                                                                             |
-|           vite-svg-loader            | `通用插件`，自动导入 `svg`                                                                                                                                                            |
-|      unplugin-auto-import/vite       | `通用插件`，自动导入 API                                                                                                                                                              |
-|       rollup-plugin-visualizer       | `通用插件`，build 后生成可视化打包图，方便优化包                                                                                                                                      |
-|         vite-plugin-restart          | `通用插件`，vite 配置更改后自动重启服务                                                                                                                                               |
 
 `UniXXX()` 插件都需要在 `uni()` 之前引入，因为最终都需要 `Uni` 来处理所有的代码。如下图：
 ![vite uni plugin](./assets/3-1.png)
 
 接下来介绍一下 `uni 插件`，其他 `通用插件` 大家都比较熟悉，不再赘述。
-
-## uni 插件总览
 
 `unibest` 引入了 `uni-helper` 团队的几个重要插件，少了它们 `unibest` 就缺少了灵魂，感谢 `uni-helper` 团队的贡献。`Uni 插件` 列表如下：
 
@@ -158,12 +153,6 @@ UniPages({
 
 ## 总结
 
-本文介绍了 `unibest` 引入的主要插件，分为 `uni插件` 和 `通用插件`，并重点详细介绍了 `uni插件`。
+本文介绍了 `unibest` 引入的几个重要的 `uni插件`。
 
-- `vite-plugin-uni-pages` 访问地址：[@uni-helper/vite-plugin-uni-pages](https://github.com/uni-helper/vite-plugin-uni-pages)
-
-- `vite-plugin-uni-layouts` 访问地址：[@uni-helper/vite-plugin-uni-layouts](https://github.com/uni-helper/vite-plugin-uni-layouts)
-
-- `vite-plugin-uni-manifest` 访问地址：[@uni-helper/vite-plugin-uni-manifest](https://github.com/uni-helper/vite-plugin-uni-manifest)
-
-如果还想了解更多信息，可以去 `uni-helper` 官方仓库看看。
+如果还想了解更多信息，可以去 `uni-helper` [github 仓库](https://github.com/uni-helper) 看看。
