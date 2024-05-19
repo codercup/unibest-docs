@@ -2,11 +2,10 @@
 
 ## 1. `wot-ui` 的 `toast` + `message-box` 不生效。
 
-> `unibest@2.1.0` 开始已经默认引入，可以正常使用，不存在该问题。
-
 - 1. `layout` 引入 `wot-ui` 的 `toast` + `message-box`。
 
-```html
+```vue [src/layouts/default.vue]
+<!-- src/layouts/default.vue -->
 <template>
   <view>
     <slot />
@@ -15,6 +14,8 @@
   </view>
 </template>
 ```
+
+> `unibest@2.1.0` 开始已经默认引入。
 
 - 2.页面使用
 
