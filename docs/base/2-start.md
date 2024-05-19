@@ -4,7 +4,7 @@
 
   - **Node.js** - `>=v18`
   - **pnpm** - `>=7.30`（推荐使用 `8.12+`）
-  - **文本编辑器** - 推荐使用 `VSCode`，可选 `WebStrom`
+  - **`VSCode`** - 可选 `WebStrom`
   - **`HBuilderX`** - `APP` 的运行和发布还是离不开它
 
 ## 创建项目
