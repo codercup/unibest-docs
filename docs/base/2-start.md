@@ -40,7 +40,7 @@ npm create unibest@latest my-project
 `create unibest` 支持 `-t` 参数选择模板，目前已有两大类 `8` 个模板
 
 - `普通` 模板( ~~`6`~~ `4个` ）：分别是 `base`、`tabbar`、`i18n`、`demo`、~~`js`~~、~~`ucharts`~~
-- `hbx` 模板( `2个` ）：分别是 `hbx-base`、`hbx-demo`。
+- `hbx` 模板( ~~`2`~~ `1个` ）：分别是 `hbx-base`、~~`hbx-demo`~~。
 
 不带 `-t` 参数时会默认生成 `base` 模板。
 
@@ -60,10 +60,8 @@ pnpm create unibest my-project -t demo # 所有demo的模板(包括i18n)
 
 # HBuilderX 模板，方便使用 uniCloud 云开发 (未来可以对接 uni-app x)
 pnpm create unibest my-project -t hbx-base # hbx的base模板
-pnpm create unibest my-project -t hbx-demo # hbx的demo模板，包含所有的demo
+# pnpm create unibest my-project -t hbx-demo # hbx的demo模板，包含所有的demo
 ```
-
-> 至于 `uni-app x 模板`，紧盯 `uni-app` 官方动向，等官方出来脚手架，`unibest` 将第一时间推出该模板。
 
 ## 项目地址
 
@@ -83,6 +81,8 @@ github 和 gitee 实时同步，代码一致。
 
 - https://github.com/codercup/unibest-hbx
 - https://gitee.com/codercup/unibest-hbx
+
+> `hbx` 目前由 `青谷` 大佬维护，微信号：`qingguxixi`，[github 地址：Xiphin](https://github.com/Xiphin) 。
 
 ## 安装、运行
 
