@@ -96,84 +96,76 @@ npx degit dcloudio/uni-preset-vue#vite-ts my-vue3-project
 ```txt
 .
 ├── .editorconfig
+├── .eslintignore
 ├── .eslintrc-auto-import.json
 ├── .eslintrc.cjs
 ├── .gitignore
 ├── .husky
-│   ├── _
-│   │   ├── .gitignore
-│   │   └── husky.sh
-│   ├── commit-msg
-│   └── pre-commit
 ├── .npmrc
+├── .prettierignore
 ├── .prettierrc.cjs
+├── .stylelintignore
 ├── .stylelintrc.cjs
-├── .vscode            ------- 项目级别的vscode配置
-│   ├── extensions.json
-│   ├── settings.json
-│   └── vue3.code-snippets
+├── .vscode
 ├── LICENSE
-├── README.app.md
 ├── README.md
 ├── commitlint.config.cjs
-├── env               --------- 环境变量配置
+├── env
 │   ├── .env
 │   ├── .env.development
-│   ├── .env.local
 │   ├── .env.production
 │   └── .env.test
 ├── favicon.ico
 ├── index.html
-├── manifest.config.ts   ------ ts 方式编写 manifest.json
-├── pages.config.ts      ------ ts 方式编写 package.json
-├── shell
-│   └── postinstall.js
-├── shims-uni.d.ts
+├── manifest.config.ts
+├── package.json
+├── pages.config.ts
 ├── src
 │   ├── App.vue
-│   ├── auto-import.d.ts
 │   ├── components
 │   │   └── .gitkeep
 │   ├── env.d.ts
-│   ├── hooks           ------ hooks
+│   ├── hooks
 │   │   ├── .gitkeep
-│   │   └── useRequest.ts
-│   ├── interceptors    ------ 拦截器，已经内置请求拦截、路由拦截、原型方法补丁
+│   │   ├── useRequest.ts
+│   │   └── useUpload.ts
+│   ├── interceptors
 │   │   ├── index.ts
 │   │   ├── prototype.ts
 │   │   ├── request.ts
 │   │   └── route.ts
-│   ├── layouts         ------ 布局文件
+│   ├── layouts
 │   │   ├── default.vue
 │   │   └── demo.vue
 │   ├── main.ts
 │   ├── manifest.json
-│   ├── pages                    --------- 页面
+│   ├── pages
+│   │   ├── about
+│   │   │   ├── about.vue
+│   │   │   └── components
+│   │   │   ├── request.vue
+│   │   │   └── upload.vue
 │   │   └── index
-│   │       ├── about.vue
-│   │       ├── index.vue
-│   │       ├── request.vue
-│   │       └── request2.vue
-│   ├── pages-sub                 ----------其中一个分包页面，可以写多个
+│   │   └── index.vue
+│   ├── pages-sub
 │   │   └── demo
-│   │       └── index.vue
+│   │   └── index.vue
 │   ├── pages.json
-│   ├── service                 ----------- 接口和数据类型
+│   ├── service
 │   │   └── index
-│   │       ├── foo.d.ts
-│   │       └── foo.ts
+│   │   └── foo.ts
 │   ├── static
 │   │   ├── images
 │   │   │   └── .gitkeep
 │   │   ├── logo.svg
 │   │   └── tabbar
-│   │       ├── example.png
-│   │       ├── exampleHL.png
-│   │       ├── home.png
-│   │       ├── homeHL.png
-│   │       ├── personal.png
-│   │       └── personalHL.png
-│   ├── store                ------------ 全局状态管理 pinia
+│   │   ├── example.png
+│   │   ├── exampleHL.png
+│   │   ├── home.png
+│   │   ├── homeHL.png
+│   │   ├── personal.png
+│   │   └── personalHL.png
+│   ├── store
 │   │   ├── index.ts
 │   │   └── user.ts
 │   ├── style
@@ -181,18 +173,18 @@ npx degit dcloudio/uni-preset-vue#vite-ts my-vue3-project
 │   ├── types
 │   │   ├── auto-import.d.ts
 │   │   ├── global.d.ts
+│   │   ├── shims-uni.d.ts
 │   │   └── uni-pages.d.ts
 │   ├── typings.ts
 │   ├── uni.scss
-│   └── utils                ------------- 工具函数
-│       ├── http.ts
-│       ├── index.ts
-│       └── platform.ts
+│   ├── uni_modules
+│   │   └── .gitkeep
+│   └── utils
+│   ├── http.ts
+│   ├── index.ts
+│   └── platform.ts
 ├── tsconfig.json
-├── uno.config.ts               -------- UnoCSS 配置，uniapp 适配
-└── vite.config.ts              -------- Vite 插件配置
+├── uni-pages.d.ts
+├── uno.config.ts
+└── vite.config.ts
 ```
-
-项目目录真实截图如下：
-
-![alt text](./assets/1-1.png)

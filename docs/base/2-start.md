@@ -5,16 +5,19 @@
   - **Node.js** - `>=v18`
   - **pnpm** - `>=7.30`（推荐使用 `8.12+`）
   - **文本编辑器** - 推荐使用 `VSCode`，可选 `WebStrom`
-  - **辅助运行工具** - `HBuilderX`，运行 `APP` 还是离不开 `HBuilderX`
+  - **`HBuilderX`** - `APP` 的运行和发布还是离不开它
 
 ## 创建项目
 
 通过下面的命令可以快速生成项目模板，`pnpm create unibest <项目名称>` ，如果不写 `<项目名称>` 会进入命令行交互模式。
 
 ```bash
+# 如果没有 pnpm，请先安装: npm i -g pnpm
 pnpm create unibest my-project
 ```
 
+npm 创建如下(不推荐)
+:::details
 如果使用 `npm`，可能有缓存，需要加上 `@latest` 标识，如果创建失败，请使用 `pnpm` 安装。
 
 ```bash
@@ -23,36 +26,37 @@ npm create unibest my-project
 npm create unibest@latest my-project
 ```
 
+:::
 实际操作截图如下：
 
 ![create project](./assets/2-1.png)
 
-> 强烈推荐是用 `pnpm`，性能更好，速度更快，节省磁盘空间。
+> `create-unibest` 在 `v1.10.0` 开始会有版本号，如下：
 >
-> 如果没有 `pnpm` 可以通过 `npm i -g pnpm` 安装。
+> ![alt text](./assets/2-2.png)
 
-![unibest templates](./assets/2-2.png)
+![unibest templates](./assets/2-3.png)
 
 `create unibest` 支持 `-t` 参数选择模板，目前已有两大类 `8` 个模板
 
-- `普通` 模板( `6个` ）：分别是 `base`、`demo`、`ucharts`、`tabbar`、`i18n`、`js`
+- `普通` 模板( ~~`6`~~ `4个` ）：分别是 `base`、`tabbar`、`i18n`、`demo`、~~`js`~~、~~`ucharts`~~
 - `hbx` 模板( `2个` ）：分别是 `hbx-base`、`hbx-demo`。
 
-> 不带 `-t` 参数时会默认生成 `base` 模板。
->
-> `base` 模板是最基本的模板，更新最及时，推荐使用 `base` 模板创建新项目。其他几个模板也是基于 `base` 模板得到的。 `demo` 模板则作为参考用。
->
+不带 `-t` 参数时会默认生成 `base` 模板。
+
+`base` 模板是最基本的模板，更新最及时，推荐使用 `base` 模板创建新项目。其他几个模板也是基于 `base` 模板得到的。 `demo` 模板则作为参考用。
+
 > `js` 模板不推荐使用，可以使用 `base` 模板替代，里面已经做了兼容配置，可以直接编写 `js`，原本的 `ts` 文件还能提供部分类型，何乐而不为？
 
 ```sh
 # VS Code 模板
 pnpm create unibest my-project # 默认用 base 模板
 pnpm create unibest my-project -t base # 基础模板
-pnpm create unibest my-project -t demo # 所有demo的模板(包括i18n)
-pnpm create unibest my-project -t ucharts # 秋云图表模板
 pnpm create unibest my-project -t tabbar # 自定义 tabbar 模板
 pnpm create unibest my-project -t i18n # 多语言模板
-pnpm create unibest my-project -t js # js 模板
+pnpm create unibest my-project -t demo # 所有demo的模板(包括i18n)
+# pnpm create unibest my-project -t js # js 模板
+# pnpm create unibest my-project -t ucharts # 秋云图表模板
 
 # HBuilderX 模板，方便使用 uniCloud 云开发 (未来可以对接 uni-app x)
 pnpm create unibest my-project -t hbx-base # hbx的base模板
@@ -60,6 +64,21 @@ pnpm create unibest my-project -t hbx-demo # hbx的demo模板，包含所有的d
 ```
 
 > 至于 `uni-app x 模板`，紧盯 `uni-app` 官方动向，等官方出来脚手架，`unibest` 将第一时间推出该模板。
+
+## 项目地址
+
+github 和 gitee 实时同步，代码一致。
+
+### 普通模板：
+
+- https://github.com/codercup/unibest
+
+- https://gitee.com/codercup/unibest
+
+### hbx 模板
+
+- https://github.com/codercup/unibest-hbx
+- https://gitee.com/codercup/unibest-hbx
 
 ## 安装、运行
 
@@ -87,7 +106,7 @@ git commit -m "feat: init project"
 
 > 原理：基于 `VSCode` 代码块生成。
 
-![alt text](./assets/2-3.gif)
+![alt text](./assets/2-4.gif)
 
 ## 注意事项
 
