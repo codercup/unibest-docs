@@ -85,17 +85,12 @@ export default defineConfig({
         activeMatch: '/base',
       },
       {
-        text: '微信群',
-        link: '/me/about',
-      },
-      {
-        text: '常见问题',
-        link: '/base/14-faq',
-        activeMatch: '/base',
+        text: '🥤 打赏',
+        link: '/advanced/rewards/rewards',
       },
       {
         text: '相关链接',
-        link: '/other/links',
+        link: '/other/links/links',
         activeMatch: '/other',
       },
     ],
@@ -124,78 +119,22 @@ export default defineConfig({
           { text: '常见问题2', link: '15-faq' },
         ],
       },
-      // {
-      //   text: '进阶',
-      //   base: '/advanced/',
-      //   items: [
-      //     { text: 'UI 库', link: 'ui' },
-      //     { text: 'Proxy', link: 'proxy' },
-      //     { text: 'ucharts', link: 'ucharts' },
-      //     { text: '简单状态管理', link: 'state-easy' },
-      //     { text: '环境变量', link: 'env' },
-      //     { text: 'Mock', link: 'mock' },
-      //   ],
-      // },
       {
-        text: '🥤 打赏',
-        link: '/rewards/index',
-      },
-      // {
-      //   text: '指南',
-      //   base: '/reference/',
-      //   items: [
-      //     {
-      //       text: '常见问题',
-      //       link: 'faq',
-      //     },
-      //     {
-      //       text: '包分析',
-      //       link: 'build-analysis',
-      //     },
-      //     {
-      //       text: '注意事项',
-      //       link: 'tips',
-      //     },
-      //     {
-      //       text: '最佳实践',
-      //       link: 'best-practice'
-      //     },
-      //   ],
-      // },
-      {
-        text: '微信群',
-        base: '/me/',
+        text: '社交',
+        base: '/advanced/',
         items: [
-          {
-            text: '关于我',
-            link: 'about',
-          },
-          {
-            text: 'unibest博客',
-            link: 'blog',
-          },
-          // {
-          //   text: '笔记',
-          //   link: 'note',
-          // },
+          { text: '🥤 打赏', link: 'rewards/rewards', },
+          { text: '微信群', link: 'me/me' },
         ],
       },
       {
-        text: '其他',
+        text: '延伸',
         base: '/other/',
         items: [
-          {
-            text: '相关链接',
-            link: 'links',
-          },
-          {
-            text: '图片占位图',
-            link: 'image',
-          },
-          {
-            text: '未来规划',
-            link: 'roadmap',
-          },
+          { text: '相关链接', link: 'links/links' },
+          { text: '图片占位图', link: 'image/image' },
+          { text: 'iconfont详细版', link: 'iconfont/iconfont' },
+          { text: 'unibest博客', link: 'blog' },
         ],
       },
     ],

@@ -5,5 +5,5 @@
 希望得到您的支持，感谢！
 
 <p align='center'>
-<img alt="special sponsor appwrite" src="./pay-wx.png" width="300" style="display:inline-block; margin-left:10px;">
+<img alt="special sponsor appwrite" src="./assets/pay-wx.png" width="300" style="display:inline-block; margin-left:10px;">
 </p>
