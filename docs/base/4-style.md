@@ -23,7 +23,7 @@
 
 ![alt text](./assets/4-5.png)
 
-## 常用的原子类：
+## 常用的原子类
 
 - 宽高内外边距： `w-2`, `h-4`, `px-6`, `mt-8`等
 - 前景色背景色：`text-green-400`, `bg-green-500`
@@ -35,6 +35,9 @@
 
 ## `UnoCSS` 配置
 
+下面内容选读：
+
+:::details
 `unocss.config.ts` 文件内容如下：
 
 ```ts
@@ -155,6 +158,8 @@ shortcuts: [['center', 'flex justify-center items-center']],
 ```
 
 可以编写一些常用的快捷类名，如上表示 `center` 就是 `flex justify-center items-center` 的组合，合理的添加快捷类名可以加快样式编写。
+
+:::
 
 ## 设计稿尺寸
 
