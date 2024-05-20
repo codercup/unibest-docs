@@ -46,6 +46,8 @@
 
 - 4.在 `style/index.scss` 中写上上面的 `css` 链接里面的内容（`style/index.scss` 已经在 `main.ts` 引入了，`unibest` 模板已经内置），如下
 
+> 注意： `url(//at.alicdn.com)` 里面的路径要改为 `url(https://at.alicdn.com)`，因为 APP 里面 `//` 是文件协议。 —— 设定 `https` 协议
+
 ```css
 @font-face {
   font-family: iconfont; /* Project id 4032028 */
