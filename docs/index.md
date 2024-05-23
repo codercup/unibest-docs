@@ -19,12 +19,12 @@ hero:
     - theme: alt
       text: 查看演示
       link: https://codercup.github.io/hello-unibest/#/
-    - theme: alt
-      text: 常见问题
-      link: /base/14-faq
     - theme: brand
       text: 🥤 打赏
       link: /rewards/index
+    - theme: alt
+      text: 常见问题
+      link: /base/14-faq
 
 features:
   - icon: ⚡️
