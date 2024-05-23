@@ -14,8 +14,11 @@ hero:
       text: 介绍
       link: /base/1-introduction
     - theme: alt
+      text: 项目地址
+      link: https://github.com/codercup/unibest/
+    - theme: alt
       text: 查看演示
-      link: https://codercup.github.io/unibest/#/
+      link: https://codercup.github.io/hello-unibest/#/
     - theme: alt
       text: 常见问题
       link: /base/14-faq
