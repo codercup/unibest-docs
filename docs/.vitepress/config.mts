@@ -125,6 +125,7 @@ export default defineConfig({
         base: '/advanced/',
         items: [
           { text: '🥤 打赏', link: 'rewards/rewards', },
+          { text: '鸽鸽失业', link: 'job/job', },
           { text: '微信群', link: 'me/me' },
         ],
       },
