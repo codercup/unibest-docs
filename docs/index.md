@@ -5,7 +5,7 @@ layout: home
 hero:
   name: 'unibest'
   # text: '最好的 uniapp 开发模板'
-  tagline: '最好的 uniapp 跨端解决方案'
+  tagline: '最好的 uniapp 开发框架'
   image:
     src: /logo.svg
     alt: unibest
