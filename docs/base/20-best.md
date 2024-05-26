@@ -11,6 +11,6 @@
 pnpm create unibest my-project -b base
 # 参考项目
 git clone https://github.com/codercup/hello-unibest unibest-demo
-# 参考项目-gitee
+# 参考项目-gitee (与 github 同步，无梯子用户优先使用 gitee)
 git clone https://gitee.com/codercup/hello-unibest unibest-demo
 ```
