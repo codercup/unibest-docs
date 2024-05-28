@@ -240,3 +240,9 @@ function addLink(e) {
 使用 `1.8x`，而不是 `2.x`，否则出现下面这样的问题：
 
 ![alt text](./assets/15-4.png)
+
+## 4. 为啥不用 `vant-ui`？
+
+`vant-ui` 是 `WEB` 端 `UI 库`，不适用于 `uni-app`。
+
+`uni-app` 没有 `window`, `document` 等 `WEB API`，所以凡是使用 `WEB API` 的 `框架`、`UI 库` 等都不适用于 `uni-app`。
