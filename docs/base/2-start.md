@@ -32,48 +32,48 @@ npm create unibest@latest my-project
 
 ![create project](./assets/2-1.png)
 
-> `create-unibest` 在 `v1.10.0` 开始会有版本号，如下：
->
-> ![alt text](./assets/2-2.png)
+`create-unibest` 在 `v1.10.0` 开始会有版本号，如下：
 
-![unibest templates](./assets/2-3.png)
+![alt text](./assets/2-2.png)
+
+![unibest templates](https://oss.laf.run/ukw0y1-site/xmind/unibest模板.png)
 
 `create unibest` 支持 `-t` 参数选择模板，目前已有两大类 `8` 个模板
 
-- `普通` 模板( ~~`6`~~ `4个` ）：分别是 `base`、`tabbar`、`i18n`、`demo`、~~`js`~~、~~`ucharts`~~
+- `普通` 模板( `4个` ）：分别是 `base`、`tabbar`、`i18n`、`demo`、~~`js`~~
 - `hbx` 模板(`2个` ）：分别是 `hbx-base`、`hbx-demo`。
 
 不带 `-t` 参数时会默认生成 `base` 模板。
 
 `base` 模板是最基本的模板，更新最及时，推荐使用 `base` 模板创建新项目。其他几个模板也是基于 `base` 模板得到的。 `demo` 模板则作为参考用。
 
-> `js` 模板不推荐使用，可以使用 `base` 模板替代，里面已经做了兼容配置，可以直接编写 `js`，原本的 `ts` 文件还能提供部分类型，何乐而不为？
+`js` 模板不推荐使用，可以使用 `base` 模板替代，里面已经做了兼容配置，可以直接编写 `js`，原本的 `ts` 文件还能提供部分类型，何乐而不为？
 
 ```sh
 # VS Code 模板
 pnpm create unibest my-project # 默认用 base 模板
+
 pnpm create unibest my-project -t base # 基础模板
 pnpm create unibest my-project -t tabbar # 自定义 tabbar 模板
 pnpm create unibest my-project -t i18n # 多语言模板
 pnpm create unibest my-project -t demo # 所有demo的模板(包括i18n)
 # pnpm create unibest my-project -t js # js 模板
-# pnpm create unibest my-project -t ucharts # 秋云图表模板
 
 # HBuilderX 模板，方便使用 uniCloud 云开发 (未来可以对接 uni-app x)
 pnpm create unibest my-project -t hbx-base # hbx的base模板
 pnpm create unibest my-project -t hbx-demo # hbx的demo模板，包含所有的demo
 ```
 
-## 项目地址
+## 项目仓库地址
 
-github 和 gitee 实时同步，代码一致。
+`github` 和 `gitee` 实时同步，代码一致。
 
 ### 普通模板：
 
 - https://github.com/codercup/unibest
 - https://gitee.com/codercup/unibest
 
-> `demo` 模板是在 `hello-unibest` 中，如下：
+> `demo` 模板是在 `hello-unibest` 项目中，仓库地址如下：
 
 - https://github.com/codercup/hello-unibest
 - https://gitee.com/codercup/hello-unibest
@@ -83,7 +83,7 @@ github 和 gitee 实时同步，代码一致。
 - https://github.com/codercup/unibest-hbx
 - https://gitee.com/codercup/unibest-hbx
 
-> `hbx` 目前由 `青谷` 大佬维护，微信号：`qingguxixi`，[github 地址：Xiphin](https://github.com/Xiphin) 。
+> `hbx` 目前由 `青谷` 大佬维护，微信号：`qingguxixi`，[青谷 github 地址](https://github.com/Xiphin) 。
 
 ## 安装、运行
 

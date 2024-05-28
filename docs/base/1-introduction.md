@@ -24,9 +24,12 @@ Github Star History 实时地址：[https://star-history.com/#codercup/unibest&D
 
 与同类型模板对比，如下图，红色的为 `unibest`，后来居上，遥遥领先。
 
+:::details
+
 [![Star History Chart](https://api.star-history.com/svg?repos=codercup/unibest,Ares-Chang/uni-vitesse,uni-helper/vitesse-uni-app&type=Date)](https://star-history.com/#codercup/unibest&Ares-Chang/uni-vitesse&uni-helper/vitesse-uni-app&Date)
 
 同类模板对比实时地址：[https://star-history.com/#codercup/unibest&Ares-Chang/uni-vitesse&uni-helper/vitesse-uni-app&Date](https://star-history.com/#codercup/unibest&Ares-Chang/uni-vitesse&uni-helper/vitesse-uni-app&Date)
+:::
 
 ## 🗂 生成过程
 
