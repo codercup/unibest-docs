@@ -5,20 +5,18 @@
 本地 `SVG` 图标使用方式主要有：
 
 - `image + src` 方式
-  - `static目录`图标
-  - `相对目录`图标
-- `SvgComponent` 方式（仅 `H5端` 适用）
-- `SvgIcon` 方式（仅 `H5端` 适用）
 
-> `SvgComponent` 依赖 `vite-svg-loader` 插件
->
-> `SvgIcon` 依赖 `vite-plugin-svg-icons` 插件
+  - `static目录` 图标
+  - `相对目录` 图标
+  - `线上地址` 图标
+
+> **`图片`** 也是使用上面几种方式。
 
 ## `image + src` 方式
 
 根据图片地址不同，分为 2 种：`static目录`图标 ， `相对目录`图标。
 
-### 1. `static目录`图标
+### 1. `static目录` 图标
 
 这种方式直接编写代码即可，如下：
 
@@ -26,7 +24,7 @@
 <image src="/static/svg/demo.svg" mode="scaleToFill" class="h-20 w-20" />
 ```
 
-### 2. `相对目录`图标
+### 2. `相对目录` 图标
 
 这种方式需要先引入，再使用，代码编写如下：
 
@@ -40,7 +38,23 @@
 </script>
 ```
 
-## `SvgComponent` 方式
+### 3. `线上地址` 图标
+
+这种方式直接使用，代码编写如下：
+
+```html
+<template>
+  <image src="https://xxx.com/demo.svg" mode="scaleToFill" class="h-20 w-20" />
+</template>
+```
+
+## 其他
+
+> `SvgComponent` 方式 和 `SvgIcon` 方式，仅 `H5端` 适用，感兴趣的可以阅读下
+
+:::details
+
+### `SvgComponent` 方式
 
 从 `Web端` 过来的同学都知道 `SvgComponent` 这种方式，只需要引入 `vite-svg-loader` 插件即可，支持 `3种` 方式引入 `svg`: `url`, `raw`, `component`。
 
@@ -95,7 +109,7 @@ Used in template:
 
 但是目前经过测试，只有 `url` 的方式所有端可以使用，与上面的 `image + src - 相对目录 图标` 是一个效果。至于 `component` 只有 `H5端生效`，其他端不行。
 
-## `SvgIcon` 方式
+### `SvgIcon` 方式
 
 从 `Web端` 过来的同学都知道 `SvgIcon` 这种方式，只需要引入 `vite-plugin-svg-icons` 插件 + `vite 配置`，再编写一个通用的 `SvgIcon` 即可，但是同样只有 `H5端生效`，其他端不行。
 
@@ -147,6 +161,12 @@ createSvgIconsPlugin({
 <!-- src/assets/dir/demo.svg -->
 <SvgIcon name="dir-demo" class="h-20 w-20"></SvgIcon>
 ```
+
+> `SvgComponent` 依赖 `vite-svg-loader` 插件
+>
+> `SvgIcon` 依赖 `vite-plugin-svg-icons` 插件
+
+:::
 
 ## 总结
 
