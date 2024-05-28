@@ -13,7 +13,7 @@
 - `普通` 模板( `6个` ）：分别是 `base`、`demo`、`ucharts`、`tabbar`、`i18n`、`js`
 - `hbx` 模板( `2个` ）：分别是 `hbx-base`、`hbx-demo`。
 
-![](https://oss.laf.run/ukw0y1-site/unibest-templates-xmind.jpg)
+![](https://oss.laf.run/ukw0y1-site/xmind/unibest模板.png)
 
 ## 创建项目
 
