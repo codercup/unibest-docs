@@ -1,5 +1,15 @@
 # UI 库篇
 
+## Star History 对比
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Moonofweisheng/wot-design-uni,climblee/uv-ui,ijry/uview-plus,tuniaoTech/tuniaoui-rc-vue3-uniapp&type=Date)](https://star-history.com/#Moonofweisheng/wot-design-uni&climblee/uv-ui&ijry/uview-plus&tuniaoTech/tuniaoui-rc-vue3-uniapp&Date)
+
+> 红色的 `wot-ui` 势头很猛，一直在追赶，不久的将来将成为第一！
+
+<!-- [![Star History Chart](https://api.star-history.com/svg?repos=Moonofweisheng/wot-design-uni,climblee/uv-ui&type=Date)](https://star-history.com/#Moonofweisheng/wot-design-uni&climblee/uv-ui&Date) -->
+
+> `vant-ui` 等 `web` 端 `UI 库` 不适用于 `uni-app`，不能使用。
+
 ## 默认 UI 库
 
 `unibest` 经过几次更迭，先后使用 `uni-ui`、`uv-ui`作为默认 UI 库，目前使用 `wot-ui` 为默认 UI 库。
