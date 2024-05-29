@@ -8,8 +8,14 @@
 <img alt="special sponsor appwrite" src="./assets/pay-wx.png" width="300" style="display:inline-block; margin-left:10px;">
 </p>
 
+## QQ 交流群（推荐）
+
+QQ 交流群的群号：**887230350**
+
+![](./assets/group-qq.jpg)
+
 ## 微信交流群
 
-最新的微信交流群：
+最新的微信交流群：(⑤ 群满了后，不再开微信群，大家在 QQ 群交流)
 
-![](https://oss.laf.run/ukw0y1-site/wx-group.jpg)
+![](./assets/group-wx.jpg)

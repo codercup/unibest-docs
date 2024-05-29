@@ -85,7 +85,7 @@ export default defineConfig({
         activeMatch: '/base',
       },
       {
-        text: '微信群',
+        text: '技术交流群',
         link: '/advanced/rewards/rewards',
       },
       {
