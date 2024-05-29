@@ -1,16 +1,4 @@
-# UI 库篇
-
-## Star History 对比
-
-[![Star History Chart](https://api.star-history.com/svg?repos=Moonofweisheng/wot-design-uni,climblee/uv-ui,ijry/uview-plus,tuniaoTech/tuniaoui-rc-vue3-uniapp&type=Date)](https://star-history.com/#Moonofweisheng/wot-design-uni&climblee/uv-ui&ijry/uview-plus&tuniaoTech/tuniaoui-rc-vue3-uniapp&Date)
-
-> 红色的 `wot-ui` 势头很猛，一直在追赶，不久的将来将成为第一！
-
-皇城 PK
-
-[![Star History Chart](https://api.star-history.com/svg?repos=Moonofweisheng/wot-design-uni,climblee/uv-ui&type=Date)](https://star-history.com/#Moonofweisheng/wot-design-uni&climblee/uv-ui&Date)
-
-> `vant-ui` 等 `web` 端 `UI 库` 不适用于 `uni-app`，不能使用。
+# UI 库替换篇
 
 ## 默认 UI 库
 
@@ -19,8 +7,6 @@
 `wot-ui` 是 `vue3+ts` 编写的全端支持的 UI 库，编码体验比 `uv-ui` 更好；而官方维护的 `uni-ui` 则样式略丑，组件较少，故弃之。
 
 > `wot-ui` 全称 `wot-design-uni`，是 `wot-design` 的 `uniapp` 版本，文档地址：[https://wot-design-uni.netlify.app/](https://wot-design-uni.netlify.app/).
-
-> `UI库` 变迁，请看掘金文章 [《unibest UI 库 选型》](https://juejin.cn/post/7337513012393607207) ，里面比较了几个热门 `UI库` 的 `组件数量`、`github star 数量`、`编写语言`、`多端支持度` 等，并最终选择了 `wot-ui` 。
 
 ---
 
