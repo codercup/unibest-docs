@@ -53,37 +53,37 @@
 | ---------- | ------------------------------------- | ------------------------------------------------------- | ------------------------------------------------- |
 | uv-ui      | <https://www.uvui.cn/>                | <https://github.com/climblee/uv-ui>                     | <https://gitee.com/climblee/uv-ui>                |
 | uview-plus | <https://uiadmin.net/uview-plus/>     | <https://github.com/ijry/uview-plus>                    | <https://gitee.com/uiadmin/uview-plus>            |
-| wot        | <https://wot-design-uni.netlify.app/> | <https://github.com/Moonofweisheng/wot-design-uni>      | <https://gitee.com/wot-design-uni/wot-design-uni> |
+| wot-ui     | <https://wot-design-uni.netlify.app/> | <https://github.com/Moonofweisheng/wot-design-uni>      | <https://gitee.com/wot-design-uni/wot-design-uni> |
 | TuniaoUI   | <https://vue3.tuniaokj.com/zh-CN/>    | <https://github.com/tuniaoTech/tuniaoui-rc-vue3-uniapp> | -                                                 |
 
 > 接着奏乐接着舞，我们继续正文 ^\_^
 
 ## 多端支持情况
 
-| UI 框架      | uv-ui | uview-plus | wot | TuniaoUI |
-| ------------ | ----- | ---------- | --- | -------- |
-| h5           | ✅    | ✅         | ✅  | ✅       |
-| app(ios)     | ✅    | ✅         | ✅  | ✅       |
-| app(android) | ✅    | ✅         | ✅  | ✅       |
-| 微信小程序   | ✅    | ✅         | ✅  | ✅       |
-| 支付宝小程序 | ✅    | ✅         | ✅  | ✅       |
-| QQ 小程序    | ✅    | ✅         | ❌  | ❌       |
-| 百度小程序   | ✅    | ✅         | ❌  | ❌       |
-| 头条小程序   | ✅    | ✅         | ❌  | ❌       |
+| UI 框架      | uv-ui | uview-plus | wot-ui | TuniaoUI |
+| ------------ | ----- | ---------- | ------ | -------- |
+| h5           | ✅    | ✅         | ✅     | ✅       |
+| app(ios)     | ✅    | ✅         | ✅     | ✅       |
+| app(android) | ✅    | ✅         | ✅     | ✅       |
+| 微信小程序   | ✅    | ✅         | ✅     | ✅       |
+| 支付宝小程序 | ✅    | ✅         | ✅     | ✅       |
+| QQ 小程序    | ✅    | ✅         | ❌     | ❌       |
+| 百度小程序   | ✅    | ✅         | ❌     | ❌       |
+| 头条小程序   | ✅    | ✅         | ❌     | ❌       |
 
 ## 组件数量
 
-| UI 框架  | uv-ui | uview-plus | wot | TuniaoUI |
-| -------- | :---: | :--------: | :-: | :------: |
-| 总数     |  67   |     67     | 71  |    55    |
-| 基础组件 |   8   |     11     |  8  |    5     |
-| 表单组件 |  16   |     17     | 20  |    14    |
-| 数据组件 |  13   |     4      | 18  |    4     |
-| 反馈组件 |   8   |     10     | 16  |    8     |
-| 布局组件 |   7   |     9      |  -  |    8     |
-| 导航组件 |   8   |     8      |  9  |    5     |
-| 其他组件 |   7   |     8      |  -  |    5     |
-| 内容组件 |   -   |     -      |  -  |    6     |
+| UI 框架  | uv-ui | uview-plus | wot-ui | TuniaoUI |
+| -------- | :---: | :--------: | :----: | :------: |
+| 总数     |  67   |     67     |   71   |    55    |
+| 基础组件 |   8   |     11     |   8    |    5     |
+| 表单组件 |  16   |     17     |   20   |    14    |
+| 数据组件 |  13   |     4      |   18   |    4     |
+| 反馈组件 |   8   |     10     |   16   |    8     |
+| 布局组件 |   7   |     9      |   -    |    8     |
+| 导航组件 |   8   |     8      |   9    |    5     |
+| 其他组件 |   7   |     8      |   -    |    5     |
+| 内容组件 |   -   |     -      |   -    |    6     |
 
 组件数：`wot(71)` > `uv-ui(67)` = `uview-plus(67)` > `TuniaoUI(55)`
 
