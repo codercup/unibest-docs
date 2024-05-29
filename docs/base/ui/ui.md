@@ -12,7 +12,7 @@
 
 > tip2: 再次重申一下 `uview` 不支持 `Vue3`，不然又有人问我为啥不用 `uview`。（臣妾做不到啊~）
 
-## UI 框架
+## UI 库总览
 
 经过搜寻了一番，目前参加对比的 UI 框架有：
 
@@ -28,9 +28,11 @@
 
 > 温馨提示：收费没有对错，只要做得好，提供优质的组件，别人愿意付费，也是极好的。
 
-## UI 框架对比
+---
 
-### 1. 开源热度
+下面通过几个方面对 `UI 库` 进行对比
+
+## 开源热度
 
 截止到 `2024-05-30` 发表文章时的数据:
 
@@ -43,6 +45,8 @@
 
 其实到这里就一决高下了，`github star 数`： `uv-ui(568)` > `wot-ui(492)` > `uview-plus(362)` > `TuniaoUI(192)`，其中 `uv-ui` 和 `wot-ui` 拔得头筹。
 
+[![Star History Chart](https://api.star-history.com/svg?repos=Moonofweisheng/wot-design-uni,climblee/uv-ui,ijry/uview-plus,tuniaoTech/tuniaoui-rc-vue3-uniapp&type=Date)](https://star-history.com/#Moonofweisheng/wot-design-uni&climblee/uv-ui&ijry/uview-plus&tuniaoTech/tuniaoui-rc-vue3-uniapp&Date)
+
 源码仓库地址展示如下，_纯粹为了方便大家查阅_ （虽然大概率你们也不会去访问，/手动狗头）
 
 | UI 框架    | 文档地址                              | github                                                  | gitee                                             |
@@ -54,11 +58,7 @@
 
 > 接着奏乐接着舞，我们继续正文 ^\_^
 
-### 2. Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=Moonofweisheng/wot-design-uni,climblee/uv-ui,ijry/uview-plus,tuniaoTech/tuniaoui-rc-vue3-uniapp&type=Date)](https://star-history.com/#Moonofweisheng/wot-design-uni&climblee/uv-ui&ijry/uview-plus&tuniaoTech/tuniaoui-rc-vue3-uniapp&Date)
-
-### 3. 多端支持情况
+## 多端支持情况
 
 | UI 框架      | uv-ui | uview-plus | wot | TuniaoUI |
 | ------------ | ----- | ---------- | --- | -------- |
@@ -71,7 +71,7 @@
 | 百度小程序   | ✅    | ✅         | ❌  | ❌       |
 | 头条小程序   | ✅    | ✅         | ❌  | ❌       |
 
-### 4. 组件数量
+## 组件数量
 
 | UI 框架  | uv-ui | uview-plus | wot | TuniaoUI |
 | -------- | :---: | :--------: | :-: | :------: |
@@ -87,7 +87,7 @@
 
 组件数：`uv-ui(67)` = `uview-plus(67)` > `wot(62)` > `TuniaoUI(55)`
 
-### 5. `ts` 支持情况
+## `ts` 支持情况
 
 查看 4 个组件库的源码，可以了解到：
 
@@ -110,7 +110,7 @@
 
 ![alt text](image-2.png)
 
-### 6. 皇城 PK
+## `wot-ui` 和 `uv-ui` 皇城 `PK`
 
 `wot-ui` 和 `uv-ui` 皇城 `PK`
 
