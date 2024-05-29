@@ -7,3 +7,9 @@
 <p align='center'>
 <img alt="special sponsor appwrite" src="./assets/pay-wx.png" width="300" style="display:inline-block; margin-left:10px;">
 </p>
+
+## 微信交流群
+
+最新的微信交流群：
+
+![](https://oss.laf.run/ukw0y1-site/wx-group.jpg)
