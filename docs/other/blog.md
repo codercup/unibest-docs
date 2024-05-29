@@ -7,3 +7,4 @@
 - [【unibest】uniapp + vue3 超实用模板（续）](https://juejin.cn/post/7315461542697500682)
 - [【unibest】uniapp + vue3 超实用模板（终）](https://juejin.cn/post/7321930742400188453)
 - [【unibest】uniapp + vue3 超实用模板（番外篇）](https://juejin.cn/editor/drafts/7315308701051519030)
+- [【unibest】 uniapp + vue3 模板 UI 框架选型](https://juejin.cn/post/7337513012393607207)
