@@ -6,8 +6,6 @@
 
 <!-- ![alt text](image-2.png) -->
 
-[![](https://opengraph.githubassets.com/1cac1150838995e1f7d1643c00eee51a5d884f2054f995c9d3225b07b0eddb39/codercup/unibest)](https://github.com/codercup/unibest)
-
 ## 找到我
 
 - Github: [codercup](https://github.com/codercup)
@@ -16,10 +14,6 @@
 - 微信：`codercup` = `菲鸽`，大家都叫我 `鸽鸽`
 - QQ：`1020103647`
 - 邮箱：`1020103647@qq.com`
-
-微信名片：
-
-![菲鸽](./screenshots/wx-me.png)
 
 ## 微信公众号
 
