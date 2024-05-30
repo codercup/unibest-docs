@@ -14,3 +14,12 @@ git clone https://github.com/codercup/hello-unibest unibest-demo
 # 参考项目-gitee (与 github 同步，无梯子用户优先使用 gitee)
 git clone https://gitee.com/codercup/hello-unibest unibest-demo
 ```
+
+## 必看章节
+
+- [介绍](/base/1-introduction)
+- [快速开始](/base/2-start)
+- [uni 插件](/base/3-plugin)
+- [常见问题](/base/14-faq)
+- [常见问题 2](/base/15-faq)
+- [运行发布](/base/11-build)
