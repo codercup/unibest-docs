@@ -85,7 +85,7 @@ export default defineConfig({
         activeMatch: '/base',
       },
       {
-        text: '技术交流群',
+        text: '🥤 打赏',
         link: '/advanced/rewards/rewards',
       },
       {
@@ -126,7 +126,7 @@ export default defineConfig({
         base: '/advanced/',
         items: [
           { text: '🥤 打赏', link: 'rewards/rewards', },
-          { text: '关于我', link: 'me/me' },
+          // { text: '关于我', link: 'me/me' },
           // { text: '鸽鸽失业', link: 'job/job', },
           { text: '赞助榜', link: 'sponsor/sponsor', },
         ],
