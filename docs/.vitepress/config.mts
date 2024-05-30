@@ -128,6 +128,7 @@ export default defineConfig({
           { text: '🥤 打赏', link: 'rewards/rewards', },
           // { text: '关于我', link: 'me/me' },
           // { text: '鸽鸽失业', link: 'job/job', },
+          { text: '微信交流群', link: 'wechat/wechat', },
           { text: '赞助榜', link: 'sponsor/sponsor', },
         ],
       },
