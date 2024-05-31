@@ -5,5 +5,6 @@
 作者目前 `失业` 状态，希望得到您的支持，感谢！
 
 <p align='center'>
-<img alt="special sponsor appwrite" src="./assets/pay-wx.png" width="300" style="display:inline-block; margin-left:10px;">
+<img alt="special sponsor appwrite" src="./assets/pay-1.png" height="330" style="display:inline-block; height:330px;">
+<img alt="special sponsor appwrite" src="./assets/pay-2.png" height="330" style="display:inline-block; height:330px; margin-left:10px;">
 </p>
