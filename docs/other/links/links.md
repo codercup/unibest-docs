@@ -34,6 +34,13 @@
 - [uni-app 官网](https://uniapp.dcloud.net.cn/)
 - [uni-app x 官网](https://doc.dcloud.net.cn/uni-app-x/)
 
+## 图表库
+
+- [ucharts](https://www.ucharts.cn/v2/#/)
+- [lime-echart](https://gitee.com/liangei/lime-echart)
+
+> 其他可以在 `uni-app` 插件市场找：[uniapp chart](https://ext.dcloud.net.cn/search?q=chart)
+
 ## vue 相关
 
 - [Vue](https://cn.vuejs.org/)
@@ -43,7 +50,3 @@
 ## 请求库
 
 - [Alova.js](https://alova.js.org/zh-CN)
-
-## 图表库
-
-- [ucharts](https://www.ucharts.cn/v2/#/)
