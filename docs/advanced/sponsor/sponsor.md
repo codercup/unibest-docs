@@ -11,8 +11,7 @@
 ## 200 元
 
 - 麦可
-
-> 非常感谢 `麦可`，一人之力，让赞助总金额翻番，谢谢 ^\_^
+- 程序员云创 [https://www.codecommitter.com/](https://www.codecommitter.com/)
 
 ## 50 元
 
