@@ -246,3 +246,22 @@ function addLink(e) {
 `vant-ui` 是 `WEB` 端 `UI 库`，不适用于 `uni-app`。
 
 `uni-app` 没有 `window`, `document` 等 `WEB API`，所以凡是使用 `WEB API` 的 `框架`、`UI 库` 等都不适用于 `uni-app`。
+
+## 4. 控制台报错 `[plugin:uni:mp-using-component] Unexpected token S in JSON at position 208`。
+
+控制台报错如下：
+![alt text](./assets/15-6.png)
+
+原因是 `uni-pages` 这个插件最新版本 `0.2.22` 有问题，需要回退到 `0.2.20`。
+
+![alt text](./assets/15-5.png)
+
+执行如下命令即可：
+
+```
+pnpm add @uni-helper/vite-plugin-uni-pages@0.2.20
+```
+
+> 因为 `unibest` 在 `2.3.0（含）` 之前没有把 `pnpm-lock.yaml` 加入到版本管理，导致小版还是有细微差别。
+>
+> 在 `2.4.0` 开始已经加入，不会再出现这个问题。
