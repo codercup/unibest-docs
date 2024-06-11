@@ -139,6 +139,8 @@ export default defineConfig({
           { text: '相关链接', link: 'links/links' },
           { text: '图片占位图', link: 'image/image' },
           { text: 'iconfont详细版', link: 'iconfont/iconfont' },
+          { text: 'git 提交优化', link: 'czg/czg' },
+          { text: '文件资源查看', link: 'files/files' },
           { text: 'unibest博客', link: 'blog' },
         ],
       },
