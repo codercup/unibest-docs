@@ -13,3 +13,7 @@
 
 最终提交信息如下图:
 ![alt text](image-2.png)
+
+## czg 相关链接
+
+- [为什么选择 czg](https://cz-git.qbb.sh/zh/cli/why)
