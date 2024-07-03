@@ -247,7 +247,7 @@ function addLink(e) {
 
 `uni-app` 没有 `window`, `document` 等 `WEB API`，所以凡是使用 `WEB API` 的 `框架`、`UI 库` 等都不适用于 `uni-app`。
 
-## 4. 控制台报错 `[plugin:uni:mp-using-component] Unexpected token S in JSON at position 208`。
+## 5. 控制台报错 `[plugin:uni:mp-using-component] Unexpected token S in JSON at position 208`。
 
 控制台报错如下：
 ![alt text](./assets/15-6.png)
