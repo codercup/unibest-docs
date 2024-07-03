@@ -265,3 +265,32 @@ pnpm add @uni-helper/vite-plugin-uni-pages@0.2.20
 > 因为 `unibest` 在 `2.3.0（含）` 之前没有把 `pnpm-lock.yaml` 加入到版本管理，导致小版还是有细微差别。
 >
 > 在 `2.4.0` 开始已经加入，不会再出现这个问题。
+
+## 6. 如何在vscode直接编译运行和发行钉钉小程序(其他环境通用)？
+[首先根据uniapp官网的示例在package.json中添加以下代码](https://uniapp.dcloud.net.cn/collocation/package.html#%E7%A4%BA%E4%BE%8B-%E9%92%89%E9%92%89%E5%B0%8F%E7%A8%8B%E5%BA%8F)
+```json
+  "uni-app": {
+    "scripts": {
+      "mp-dingtalk": {
+        "title": "钉钉小程序",
+        "env": {
+          "UNI_PLATFORM": "mp-alipay"
+        },
+        "define": {
+          "MP-DINGTALK": true
+        }
+      }
+    }
+  }
+```
+然后在package.json中配置以下代码
+```json
+"scripts": {
+  "dev:mp-dingtalk": "uni -p mp-dingtalk",
+  "build:mp-dingtalk": "uni build -p mp-dingtalk"
+}
+```
+最后执行 `pnpm run dev:mp-dingtalk`, `pnpm run build:mp-dingtalk`就可以了
+
+
+
