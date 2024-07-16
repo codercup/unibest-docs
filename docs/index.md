@@ -22,9 +22,6 @@ hero:
     - theme: brand
       text: 🥤 打赏
       link: /advanced/rewards/rewards
-    # - theme: brand
-    #   text: 鸽鸽失业
-    #   link: /advanced/job/job
     - theme: alt
       text: 常见问题
       link: /base/14-faq

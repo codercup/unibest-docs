@@ -11,7 +11,10 @@ export default defineConfig({
   head: [
     [
       'meta',
-      { name: 'keywords', content: 'unibest, uniapp, uni-app, vue, vue3, vite,template, typescript, ts' },
+      {
+        name: 'keywords',
+        content: 'unibest, uniapp, uni-app, vue, vue3, vite,template, typescript, ts',
+      },
     ],
     ['link', { rel: 'icon', href: '/unibest-docs/favicon.ico' }], // 这里要加上 base 前缀，否则资源访问不到
     [
@@ -125,11 +128,9 @@ export default defineConfig({
         text: '社交',
         base: '/advanced/',
         items: [
-          { text: '🥤 打赏', link: 'rewards/rewards', },
-          // { text: '关于我', link: 'me/me' },
-          // { text: '鸽鸽失业', link: 'job/job', },
-          { text: '微信交流群', link: 'wechat/wechat', },
-          { text: '赞助榜', link: 'sponsor/sponsor', },
+          { text: '🥤 打赏', link: 'rewards/rewards' },
+          { text: '微信交流群', link: 'wechat/wechat' },
+          { text: '赞助榜', link: 'sponsor/sponsor' },
         ],
       },
       {
